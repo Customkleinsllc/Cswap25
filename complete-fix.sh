@@ -24,7 +24,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci --only=production
+RUN if [ -f package-lock.json ]; then npm ci --only=production; else npm install --production; fi
 
 COPY . .
 
@@ -48,7 +48,7 @@ WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm ci
+RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
 
 COPY . .
 
