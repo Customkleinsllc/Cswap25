@@ -1,8 +1,12 @@
 # CSwap DEX Vultr Deployment - Quick Start Guide
 
+> **Windows Users:** See [WINDOWS_SETUP.md](WINDOWS_SETUP.md) for Windows-specific instructions using PowerShell.
+
 ## 🚀 5-Minute Setup
 
 ### Prerequisites
+
+**Linux/Mac:**
 ```bash
 # Install required tools
 sudo apt-get install -y curl jq git
@@ -12,11 +16,27 @@ chmod +x setup-permissions.sh
 ./setup-permissions.sh
 ```
 
+**Windows:**
+```powershell
+# Use PowerShell - see WINDOWS_SETUP.md for full details
+$env:VULTR_API_KEY = "your-api-key"
+.\vultr-provision.ps1
+```
+
 ### Step 1: Provision Server (2 min)
+
+**Linux/Mac:**
 ```bash
 export VULTR_API_KEY="your-vultr-api-key-here"
 ./vultr-provision.sh
 ```
+
+**Windows (PowerShell):**
+```powershell
+$env:VULTR_API_KEY = "your-vultr-api-key-here"
+.\vultr-provision.ps1
+```
+
 **Output:** Server IP address (e.g., 123.45.67.89)
 
 ### Step 2: Configure DNS (1 min)
@@ -24,13 +44,18 @@ Go to your domain registrar and add:
 - A Record: `cryptoswap.com` → `123.45.67.89`
 - A Record: `www.cryptoswap.com` → `123.45.67.89`
 
-### Step 3: Initialize Server (10 min)
+### Step 3: Transfer Files & Initialize Server (10 min)
+
+**Transfer files to server:**
+- **Linux/Mac:** `scp server-init.sh root@123.45.67.89:/root/`
+- **Windows:** Use WinSCP or FileZilla (see WINDOWS_SETUP.md)
+
+**Then SSH and initialize:**
 ```bash
-# SSH into server
+# SSH into server (works on all platforms)
 ssh root@123.45.67.89
 
-# Upload and run initialization
-# (Upload server-init.sh first)
+# Make executable and run
 chmod +x server-init.sh
 ./server-init.sh
 ```
