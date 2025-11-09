@@ -39,7 +39,7 @@ export const TimeoutProvider: React.FC<{ children: React.ReactNode }> = ({ child
     });
   }, []);
 
-  const setTimeoutAsync = useCallback(async <T>(promise: Promise<T>, delay: number): Promise<T> => {
+  const setTimeoutAsync = useCallback(async <T,>(promise: Promise<T>, delay: number): Promise<T> => {
     return new Promise((resolve, reject) => {
       const timeoutId = setTimeout(() => {
         reject(new Error(`Operation timeout after ${delay}ms`));
