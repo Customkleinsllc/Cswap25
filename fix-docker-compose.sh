@@ -1,0 +1,105 @@
+#!/bin/bash
+cd /opt/cswap-dex
+
+# Backup the old file
+cp docker-compose.yml docker-compose.yml.broken
+
+# Create the new docker-compose.yml
+cat > docker-compose.yml << 'DOCKEREOF'
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - REACT_APP_API_URL=http://backend:8000
+      - REACT_APP_DOMAIN=https://cryptoswap.com
+    depends_on:
+      - backend
+    restart: unless-stopped
+
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    env_file:
+      - .env
+    environment:
+      - NODE_ENV=production
+      - DB_HOST=postgres
+      - REDIS_HOST=redis
+    depends_on:
+      postgres:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    restart: unless-stopped
+
+  postgres:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_DB=cswap_dex
+      - POSTGRES_USER=cswap_user
+      - POSTGRES_PASSWORD=BwWkA5u12QBfuljdEohtwPQvjS72xePtO8msj
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U cswap_user -d cswap_dex"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  redis:
+    image: redis:7-alpine
+    command: redis-server --appendonly yes --timeout 300 --requirepass d64LGqhfZ2xOIDSaWMyMOLyP3ImzJKGhCKoxF9
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "d64LGqhfZ2xOIDSaWMyMOLyP3ImzJKGhCKoxF9", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 3
+      start_period: 30s
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/ssl:/etc/nginx/ssl:ro
+      - /etc/letsencrypt:/etc/letsencrypt:ro
+      - /var/www/certbot:/var/www/certbot:ro
+    depends_on:
+      - frontend
+      - backend
+    restart: unless-stopped
+
+volumes:
+  postgres_data:
+  redis_data:
+
+networks:
+  default:
+    driver: bridge
+DOCKEREOF
+
+echo "✓ docker-compose.yml fixed!"
+echo ""
+echo "Now run: docker compose up -d --build"
+
