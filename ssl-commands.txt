@@ -1,0 +1,21 @@
+Run these commands in order to set up SSL:
+
+1. Upload the SSL script:
+   scp setup-ssl-certs.sh root@149.28.229.49:/root/
+
+2. Pull latest code and run SSL setup:
+   ssh root@149.28.229.49 "cd /opt/cswap-dex/cswap-dex && git pull origin master && chmod +x /root/setup-ssl-certs.sh && /root/setup-ssl-certs.sh"
+
+OR run everything in one SSH session:
+
+ssh root@149.28.229.49
+
+Then on the server, run:
+cd /opt/cswap-dex/cswap-dex
+git pull origin master
+apt-get update && apt-get install -y certbot
+docker compose stop nginx
+certbot certonly --standalone --non-interactive --agree-tos --email admin@cryptoswap.com -d cryptoswap.com -d www.cryptoswap.com --preferred-challenges http
+docker compose up -d
+docker compose ps
+

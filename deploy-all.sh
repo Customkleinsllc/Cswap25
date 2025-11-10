@@ -45,5 +45,5 @@ curl -I http://localhost || echo "Nginx check failed"
 
 echo ""
 echo "=== Deployment complete! ==="
-echo "Access the site at: http://149.28.229.49"
+echo "Access the site at: http://104.238.152.227"
 
