@@ -1,27 +1,7 @@
-# Frontend Dockerfile for CSwap DEX
 FROM node:18-alpine
-
 WORKDIR /app
-
-# Copy package files
 COPY package*.json ./
-
-# Install dependencies (use npm install if package-lock.json doesn't exist)
-RUN if [ -f package-lock.json ]; then npm ci; else npm install; fi
-
-# Copy source code
+RUN npm install
 COPY . .
-
-# Build the application
-RUN npm run build
-
-# Expose port
 EXPOSE 3000
-
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=40s --retries=3 \
-  CMD wget --no-verbose --tries=1 --spider http://localhost:3000 || exit 1
-
-# Start application
-CMD ["npm", "start"]
-
+CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
