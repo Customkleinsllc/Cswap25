@@ -195,42 +195,24 @@ app.use((error: any, req: express.Request, res: express.Response, next: express.
   }
 });
 
-// Graceful shutdown handling
-let server: any;
-const gracefulShutdown = async (signal: string) => {
-  logger.info(`Received ${signal}. Starting graceful shutdown...`);
+// Export cleanup function for graceful shutdown
+export async function performCleanup() {
+  logger.info('Performing cleanup operations...');
   
-  if (server) {
-    server.close(async () => {
-      logger.info('HTTP server closed');
-      
-      try {
-        await Promise.race([
-          cleanup(),
-          new Promise((_, reject) => 
-            setTimeout(() => reject(new TimeoutError('Cleanup timeout')), TIMEOUTS.GRACEFUL_SHUTDOWN)
-          )
-        ]);
-        
-        logger.info('Graceful shutdown completed');
-        process.exit(0);
-      } catch (error) {
-        logger.error('Cleanup failed:', error);
-        process.exit(1);
-      }
-    });
+  try {
+    await Promise.race([
+      cleanup(),
+      new Promise((_, reject) => 
+        setTimeout(() => reject(new TimeoutError('Cleanup timeout')), TIMEOUTS.GRACEFUL_SHUTDOWN)
+      )
+    ]);
+    
+    logger.info('Cleanup completed successfully');
+  } catch (error) {
+    logger.error('Cleanup failed:', error);
+    throw error;
   }
-};
-
-// Signal handlers
-process.on('SIGTERM', () => gracefulShutdown('SIGTERM'));
-process.on('SIGINT', () => gracefulShutdown('SIGINT'));
-
-// Start server
-server = app.listen(PORT, () => {
-  logger.info(`Server running on port ${PORT}`);
-  logger.info(`Timeout configurations:`, TIMEOUTS);
-});
+}
 
 // Helper functions
 async function performHealthCheck() {

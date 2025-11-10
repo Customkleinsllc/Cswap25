@@ -1,6 +1,6 @@
 import { ethers } from 'ethers';
-import { TimeoutError } from '../utils/errors.js';
-import { logger } from '../utils/logger.js';
+import { TimeoutError } from '../utils/errors';
+import { logger } from '../utils/logger';
 
 const TIMEOUT_WEB3 = 15000;
 

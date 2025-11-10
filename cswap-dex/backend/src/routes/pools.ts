@@ -1,8 +1,8 @@
 import { Router } from 'express'
-import { TimeoutError } from '../utils/errors.js'
-import { AvalancheService } from '../services/avalanche.js'
-import { SeiService } from '../services/sei.js'
-import { logger } from '../utils/logger.js'
+import { TimeoutError } from '../utils/errors'
+import { AvalancheService } from '../services/avalanche'
+import { SeiService } from '../services/sei'
+import { logger } from '../utils/logger'
 
 export const poolsRouter = Router()
 const avalancheService = new AvalancheService()

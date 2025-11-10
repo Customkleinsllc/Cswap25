@@ -1,5 +1,5 @@
-import { TimeoutError } from '../utils/errors.js';
-import { logger } from '../utils/logger.js';
+import { TimeoutError } from '../utils/errors';
+import { logger } from '../utils/logger';
 
 const TIMEOUT_WEB3 = 15000;
 const SEI_RPC_URL = process.env.SEI_RPC_URL || 'https://sei-rpc.polkachu.com';
