@@ -71,13 +71,14 @@ app.get('/health', async (req, res) => {
       status: 'healthy',
       timestamp: new Date().toISOString(),
       uptime: process.uptime(),
-      ...healthCheck
+      ...(typeof healthCheck === 'object' && healthCheck !== null ? healthCheck : {})
     });
   } catch (error) {
     logger.error('Health check failed:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     res.status(503).json({
       status: 'unhealthy',
-      error: error.message,
+      error: errorMessage,
       timestamp: new Date().toISOString()
     });
   }
@@ -100,9 +101,10 @@ app.get('/health/db', async (req, res) => {
     });
   } catch (error) {
     logger.error('Database health check failed:', error);
+    const errorMessage = error instanceof Error ? error.message : 'Unknown error';
     res.status(503).json({
       status: 'unhealthy',
-      error: error.message,
+      error: errorMessage,
       timestamp: new Date().toISOString()
     });
   }
@@ -152,7 +154,7 @@ app.post('/api/bridge', async (req, res) => {
     
     res.json({
       success: true,
-      transactionHash: bridgeResult.txHash,
+      transactionHash: (bridgeResult as {txHash: string; status: string}).txHash,
       timestamp: new Date().toISOString()
     });
   } catch (error) {
@@ -167,7 +169,7 @@ app.post('/api/bridge', async (req, res) => {
 });
 
 // Error handling middleware
-app.use((error, req, res, next) => {
+app.use((error: any, req: express.Request, res: express.Response, next: express.NextFunction) => {
   logger.error('Unhandled error:', error);
   
   if (error.code === 'ETIMEDOUT') {
@@ -180,8 +182,8 @@ app.use((error, req, res, next) => {
 });
 
 // Graceful shutdown handling
-let server;
-const gracefulShutdown = async (signal) => {
+let server: any;
+const gracefulShutdown = async (signal: string) => {
   logger.info(`Received ${signal}. Starting graceful shutdown...`);
   
   if (server) {
@@ -233,13 +235,13 @@ async function checkDatabaseHealth() {
   return { status: 'connected', poolSize: 10 };
 }
 
-async function fetchTokenPrice(token) {
+async function fetchTokenPrice(token: string) {
   // Implement token price fetching with timeout
   // This would integrate with Web3 providers
   return { price: 100, currency: 'USD' };
 }
 
-async function performCrossChainBridge(fromChain, toChain, amount, token) {
+async function performCrossChainBridge(fromChain: string, toChain: string, amount: number, token: string) {
   // Implement cross-chain bridge operation with timeout
   return { txHash: '0x123...', status: 'pending' };
 }
