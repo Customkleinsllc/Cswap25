@@ -7,9 +7,9 @@ import { createProxyMiddleware } from 'http-proxy-middleware';
 import { CircuitBreaker } from './utils/circuit-breaker';
 import { TimeoutError, NetworkError } from './utils/errors';
 import { logger } from './utils/logger';
-import { poolsRouter } from './routes/pools.js'
-import { swapRouter } from './routes/swap.js'
-import { adminRouter } from './routes/admin.js'
+import { poolsRouter } from './routes/pools'
+import { swapRouter } from './routes/swap'
+import { adminRouter } from './routes/admin'
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -34,9 +34,23 @@ const bridgeBreaker = new CircuitBreaker('bridge', CIRCUIT_BREAKER_CONFIG);
 
 // Middleware with timeout protection
 app.use(timeout(TIMEOUTS.API_REQUEST));
-app.use(helmet());
-app.use(cors());
+
+// Security headers with helmet
+app.use(helmet({
+  contentSecurityPolicy: false, // Will be handled by Nginx
+  crossOriginEmbedderPolicy: false
+}));
+
+// CORS configuration for frontend
+app.use(cors({
+  origin: process.env.FRONTEND_URL || '*',
+  credentials: true,
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With']
+}));
+
 app.use(express.json({ limit: '10mb' }));
+app.use(express.urlencoded({ extended: true, limit: '10mb' }));
 
 // Rate limiting with timeout handling
 const limiter = rateLimit({

@@ -1,22 +1,35 @@
-import app from './app.js'
+import app from './app';
+import { logger } from './utils/logger';
 
-const port = parseInt(process.env.PORT || '8000', 10)
+const port = parseInt(process.env.PORT || '8000', 10);
 
-// Ensure we're not already listening
 const server = app.listen(port, '0.0.0.0', () => {
-  console.log(`Backend listening on 0.0.0.0:${port}`)
-})
+  logger.info(`Backend server listening on 0.0.0.0:${port}`);
+  console.log(`Backend listening on 0.0.0.0:${port}`);
+});
 
-process.on('unhandledRejection', (err) => {
-  console.error('UnhandledRejection', err)
-})
+// Graceful shutdown
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM signal received: closing HTTP server');
+  server.close(() => {
+    logger.info('HTTP server closed');
+    process.exit(0);
+  });
+});
 
-process.on('uncaughtException', (err) => {
-  console.error('UncaughtException', err)
-  server.close(() => process.exit(1))
-})
+process.on('SIGINT', () => {
+  logger.info('SIGINT signal received: closing HTTP server');
+  server.close(() => {
+    logger.info('HTTP server closed');
+    process.exit(0);
+  });
+});
 
+process.on('unhandledRejection', (reason, promise) => {
+  logger.error('Unhandled Rejection at:', promise, 'reason:', reason);
+});
 
-
-
-
+process.on('uncaughtException', (error) => {
+  logger.error('Uncaught Exception:', error);
+  server.close(() => process.exit(1));
+});
