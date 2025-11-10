@@ -2,8 +2,9 @@ import app from './app.js'
 
 const port = parseInt(process.env.PORT || '8000', 10)
 
-const server = app.listen(port, () => {
-  console.log(`Backend listening on port ${port}`)
+// Ensure we're not already listening
+const server = app.listen(port, '0.0.0.0', () => {
+  console.log(`Backend listening on 0.0.0.0:${port}`)
 })
 
 process.on('unhandledRejection', (err) => {

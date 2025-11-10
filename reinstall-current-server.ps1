@@ -2,7 +2,7 @@
 # Uses Vultr API to wipe and reinstall with new startup script
 
 param(
-    [string]$ApiKey = "YOUR_VULTR_API_KEY_HERE"
+    [string]$ApiKey = "JHCBIY55BPB77DPW675I3XCHWGTYFUSN4CBQ"
 )
 
 $ErrorActionPreference = "Stop"

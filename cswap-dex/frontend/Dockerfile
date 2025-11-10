@@ -1,7 +1,36 @@
-FROM node:18-alpine
+# Multi-stage build for production
+FROM node:18-alpine AS builder
+
 WORKDIR /app
+
+# Copy package files
 COPY package*.json ./
-RUN npm install
+
+# Install all dependencies
+RUN npm ci
+
+# Copy source code
 COPY . .
+
+# Build the frontend
+RUN npm run build
+
+# Production stage - serve with a lightweight server
+FROM node:18-alpine
+
+WORKDIR /app
+
+# Install serve to host static files
+RUN npm install -g serve
+
+# Copy built files from builder
+COPY --from=builder /app/dist ./dist
+
+# Expose port
 EXPOSE 3000
-CMD ["npm", "run", "dev", "--", "--host", "0.0.0.0"]
+
+# Set environment
+ENV NODE_ENV=production
+
+# Serve the static files
+CMD ["serve", "-s", "dist", "-l", "3000"]
