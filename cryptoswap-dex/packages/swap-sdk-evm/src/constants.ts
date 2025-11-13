@@ -302,6 +302,26 @@ export const NATIVE = {
     symbol: 'MON',
     decimals: 18,
   },
+  [ChainId.POLYGON]: {
+    name: 'Polygon',
+    symbol: 'MATIC',
+    decimals: 18,
+  },
+  [ChainId.SEI]: {
+    name: 'SEI',
+    symbol: 'SEI',
+    decimals: 18,
+  },
+  [ChainId.AVALANCHE]: {
+    name: 'Avalanche',
+    symbol: 'AVAX',
+    decimals: 18,
+  },
+  [ChainId.AVALANCHE_FUJI]: {
+    name: 'Avalanche Fuji',
+    symbol: 'AVAX',
+    decimals: 18,
+  },
 } satisfies Record<
   ChainId,
   {
