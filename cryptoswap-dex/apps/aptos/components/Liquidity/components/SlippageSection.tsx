@@ -1,0 +1,28 @@
+import { RowBetween, Text, IconButton, PencilIcon, useModal } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { useUserSlippage } from '@CryptoSwap/utils/user'
+import { SettingsModal } from '../../Menu/Settings/SettingsModal'
+
+export default function SlippageSection() {
+  const { t } = useTranslation()
+
+  const [onPresentSettingsModal] = useModal(<SettingsModal />)
+
+  const [allowedSlippage] = useUserSlippage() // custom from users
+
+  return (
+    <RowBetween>
+      <Text bold fontSize="12px" color="secondary">
+        {t('Slippage Tolerance')}
+        <IconButton scale="sm" variant="text" onClick={onPresentSettingsModal}>
+          <PencilIcon color="primary" width="10px" />
+        </IconButton>
+      </Text>
+      <Text bold color="primary">
+        {allowedSlippage / 100}%
+      </Text>
+    </RowBetween>
+  )
+}
+
+
