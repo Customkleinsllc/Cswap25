@@ -1,4 +1,4 @@
-import { isStableFarm } from '@pancakeswap/farms'
+import { isStableFarm } from '@CryptoSwap/farms'
 import { useCurrency } from 'hooks/Tokens'
 import dynamic from 'next/dynamic'
 import { useRouter } from 'next/router'

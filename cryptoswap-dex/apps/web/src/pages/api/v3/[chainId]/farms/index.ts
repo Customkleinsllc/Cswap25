@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   createFarmFetcherV3,
   defineFarmV3ConfigsFromUniversalFarm,
@@ -6,8 +6,8 @@ import {
   fetchUniversalFarms,
   Protocol,
   UniversalFarmConfigV3,
-} from '@pancakeswap/farms'
-import { priceHelperTokens } from '@pancakeswap/farms/constants/common'
+} from '@CryptoSwap/farms'
+import { priceHelperTokens } from '@CryptoSwap/farms/constants/common'
 import { NextApiHandler } from 'next'
 import { getViemClients } from 'utils/viem.server'
 import { nativeEnum as zNativeEnum } from 'zod'

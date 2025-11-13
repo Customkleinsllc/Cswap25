@@ -1,5 +1,5 @@
-import { CAKE, USDC } from '@pancakeswap/tokens'
-import { Box, Spinner } from '@pancakeswap/uikit'
+import { CAKE, USDC } from '@CryptoSwap/tokens'
+import { Box, Spinner } from '@CryptoSwap/uikit'
 import { useCurrency } from 'hooks/Tokens'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useNativeCurrency from 'hooks/useNativeCurrency'

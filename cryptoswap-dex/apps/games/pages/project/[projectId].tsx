@@ -1,6 +1,6 @@
 import { GetStaticPaths, GetStaticProps } from 'next'
 import { GamePageLayout } from 'components/Game/GamePageLayout'
-import { GameType, GAMES_LIST } from '@pancakeswap/games'
+import { GameType, GAMES_LIST } from '@CryptoSwap/games'
 import { GameProject } from 'components/Game/project'
 
 const GameProjectPage = () => {

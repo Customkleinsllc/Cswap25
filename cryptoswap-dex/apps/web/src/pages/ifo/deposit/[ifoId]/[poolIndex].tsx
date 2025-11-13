@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useRouter } from 'next/router'
 import { NextPageWithLayout } from 'utils/page.types'
 import IfoLayout from 'views/IfosV2/components/IfoLayout'

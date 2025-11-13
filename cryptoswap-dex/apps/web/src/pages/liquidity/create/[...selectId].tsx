@@ -8,7 +8,7 @@ import { BreadcrumbNav } from 'views/CreateLiquidityPool/components/BreadcrumbNa
 import { CreateLiquidityInfinityForm } from 'views/CreateLiquidityPool/Infinity/CreateLiquidityInfinityForm'
 import { CreateLiquidityV3Form } from 'views/CreateLiquidityPool/V3/CreateLiquidityV3Form'
 import PageLayout from 'components/Layout/Page'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { CreateLiquidityV2Form } from 'views/CreateLiquidityPool/V2/CreateLiquidityV2Form'
 import styled from 'styled-components'
 

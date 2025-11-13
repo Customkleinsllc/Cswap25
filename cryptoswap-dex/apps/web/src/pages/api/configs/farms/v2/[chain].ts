@@ -1,9 +1,9 @@
-import { ChainId, chainNames, chainNameToChainId } from '@pancakeswap/chains'
+import { ChainId, chainNames, chainNameToChainId } from '@CryptoSwap/chains'
 import {
   fetchAllUniversalFarms,
   formatUniversalFarmToSerializedFarm,
   UNIVERSAL_FARMS_WITH_TESTNET,
-} from '@pancakeswap/farms'
+} from '@CryptoSwap/farms'
 import { NextApiHandler } from 'next'
 import { stringify } from 'viem'
 import { enum as enum_, nativeEnum } from 'zod'
