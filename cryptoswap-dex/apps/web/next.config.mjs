@@ -93,17 +93,17 @@ const config = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'static-nft.pancakeswap.com',
+        hostname: 'assets.cryptoswap.com',
         pathname: '/mainnet/**',
       },
       {
         protocol: 'https',
-        hostname: 'assets.pancakeswap.finance',
+        hostname: 'assets.cryptoswap.com',
         pathname: '/web/**',
       },
       {
         protocol: 'https',
-        hostname: 'tokens.pancakeswap.finance',
+        hostname: 'tokens.cryptoswap.com',
         pathname: '/web/**',
       }
     ],
@@ -125,7 +125,7 @@ const config = {
         },
         {
           source: '/perp/:path*',
-          destination: 'https://perp.pancakeswap.finance/perp/:path*',
+          destination: 'https://perp.cryptoswap.com/perp/:path*',
         },
       ],
     }

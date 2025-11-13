@@ -49,7 +49,7 @@ const nextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'assets.pancakeswap.finance',
+        hostname: 'assets.cryptoswap.com',
         pathname: '/web/**',
       },
     ],
