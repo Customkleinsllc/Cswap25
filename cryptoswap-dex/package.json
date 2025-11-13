@@ -48,7 +48,7 @@
     "changeset": "changeset",
     "version-packages": "changeset version && pnpm i --lockfile-only",
     "release-packages": "turbo run build --filter=./packages/* && changeset version && changeset publish",
-    "prepare": "husky install"
+    "prepare": "husky install || true"
   },
   "engines": {
     "node": ">=18.20.0"
