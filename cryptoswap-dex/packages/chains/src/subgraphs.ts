@@ -46,6 +46,10 @@ export function getV3Subgraphs({ noderealApiKey, theGraphApiKey }: SubgraphParam
     [ChainId.ARBITRUM_SEPOLIA]: null,
     [ChainId.BASE_SEPOLIA]: null,
     [ChainId.MONAD_TESTNET]: null,
+    [ChainId.POLYGON]: null,
+    [ChainId.SEI]: null,
+    [ChainId.AVALANCHE]: null,
+    [ChainId.AVALANCHE_FUJI]: null,
   } as const satisfies Record<ChainId, string | null>
 }
 
@@ -61,6 +65,22 @@ export function getV2Subgraphs({ noderealApiKey, theGraphApiKey }: SubgraphParam
     [ChainId.LINEA]: `https://gateway-arbitrum.network.thegraph.com/api/${theGraphApiKey}/subgraphs/id/Eti2Z5zVEdARnuUzjCbv4qcimTLysAizsqH3s6cBfPjB`,
     [ChainId.BASE]: `https://gateway-arbitrum.network.thegraph.com/api/${theGraphApiKey}/subgraphs/id/2NjL7L4CmQaGJSacM43ofmH6ARf6gJoBeBaJtz9eWAQ9`,
     [ChainId.OPBNB]: `https://open-platform-ap.nodereal.io/${noderealApiKey}/opbnb-mainnet-graph-query/subgraphs/name/pancakeswap/exchange-v2`,
+    [ChainId.POLYGON]: null,
+    [ChainId.SEI]: null,
+    [ChainId.AVALANCHE]: null,
+    [ChainId.AVALANCHE_FUJI]: null,
+    [ChainId.GOERLI]: null,
+    [ChainId.POLYGON_ZKEVM_TESTNET]: null,
+    [ChainId.ZKSYNC_TESTNET]: null,
+    [ChainId.ARBITRUM_GOERLI]: null,
+    [ChainId.LINEA_TESTNET]: null,
+    [ChainId.BASE_TESTNET]: null,
+    [ChainId.OPBNB_TESTNET]: null,
+    [ChainId.SCROLL_SEPOLIA]: null,
+    [ChainId.SEPOLIA]: null,
+    [ChainId.ARBITRUM_SEPOLIA]: null,
+    [ChainId.BASE_SEPOLIA]: null,
+    [ChainId.MONAD_TESTNET]: null,
   }
 }
 
@@ -74,5 +94,22 @@ export function getBlocksSubgraphs({ noderealApiKey }: SubgraphParams) {
     [ChainId.LINEA]: 'https://api.studio.thegraph.com/query/45376/blocks-linea/version/latest',
     [ChainId.BASE]: 'https://api.studio.thegraph.com/query/48211/base-blocks/version/latest',
     [ChainId.OPBNB]: `https://open-platform-ap.nodereal.io/${noderealApiKey}/opbnb-mainnet-graph-query/subgraphs/name/pancakeswap/blocks`,
+    [ChainId.POLYGON]: null,
+    [ChainId.SEI]: null,
+    [ChainId.AVALANCHE]: null,
+    [ChainId.AVALANCHE_FUJI]: null,
+    [ChainId.GOERLI]: null,
+    [ChainId.BSC_TESTNET]: null,
+    [ChainId.POLYGON_ZKEVM_TESTNET]: null,
+    [ChainId.ZKSYNC_TESTNET]: null,
+    [ChainId.ARBITRUM_GOERLI]: null,
+    [ChainId.LINEA_TESTNET]: null,
+    [ChainId.BASE_TESTNET]: null,
+    [ChainId.OPBNB_TESTNET]: null,
+    [ChainId.SCROLL_SEPOLIA]: null,
+    [ChainId.SEPOLIA]: null,
+    [ChainId.ARBITRUM_SEPOLIA]: null,
+    [ChainId.BASE_SEPOLIA]: null,
+    [ChainId.MONAD_TESTNET]: null,
   } as const
 }
