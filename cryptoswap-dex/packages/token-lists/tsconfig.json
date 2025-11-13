@@ -1,5 +1,5 @@
 {
-  "extends": "@pancakeswap/tsconfig/react-library",
+  "extends": "@CryptoSwap/tsconfig/react-library",
   "compilerOptions": {
     "esModuleInterop": true,
     "resolveJsonModule": true,

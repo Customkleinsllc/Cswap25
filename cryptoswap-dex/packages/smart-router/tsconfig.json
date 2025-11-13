@@ -1,5 +1,5 @@
 {
-  "extends": "@pancakeswap/tsconfig/base",
+  "extends": "@CryptoSwap/tsconfig/base",
   "include": ["./evm", "legacy-router"],
   "exclude": ["**/*.test.ts", "./dist/**"],
   "compilerOptions": {

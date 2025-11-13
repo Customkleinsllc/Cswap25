@@ -117,7 +117,7 @@ export const FEE_TIERS: FeeTier[] = [
  * @param volume30d - User's 30-day trading volume
  * @returns Applicable fee tier
  */
-export function getFeeT for(volume30d: bigint): FeeTier {
+export function getFeeTier(volume30d: bigint): FeeTier {
   // Start from highest tier and work down
   for (let i = FEE_TIERS.length - 1; i >= 0; i--) {
     const tier = FEE_TIERS[i]

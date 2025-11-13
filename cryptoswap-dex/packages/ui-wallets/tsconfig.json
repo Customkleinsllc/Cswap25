@@ -1,10 +1,10 @@
 {
-  "extends": "@pancakeswap/tsconfig/react-library",
+  "extends": "@CryptoSwap/tsconfig/react-library",
   "compilerOptions": {
     "baseUrl": "./",
     "paths": {
-      "@pancakeswap/uikit": ["../../packages/uikit/src/index.ts"],
-      "@pancakeswap/uikit/*": ["../../packages/uikit/src/*"]
+      "@CryptoSwap/uikit": ["../../packages/uikit/src/index.ts"],
+      "@CryptoSwap/uikit/*": ["../../packages/uikit/src/*"]
     }
   }
 }
