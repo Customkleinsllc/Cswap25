@@ -8,27 +8,19 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Contact",
-        href: "https://docs.pancakeswap.finance/contact-us",
+        href: "https://cryptoswap.com/contact",
       },
       {
         label: "Blog",
-        href: "https://blog.pancakeswap.finance/",
+        href: "https://blog.cryptoswap.com/",
       },
       {
         label: "Community",
-        href: "https://docs.pancakeswap.finance/contact-us/telegram",
+        href: "https://t.me/cryptoswap",
       },
       {
-        label: "CAKE",
-        href: "https://docs.pancakeswap.finance/tokenomics/cake",
-      },
-      {
-        label: "—",
-      },
-      {
-        label: "Online Store",
-        href: "https://pancakeswap.creator-spring.com/",
-        isHighlighted: true,
+        label: "Docs",
+        href: "https://docs.cryptoswap.com/",
       },
     ],
   },
@@ -36,16 +28,16 @@ export const footerLinks: FooterLinkType[] = [
     label: "Help",
     items: [
       {
-        label: "Customer",
-        href: "Support https://docs.pancakeswap.finance/contact-us/customer-support",
+        label: "Customer Support",
+        href: "mailto:support@cryptoswap.com",
       },
       {
         label: "Troubleshooting",
-        href: "https://docs.pancakeswap.finance/help/troubleshooting",
+        href: "https://docs.cryptoswap.com/help/troubleshooting",
       },
       {
         label: "Guides",
-        href: "https://docs.pancakeswap.finance/get-started",
+        href: "https://docs.cryptoswap.com/get-started",
       },
     ],
   },
@@ -54,23 +46,19 @@ export const footerLinks: FooterLinkType[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/pancakeswap",
+        href: "https://github.com/Customkleinsllc",
       },
       {
         label: "Documentation",
-        href: "https://docs.pancakeswap.finance",
+        href: "https://docs.cryptoswap.com",
       },
       {
-        label: "Bug Bounty",
-        href: "https://app.gitbook.com/@pancakeswap-1/s/pancakeswap/code/bug-bounty",
+        label: "API",
+        href: "https://docs.cryptoswap.com/api",
       },
       {
-        label: "Audits",
-        href: "https://docs.pancakeswap.finance/help/faq#is-pancakeswap-safe-has-pancakeswap-been-audited",
-      },
-      {
-        label: "Careers",
-        href: "https://docs.pancakeswap.finance/hiring/become-a-chef",
+        label: "Security",
+        href: "https://cryptoswap.com/security",
       },
     ],
   },
@@ -80,86 +68,32 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "https://twitter.com/pancakeswap",
+    href: "https://twitter.com/cryptoswap",
   },
   {
     label: "Telegram",
     icon: TelegramIcon,
-    items: [
-      {
-        label: "English",
-        href: "https://t.me/pancakeswap",
-      },
-      {
-        label: "Bahasa Indonesia",
-        href: "https://t.me/pancakeswapIndonesia",
-      },
-      {
-        label: "中文",
-        href: "https://t.me/pancakeswap_CN",
-      },
-      {
-        label: "Tiếng Việt",
-        href: "https://t.me/PancakeSwapVN",
-      },
-      {
-        label: "русский",
-        href: "https://t.me/pancakeswap_ru",
-      },
-      {
-        label: "Português",
-        href: "https://t.me/pancakeswapPortuguese",
-      },
-      {
-        label: "Español",
-        href: "https://t.me/pancakeswapES",
-      },
-      {
-        label: "日本語",
-        href: "https://t.me/pancakeswapJP",
-      },
-      {
-        label: "Filipino",
-        href: "https://t.me/pancakeswap_PH",
-      },
-      {
-        label: "हिन्दी",
-        href: "https://t.me/pancakeswap_INDIA",
-      },
-      {
-        label: "한국어",
-        href: "https://t.me/PancakeSwapSouthKorea",
-      },
-      {
-        label: "Announcements",
-        href: "https://t.me/PancakeSwapAnn",
-      },
-    ],
-  },
-  {
-    label: "Reddit",
-    icon: RedditIcon,
-    href: "https://reddit.com/r/pancakeswap",
-  },
-  {
-    label: "Instagram",
-    icon: InstagramIcon,
-    href: "https://instagram.com/pancakeswap_official",
-  },
-  {
-    label: "Github",
-    icon: GithubIcon,
-    href: "https://github.com/pancakeswap/",
+    href: "https://t.me/cryptoswap",
   },
   {
     label: "Discord",
     icon: DiscordIcon,
-    href: "https://discord.gg/pancakeswap",
+    href: "https://discord.gg/cryptoswap",
+  },
+  {
+    label: "Instagram",
+    icon: InstagramIcon,
+    href: "https://instagram.com/cryptoswap_official",
+  },
+  {
+    label: "Github",
+    icon: GithubIcon,
+    href: "https://github.com/Customkleinsllc",
   },
   {
     label: "Youtube",
     icon: YoutubeIcon,
-    href: "https://www.youtube.com/@pancakeswap_official",
+    href: "https://www.youtube.com/@cryptoswap_official",
   },
 ];
 

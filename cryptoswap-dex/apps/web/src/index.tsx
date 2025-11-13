@@ -57,7 +57,7 @@ export function Blocklist() {
                 components={[
                   <Link
                     style={{ display: 'inline-block' }}
-                    href="https://pancakeswap.finance/terms-of-service"
+                    href="https://cryptoswap.com/terms-of-service"
                     external
                   />,
                 ]}
@@ -65,8 +65,8 @@ export function Blocklist() {
             </Text>
             <Text>
               <Trans
-                i18nKey="If you believe that your address has been misclassified, please email <0>info@pancakeswap.com</0>"
-                components={[<Link style={{ display: 'inline-block' }} href="mailto:info@pancakeswap.com" />]}
+                i18nKey="If you believe that your address has been misclassified, please email <0>support@cryptoswap.com</0>"
+                components={[<Link style={{ display: 'inline-block' }} href="mailto:support@cryptoswap.com" />]}
               />
             </Text>
           </Grid>

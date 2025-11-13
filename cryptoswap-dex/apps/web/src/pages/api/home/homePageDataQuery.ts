@@ -5,32 +5,32 @@ import { HomepageChain, HomePageCurrency, HomePagePartner } from './types'
 export const partners: HomePagePartner[] = [
   {
     logo: `${ASSET_CDN}/web/landing/partner/x.png`,
-    link: 'https://twitter.com/pancakeswap',
+    link: 'https://twitter.com/cryptoswap',
     name: 'X',
   },
   {
     logo: `${ASSET_CDN}/web/landing/partner/telegram.png`,
-    link: 'https://t.me/pancakeswap',
+    link: 'https://t.me/cryptoswap',
     name: 'Telegram',
   },
   {
     logo: `${ASSET_CDN}/web/landing/partner/discord.png`,
-    link: 'https://discord.gg/pancakeswap',
+    link: 'https://discord.gg/cryptoswap',
     name: 'Discord',
   },
   {
     logo: `${ASSET_CDN}/web/landing/partner/instagram.png`,
-    link: 'https://instagram.com/pancakeswap_official',
+    link: 'https://instagram.com/cryptoswap_official',
     name: 'Instagram',
   },
   {
     logo: `${ASSET_CDN}/web/landing/partner/youtube.png`,
-    link: 'https://www.youtube.com/@pancakeswap_official',
+    link: 'https://www.youtube.com/@cryptoswap_official',
     name: 'Youtube',
   },
   {
     logo: `${ASSET_CDN}/web/landing/partner/blog.png`,
-    link: 'https://blog.pancakeswap.finance/',
+    link: 'https://blog.cryptoswap.com/',
     name: 'Blog',
   },
 ]
