@@ -5,30 +5,6 @@
   "framework": "nextjs",
   "outputDirectory": "apps/web/.next",
   "regions": ["iad1"],
-  "env": {
-    "NEXT_PUBLIC_REVENUE_WALLET_EVM": "@revenue_wallet_evm",
-    "NEXT_PUBLIC_PLATFORM_FEE_BPS": "@platform_fee_bps",
-    "NEXT_PUBLIC_1INCH_API_KEY": "@oneinch_api_key",
-    "NEXT_PUBLIC_WALLETCONNECT_PROJECT_ID": "@walletconnect_project_id",
-    "NEXT_PUBLIC_INFURA_KEY": "@infura_key",
-    "NEXT_PUBLIC_RPC_ETHEREUM": "@rpc_ethereum",
-    "NEXT_PUBLIC_RPC_POLYGON": "@rpc_polygon",
-    "NEXT_PUBLIC_RPC_ARBITRUM": "@rpc_arbitrum",
-    "NEXT_PUBLIC_RPC_AVALANCHE": "@rpc_avalanche",
-    "NEXT_PUBLIC_RPC_BSC": "@rpc_bsc",
-    "NEXT_PUBLIC_RPC_SEI": "@rpc_sei",
-    "NEXT_PUBLIC_SUPPORTED_CHAINS": "@supported_chains",
-    "NEXT_PUBLIC_DEFAULT_CHAIN_ID": "@default_chain_id",
-    "NEXT_PUBLIC_SITE_URL": "@site_url",
-    "NEXT_PUBLIC_TESTNET_MODE": "@testnet_mode",
-    "NEXT_PUBLIC_DEBUG": "@debug"
-  },
-  "build": {
-    "env": {
-      "NEXT_PUBLIC_REVENUE_WALLET_EVM": "@revenue_wallet_evm",
-      "NEXT_PUBLIC_PLATFORM_FEE_BPS": "@platform_fee_bps"
-    }
-  },
   "headers": [
     {
       "source": "/(.*)",
