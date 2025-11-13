@@ -23,21 +23,21 @@
       "outputs": ["dist/**"]
     },
     "build:jupiter": {
-      "dependsOn": ["@pancakeswap/next-config#build", "@pancakeswap/jupiter-terminal#build"],
+      "dependsOn": ["@CryptoSwap/next-config#build", "@CryptoSwap/jupiter-terminal#build"],
       "cache": false,
       "persistent": true
     },
     "lint": {
-      "dependsOn": ["@pancakeswap/next-config#build"],
+      "dependsOn": ["@CryptoSwap/next-config#build"],
       "outputs": []
     },
     "dev": {
-      "dependsOn": ["@pancakeswap/next-config#build"],
+      "dependsOn": ["@CryptoSwap/next-config#build"],
       "cache": false,
       "persistent": true
     },
     "dev:jupiter": {
-      "dependsOn": ["@pancakeswap/next-config#build", "@pancakeswap/jupiter-terminal#dev"],
+      "dependsOn": ["@CryptoSwap/next-config#build", "@CryptoSwap/jupiter-terminal#dev"],
       "cache": false,
       "persistent": true
     },

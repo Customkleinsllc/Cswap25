@@ -2,8 +2,8 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 /* eslint-disable @typescript-eslint/no-var-requires */
 import BundleAnalyzer from '@next/bundle-analyzer'
-import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders'
-import smartRouterPkgs from '@pancakeswap/smart-router/package.json' with { type: 'json' }
+import { withWebSecurityHeaders } from '@CryptoSwap/next-config/withWebSecurityHeaders'
+import smartRouterPkgs from '@CryptoSwap/smart-router/package.json' with { type: 'json' }
 import { withSentryConfig } from '@sentry/nextjs'
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin'
 import vercelToolbarPlugin from '@vercel/toolbar/plugins/next'
@@ -45,23 +45,23 @@ const sentryWebpackPluginOptions =
     }
 
 const workerDeps = Object.keys(smartRouterPkgs.dependencies)
-  .map((d) => d.replace('@pancakeswap/', 'packages/'))
+  .map((d) => d.replace('@CryptoSwap/', 'packages/'))
   .concat(['/packages/smart-router/', '/packages/swap-sdk/', '/packages/token-lists/'])
 
 const prodTranspiles = [
     'next-typesafe-url',
-    '@pancakeswap/farms',
-    '@pancakeswap/localization',
-    '@pancakeswap/hooks',
-    '@pancakeswap/utils',
-    '@pancakeswap/widgets-internal',
-    '@pancakeswap/ifos',
-    '@pancakeswap/uikit'
+    '@CryptoSwap/farms',
+    '@CryptoSwap/localization',
+    '@CryptoSwap/hooks',
+    '@CryptoSwap/utils',
+    '@CryptoSwap/widgets-internal',
+    '@CryptoSwap/ifos',
+    '@CryptoSwap/uikit'
   ]
 
 const basicTranspiles = [
   'next-typesafe-url',
-  '@pancakeswap/localization', 
+  '@CryptoSwap/localization', 
 ]
 /** @type {import('next').NextConfig} */
 const config = {
@@ -75,7 +75,7 @@ const config = {
   experimental: {
     scrollRestoration: true,
     fallbackNodePolyfills: false,
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit'],
+    optimizePackageImports: ['@CryptoSwap/widgets-internal', '@CryptoSwap/uikit'],
     // Allow Next.js to handle CJS packages that depend on ESM modules
     // without throwing `import-esm-externals` errors
     esmExternals: 'loose',

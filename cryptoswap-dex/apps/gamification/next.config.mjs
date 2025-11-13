@@ -1,5 +1,5 @@
-import { withWebSecurityHeaders } from '@pancakeswap/next-config/withWebSecurityHeaders';
-import smartRouterPkgs from '@pancakeswap/smart-router/package.json' with { type: 'json' };
+import { withWebSecurityHeaders } from '@CryptoSwap/next-config/withWebSecurityHeaders';
+import smartRouterPkgs from '@CryptoSwap/smart-router/package.json' with { type: 'json' };
 import { createVanillaExtractPlugin } from '@vanilla-extract/next-plugin';
 import path from 'path';
 import { fileURLToPath } from 'url';
@@ -10,7 +10,7 @@ const withVanillaExtract = createVanillaExtractPlugin()
 const __dirname = path.dirname(fileURLToPath(import.meta.url))
 
 const workerDeps = Object.keys(smartRouterPkgs.dependencies)
-  .map((d) => d.replace('@pancakeswap/', 'packages/'))
+  .map((d) => d.replace('@CryptoSwap/', 'packages/'))
   .concat(['/packages/smart-router/', '/packages/swap-sdk/'])
 
 /** @type {import('next').NextConfig} */
@@ -21,7 +21,7 @@ const nextConfig = {
   experimental: {
     scrollRestoration: true,
     fallbackNodePolyfills: false,
-    optimizePackageImports: ['@pancakeswap/widgets-internal', '@pancakeswap/uikit'],
+    optimizePackageImports: ['@CryptoSwap/widgets-internal', '@CryptoSwap/uikit'],
   },
   outputFileTracingRoot: path.join(__dirname, '../../'),
   outputFileTracingExcludes: {
@@ -29,18 +29,18 @@ const nextConfig = {
   },
   reactStrictMode: true,
   transpilePackages: [
-    '@pancakeswap/uikit',
-    '@pancakeswap/hooks',
-    '@pancakeswap/localization',
-    '@pancakeswap/utils',
-    '@pancakeswap/prediction',
-    '@pancakeswap/widgets-internal',
-    '@pancakeswap/sdk',
-    '@pancakeswap/ui-wallets',
-    '@pancakeswap/tokens',
-    '@pancakeswap/wagmi',
-    '@pancakeswap/ifos',
-    '@pancakeswap/v3-sdk',
+    '@CryptoSwap/uikit',
+    '@CryptoSwap/hooks',
+    '@CryptoSwap/localization',
+    '@CryptoSwap/utils',
+    '@CryptoSwap/prediction',
+    '@CryptoSwap/widgets-internal',
+    '@CryptoSwap/sdk',
+    '@CryptoSwap/ui-wallets',
+    '@CryptoSwap/tokens',
+    '@CryptoSwap/wagmi',
+    '@CryptoSwap/ifos',
+    '@CryptoSwap/v3-sdk',
     // https://github.com/TanStack/query/issues/6560#issuecomment-1975771676
     '@tanstack/query-core',
   ],
