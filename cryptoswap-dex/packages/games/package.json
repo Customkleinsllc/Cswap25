@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/games",
+  "name": "@CryptoSwap/games",
   "version": "0.0.15",
   "sideEffects": false,
   "private": true,
@@ -8,11 +8,11 @@
   },
   "type": "module",
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
     "lodash": "^4.17.21"
   },
   "devDependencies": {
     "@types/lodash": "^4.14.168",
-    "@pancakeswap/tsconfig": "workspace:*"
+    "@CryptoSwap/tsconfig": "workspace:*"
   }
 }

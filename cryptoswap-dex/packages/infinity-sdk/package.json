@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/infinity-sdk",
+  "name": "@CryptoSwap/infinity-sdk",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
@@ -26,18 +26,18 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
-    "@pancakeswap/permit2-sdk": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
+    "@CryptoSwap/swap-sdk-core": "workspace:*",
+    "@CryptoSwap/v3-sdk": "workspace:*",
+    "@CryptoSwap/permit2-sdk": "workspace:*",
     "bignumber.js": "^9.0.0",
     "tiny-invariant": "^1.3.3",
     "viem": "catalog:"
   },
   "devDependencies": {
-    "@pancakeswap/swap-sdk-evm": "workspace:*",
+    "@CryptoSwap/swap-sdk-evm": "workspace:*",
     "tsup": "^6.7.0",
-    "@pancakeswap/utils": "workspace:*"
+    "@CryptoSwap/utils": "workspace:*"
   },
   "engines": {
     "node": ">=10"

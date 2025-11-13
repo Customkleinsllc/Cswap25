@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/ui-wallets",
+  "name": "@CryptoSwap/ui-wallets",
   "version": "0.0.2",
   "main": "src/index.ts",
   "sideEffects": [
@@ -7,12 +7,12 @@
   ],
   "private": true,
   "dependencies": {
-    "@pancakeswap/hooks": "workspace:*",
-    "@pancakeswap/localization": "workspace:*",
-    "@pancakeswap/uikit": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/wagmi": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
+    "@CryptoSwap/hooks": "workspace:*",
+    "@CryptoSwap/localization": "workspace:*",
+    "@CryptoSwap/uikit": "workspace:*",
+    "@CryptoSwap/utils": "workspace:*",
+    "@CryptoSwap/wagmi": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
     "@solana/wallet-adapter-base": "catalog:",
     "@solana/wallet-adapter-react": "catalog:",
     "@solana/wallet-adapter-react-ui": "catalog:",

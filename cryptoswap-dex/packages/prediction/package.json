@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/prediction",
+  "name": "@CryptoSwap/prediction",
   "version": "1.1.19",
   "sideEffects": false,
   "private": true,
@@ -8,16 +8,16 @@
   },
   "type": "module",
   "peerDependencies": {
-    "@pancakeswap/sdk": "workspace:*"
+    "@CryptoSwap/sdk": "workspace:*"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/pools": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
+    "@CryptoSwap/pools": "workspace:*",
+    "@CryptoSwap/tokens": "workspace:*",
     "viem": "catalog:"
   },
   "devDependencies": {
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*"
+    "@CryptoSwap/sdk": "workspace:*",
+    "@CryptoSwap/tsconfig": "workspace:*"
   }
 }

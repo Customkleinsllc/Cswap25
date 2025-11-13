@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/farms",
+  "name": "@CryptoSwap/farms",
   "version": "1.2.13",
   "sideEffects": false,
   "private": true,
@@ -14,15 +14,15 @@
     "wrangler": "catalog:"
   },
   "dependencies": {
-    "@pancakeswap/price-api-sdk": "workspace:*",
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/stable-swap-sdk": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/v3-sdk": "workspace:*",
+    "@CryptoSwap/price-api-sdk": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
+    "@CryptoSwap/sdk": "workspace:*",
+    "@CryptoSwap/stable-swap-sdk": "workspace:*",
+    "@CryptoSwap/swap-sdk-core": "workspace:*",
+    "@CryptoSwap/token-lists": "workspace:*",
+    "@CryptoSwap/tokens": "workspace:*",
+    "@CryptoSwap/utils": "workspace:*",
+    "@CryptoSwap/v3-sdk": "workspace:*",
     "bignumber.js": "^9.0.0",
     "dayjs": "^1.11.10",
     "viem": "catalog:"

@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/tokens",
+  "name": "@CryptoSwap/tokens",
   "license": "MIT",
   "version": "0.7.9",
   "description": "Tokens for pancakeswap",
@@ -13,13 +13,13 @@
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist"
   },
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
-    "@pancakeswap/token-lists": "workspace:*"
+    "@CryptoSwap/chains": "workspace:*",
+    "@CryptoSwap/sdk": "workspace:*",
+    "@CryptoSwap/token-lists": "workspace:*"
   },
   "devDependencies": {
-    "@pancakeswap/solana-core-sdk": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
+    "@CryptoSwap/solana-core-sdk": "workspace:*",
+    "@CryptoSwap/utils": "workspace:*",
     "tsup": "^6.7.0"
   },
   "exports": {

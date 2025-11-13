@@ -1,5 +1,5 @@
 {
-  "name": "@pancakeswap/stable-swap-sdk",
+  "name": "@CryptoSwap/stable-swap-sdk",
   "version": "2.0.10",
   "description": "SDK for pancakeswap stable swap",
   "repository": {
@@ -23,16 +23,16 @@
     "dist"
   ],
   "dependencies": {
-    "@pancakeswap/chains": "workspace:*",
-    "@pancakeswap/swap-sdk-core": "workspace:*",
-    "@pancakeswap/tokens": "workspace:*",
+    "@CryptoSwap/chains": "workspace:*",
+    "@CryptoSwap/swap-sdk-core": "workspace:*",
+    "@CryptoSwap/tokens": "workspace:*",
     "tiny-invariant": "^1.3.0"
   },
   "devDependencies": {
-    "@pancakeswap/token-lists": "workspace:*",
-    "@pancakeswap/tsconfig": "workspace:*",
-    "@pancakeswap/utils": "workspace:*",
-    "@pancakeswap/sdk": "workspace:*",
+    "@CryptoSwap/token-lists": "workspace:*",
+    "@CryptoSwap/tsconfig": "workspace:*",
+    "@CryptoSwap/utils": "workspace:*",
+    "@CryptoSwap/sdk": "workspace:*",
     "tsup": "^6.7.0",
     "viem": "catalog:"
   },
