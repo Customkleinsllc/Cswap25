@@ -1,9 +1,9 @@
 {
-  "buildCommand": "pnpm build",
+  "buildCommand": "pnpm install --no-frozen-lockfile && pnpm build",
   "devCommand": "pnpm dev",
-  "installCommand": "pnpm install",
+  "installCommand": "pnpm install --no-frozen-lockfile",
   "framework": "nextjs",
-  "outputDirectory": ".next",
+  "outputDirectory": "apps/web/.next",
   "regions": ["iad1"],
   "env": {
     "NEXT_PUBLIC_REVENUE_WALLET_EVM": "@revenue_wallet_evm",
