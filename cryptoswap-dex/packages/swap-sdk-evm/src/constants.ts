@@ -242,6 +242,38 @@ export const WNATIVE = {
   [ChainId.ARBITRUM_SEPOLIA]: WETH9[ChainId.ARBITRUM_SEPOLIA],
   [ChainId.BASE_SEPOLIA]: WETH9[ChainId.BASE_SEPOLIA],
   [ChainId.MONAD_TESTNET]: WETH9[ChainId.MONAD_TESTNET],
+  [ChainId.POLYGON]: new ERC20Token(
+    ChainId.POLYGON,
+    '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270',
+    18,
+    'WMATIC',
+    'Wrapped MATIC',
+    'https://polygon.technology',
+  ),
+  [ChainId.AVALANCHE]: new ERC20Token(
+    ChainId.AVALANCHE,
+    '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7',
+    18,
+    'WAVAX',
+    'Wrapped AVAX',
+    'https://www.avax.network',
+  ),
+  [ChainId.AVALANCHE_FUJI]: new ERC20Token(
+    ChainId.AVALANCHE_FUJI,
+    '0xd00ae08403B9bbb9124bB305C09058E32C39A48c',
+    18,
+    'WAVAX',
+    'Wrapped AVAX',
+    'https://www.avax.network',
+  ),
+  [ChainId.SEI]: new ERC20Token(
+    ChainId.SEI,
+    '0xE30feDd158A2e3b13e9badaeABaFc5516e95e8C7',
+    18,
+    'WSEI',
+    'Wrapped SEI',
+    'https://www.sei.io',
+  ),
 } satisfies Record<ChainId, ERC20Token>
 
 const ETHER = { name: 'Ether', symbol: 'ETH', decimals: 18 } as const
