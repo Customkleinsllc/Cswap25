@@ -1,6 +1,6 @@
-import { useTheme } from '@pancakeswap/hooks'
-import { IMultiSelectChangeEvent, IMultiSelectProps, MultiSelect } from '@pancakeswap/uikit'
-import { Container } from '@pancakeswap/widgets-internal'
+import { useTheme } from '@CryptoSwap/hooks'
+import { IMultiSelectChangeEvent, IMultiSelectProps, MultiSelect } from '@CryptoSwap/uikit'
+import { Container } from '@CryptoSwap/widgets-internal'
 import { useCallback, useState } from 'react'
 
 export const FilterSelect = <T extends string | number>({

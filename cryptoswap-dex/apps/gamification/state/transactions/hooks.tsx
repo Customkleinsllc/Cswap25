@@ -12,7 +12,7 @@ import { useAccount } from 'wagmi'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { Hash } from 'viem'
 
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@CryptoSwap/swap-sdk-core'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { TransactionType, addTransaction } from './actions'
 import { TransactionDetails } from './reducer'

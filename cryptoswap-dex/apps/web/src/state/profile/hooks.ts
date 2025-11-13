@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { QueryObserverResult, useQuery } from '@tanstack/react-query'
 import { FetchStatus } from 'config/constants/types'
 import { getAchievements } from 'state/achievements/helpers'

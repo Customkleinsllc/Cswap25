@@ -1,4 +1,4 @@
-import { Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Flex, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { HomePagePartner } from 'pages/api/home/types'
 import styled from 'styled-components'
 

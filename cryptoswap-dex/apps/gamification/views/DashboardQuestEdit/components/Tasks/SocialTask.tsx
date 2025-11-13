@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   ErrorFillIcon,
@@ -9,7 +9,7 @@ import {
   Text,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useMemo, useState } from 'react'
 import { ConfirmDeleteModal } from 'views/DashboardQuestEdit/components/ConfirmDeleteModal'
 import { InputErrorText, StyledInput } from 'views/DashboardQuestEdit/components/InputStyle'

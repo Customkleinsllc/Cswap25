@@ -1,6 +1,6 @@
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
-import type { TokenInfo } from '@pancakeswap/solana-core-sdk'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { SPLToken } from '@CryptoSwap/swap-sdk-core'
+import type { TokenInfo } from '@CryptoSwap/solana-core-sdk'
+import { NonEVMChainId } from '@CryptoSwap/chains'
 import { TOKEN_2022_PROGRAM_ID, TOKEN_PROGRAM_ID } from '@solana/spl-token-0.4'
 
 export const USER_ADDED_KEY = 'solana-user-added-tokens'

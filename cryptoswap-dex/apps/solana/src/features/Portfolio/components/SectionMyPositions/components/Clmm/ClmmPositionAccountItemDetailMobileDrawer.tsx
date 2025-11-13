@@ -16,8 +16,8 @@ import {
   useDisclosure
 } from '@chakra-ui/react'
 import Decimal from 'decimal.js'
-import { useTranslation } from '@pancakeswap/localization'
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 import { FormattedPoolInfoConcentratedItem, AprKey, timeBasisOptions } from '@/hooks/pool/type'
 import useClmmBalance, { ClmmPosition } from '@/hooks/portfolio/clmm/useClmmBalance'
 import MinusIcon from '@/icons/misc/MinusIcon'

@@ -1,4 +1,4 @@
-import { Box, Flex, FlexProps } from '@pancakeswap/uikit'
+import { Box, Flex, FlexProps } from '@CryptoSwap/uikit'
 import Image from 'next/image'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'

@@ -1,6 +1,6 @@
-import { bscTestnetTokens } from '@pancakeswap/tokens'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { bscTestnetTokens } from '@CryptoSwap/tokens'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
+import { getBalanceAmount } from '@CryptoSwap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { DeserializedBCakeWrapperUserData, DeserializedFarmUserData, SerializedFarm } from '../types'
 

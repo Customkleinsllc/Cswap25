@@ -1,13 +1,13 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { LegacyWalletConfig, LegacyWalletModal } from '@pancakeswap/ui-wallets'
-import { Button, ButtonProps } from '@pancakeswap/uikit'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
+import { LegacyWalletConfig, LegacyWalletModal } from '@CryptoSwap/ui-wallets'
+import { Button, ButtonProps } from '@CryptoSwap/uikit'
 import { ConnectorNames, createWallets, getDocLink, TOP_WALLET_MAP } from 'config/wallet'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'
 
 // @ts-ignore
 // eslint-disable-next-line import/extensions
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useMemo, useState } from 'react'
 import { useConnect } from 'wagmi'
 

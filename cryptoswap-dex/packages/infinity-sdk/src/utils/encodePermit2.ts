@@ -1,4 +1,4 @@
-import { PermitBatch } from '@pancakeswap/permit2-sdk'
+import { PermitBatch } from '@CryptoSwap/permit2-sdk'
 import { Address, encodeFunctionData, Hex } from 'viem'
 import { Permit2ForwardAbi } from '../abis'
 import { Permit2Signature } from '../types'

@@ -1,4 +1,4 @@
-import { Box, Flex, Skeleton, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Flex, Skeleton, useMatchBreakpoints } from '@CryptoSwap/uikit'
 
 import { QuoteProvider } from 'quoter/QuoteProvider'
 import { Suspense } from 'react'

@@ -1,4 +1,4 @@
-import { Card, Radio } from '@pancakeswap/uikit'
+import { Card, Radio } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 interface SelectionCardProps {

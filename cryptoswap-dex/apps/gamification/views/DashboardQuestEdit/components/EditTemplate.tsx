@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -13,7 +13,7 @@ import {
   ReactMarkdown,
   Tag,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { DatePicker, DatePickerPortal, TimePicker } from 'components/DatePicker'
 import dynamic from 'next/dynamic'
 import React, { useMemo } from 'react'

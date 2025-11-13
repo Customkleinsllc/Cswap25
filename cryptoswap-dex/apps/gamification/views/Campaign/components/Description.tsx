@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, ReactMarkdown, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Card, ReactMarkdown, Text } from '@CryptoSwap/uikit'
 
 export const Description = () => {
   const { t } = useTranslation()

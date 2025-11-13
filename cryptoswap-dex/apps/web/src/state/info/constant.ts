@@ -1,9 +1,9 @@
 import { GraphQLClient } from 'graphql-request'
 import { infoStableSwapClients, v2Clients } from 'utils/graphql'
 
-import { ChainId, isTestnetChainId } from '@pancakeswap/chains'
-import { STABLE_SUPPORTED_CHAIN_IDS } from '@pancakeswap/stable-swap-sdk'
-import { mapValues } from '@pancakeswap/utils/fns'
+import { ChainId, isTestnetChainId } from '@CryptoSwap/chains'
+import { STABLE_SUPPORTED_CHAIN_IDS } from '@CryptoSwap/stable-swap-sdk'
+import { mapValues } from '@CryptoSwap/utils/fns'
 import { BSC_TOKEN_WHITELIST, ETH_TOKEN_BLACKLIST, ETH_TOKEN_WHITELIST, TOKEN_BLACKLIST } from 'config/constants/info'
 import { arbitrum, base, bsc, bscTestnet, linea, mainnet, opBNB, polygonZkEvm, zkSync } from 'wagmi/chains'
 

@@ -1,6 +1,6 @@
-import { ChainId, isTestnetChainId } from '@pancakeswap/chains'
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
-import memoize from '@pancakeswap/utils/memoize'
+import { ChainId, isTestnetChainId } from '@CryptoSwap/chains'
+import { BigintIsh, Currency } from '@CryptoSwap/sdk'
+import memoize from '@CryptoSwap/utils/memoize'
 import { Address } from 'viem'
 
 import { createAsyncCallWithFallbacks, WithFallbackOptions } from '../../../utils/withFallback'

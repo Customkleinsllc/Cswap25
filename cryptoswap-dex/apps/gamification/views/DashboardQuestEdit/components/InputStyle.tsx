@@ -1,4 +1,4 @@
-import { ErrorFillIcon, Flex, Input, InputGroup, Text } from '@pancakeswap/uikit'
+import { ErrorFillIcon, Flex, Input, InputGroup, Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 export const StyledInputGroup = styled(InputGroup)`

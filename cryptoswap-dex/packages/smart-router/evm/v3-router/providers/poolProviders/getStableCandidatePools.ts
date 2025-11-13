@@ -1,4 +1,4 @@
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
+import { BigintIsh, Currency } from '@CryptoSwap/sdk'
 import { getPairCombinations } from '../../functions'
 import { OnChainProvider } from '../../types'
 import { getStablePoolsOnChain } from './onChainPoolProviders'

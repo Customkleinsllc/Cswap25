@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps, PreTitle, RowBetween, ScanLink } from '@pancakeswap/uikit'
-import { Liquidity } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, BoxProps, PreTitle, RowBetween, ScanLink } from '@CryptoSwap/uikit'
+import { Liquidity } from '@CryptoSwap/widgets-internal'
 import React from 'react'
 import { useLiquidityShapeQueryState } from 'state/infinity/shared'
 

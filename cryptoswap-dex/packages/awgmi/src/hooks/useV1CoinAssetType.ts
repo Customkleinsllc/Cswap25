@@ -1,5 +1,5 @@
 import { Hex } from '@aptos-labs/ts-sdk'
-import { fetchAptosView } from '@pancakeswap/awgmi/core'
+import { fetchAptosView } from '@CryptoSwap/awgmi/core'
 import { useQueries, UseQueryOptions } from '@tanstack/react-query'
 
 function convertHexStringToAsciiString(str: string) {

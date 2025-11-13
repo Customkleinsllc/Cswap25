@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@pancakeswap/uikit";
-import Miscellaneous from "@pancakeswap/uikit/components/Svg/Icons/Miscellaneous";
+import { useTranslation } from "@CryptoSwap/localization";
+import { AutoColumn, Flex, FlexGap, LinkExternal, Modal, Text } from "@CryptoSwap/uikit";
+import Miscellaneous from "@CryptoSwap/uikit/components/Svg/Icons/Miscellaneous";
 import { ReactNode } from "react";
 
 type PoolTypeModalProps = {

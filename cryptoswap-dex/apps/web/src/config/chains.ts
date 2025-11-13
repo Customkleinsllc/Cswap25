@@ -1,5 +1,5 @@
-import { ChainId, chainNames } from '@pancakeswap/chains'
-import memoize from '@pancakeswap/utils/memoize'
+import { ChainId, chainNames } from '@CryptoSwap/chains'
+import memoize from '@CryptoSwap/utils/memoize'
 import {
   Chain,
   arbitrum,

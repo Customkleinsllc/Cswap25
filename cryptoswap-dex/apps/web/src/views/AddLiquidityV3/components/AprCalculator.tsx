@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Price, Token, ZERO } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount, Price, Token, ZERO } from '@CryptoSwap/sdk'
 import {
   CalculateIcon,
   Flex,
@@ -8,9 +8,9 @@ import {
   QuestionHelper,
   Text,
   TooltipText,
-} from '@pancakeswap/uikit'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { formatPrice } from '@pancakeswap/utils/formatFractions'
+} from '@CryptoSwap/uikit'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
+import { formatPrice } from '@CryptoSwap/utils/formatFractions'
 import {
   FeeCalculator,
   Pool,
@@ -19,19 +19,19 @@ import {
   encodeSqrtRatioX96,
   isPoolTickInRange,
   parseProtocolFees,
-} from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/v3-sdk'
 import {
   RoiCalculatorModalV2,
   RoiCalculatorPositionInfo,
   useAmountsByUsdValue,
   useRoi,
-} from '@pancakeswap/widgets-internal/roi'
+} from '@CryptoSwap/widgets-internal/roi'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useRouter } from 'next/router'
 import { useCallback, useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 
-import { PositionDetails, getPositionFarmApr, getPositionFarmAprFactor } from '@pancakeswap/farms'
+import { PositionDetails, getPositionFarmApr, getPositionFarmAprFactor } from '@CryptoSwap/farms'
 import { Bound } from 'config/constants/types'
 import { useFarm } from 'hooks/useFarm'
 import { usePoolAvgTradingVolume } from 'hooks/usePoolTradingVolume'

@@ -1,4 +1,4 @@
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 import { wSolToSolString } from '@/utils/token'
 
 export const transformSymbol = (symbols: ApiV3Token[]) => {

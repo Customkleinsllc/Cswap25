@@ -1,4 +1,4 @@
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { safeGetAddress } from 'utils'
 import { nftsBaseUrl, pancakeBunniesAddress } from 'views/ProfileCreation/Nft/constants'
 import CardBody from './CardBody'

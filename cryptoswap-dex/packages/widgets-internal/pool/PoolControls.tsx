@@ -1,7 +1,7 @@
-import { useIntersectionObserver } from "@pancakeswap/hooks";
-import { useTranslation } from "@pancakeswap/localization";
-import { Flex, OptionProps, SearchInput, Select, Text, ViewMode } from "@pancakeswap/uikit";
-import latinise from "@pancakeswap/utils/latinise";
+import { useIntersectionObserver } from "@CryptoSwap/hooks";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Flex, OptionProps, SearchInput, Select, Text, ViewMode } from "@CryptoSwap/uikit";
+import latinise from "@CryptoSwap/utils/latinise";
 import BigNumber from "bignumber.js";
 import partition from "lodash/partition";
 import { useRouter } from "next/router";

@@ -1,4 +1,4 @@
-import { SORT_ORDER } from '@pancakeswap/uikit'
+import { SORT_ORDER } from '@CryptoSwap/uikit'
 import intersection from 'lodash/intersection'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useMemo } from 'react'

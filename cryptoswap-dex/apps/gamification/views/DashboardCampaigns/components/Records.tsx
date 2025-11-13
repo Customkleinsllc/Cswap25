@@ -1,4 +1,4 @@
-import { Box, Card, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Card, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 import { TableHeader } from 'views/DashboardCampaigns/components/TableHeader'
 import { TableRow } from 'views/DashboardCampaigns/components/TableRow'

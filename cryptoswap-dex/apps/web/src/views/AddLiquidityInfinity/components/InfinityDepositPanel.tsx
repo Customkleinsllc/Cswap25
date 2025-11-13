@@ -1,4 +1,4 @@
-import { Box, Card, CardBody, Column, Row, RowBetween, Text } from '@pancakeswap/uikit'
+import { Box, Card, CardBody, Column, Row, RowBetween, Text } from '@CryptoSwap/uikit'
 import { useCurrencyByPoolId } from 'hooks/infinity/useCurrencyByPoolId'
 import { useMemo } from 'react'
 import { useInverted } from 'state/infinity/shared'

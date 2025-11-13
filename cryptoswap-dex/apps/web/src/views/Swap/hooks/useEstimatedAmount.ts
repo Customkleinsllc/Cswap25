@@ -1,4 +1,4 @@
-import { CurrencyAmount } from '@pancakeswap/sdk'
+import { CurrencyAmount } from '@CryptoSwap/sdk'
 import { useDeferredValue } from 'react'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import { isAddressEqual } from 'utils'

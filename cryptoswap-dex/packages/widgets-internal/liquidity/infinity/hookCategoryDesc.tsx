@@ -1,5 +1,5 @@
-import { HOOK_CATEGORY } from "@pancakeswap/infinity-sdk";
-import { Trans } from "@pancakeswap/localization";
+import { HOOK_CATEGORY } from "@CryptoSwap/infinity-sdk";
+import { Trans } from "@CryptoSwap/localization";
 
 export const hookCategoryDesc: Record<HOOK_CATEGORY, React.ReactNode> = {
   [HOOK_CATEGORY.ALM]: (

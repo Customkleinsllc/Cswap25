@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { YEAR_IN_SECONDS } from '@pancakeswap/utils/getTimePeriods'
+import { ChainId } from '@CryptoSwap/chains'
+import { YEAR_IN_SECONDS } from '@CryptoSwap/utils/getTimePeriods'
 import BigNumber from 'bignumber.js'
 import { BLOCKS_PER_YEAR } from 'config'
 import lpAprs1 from 'config/constants/lpAprs/1.json'

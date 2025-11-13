@@ -1,10 +1,10 @@
-import { SORT_ORDER } from '@pancakeswap/uikit'
-import { INetworkProps, IProtocolMenuProps } from '@pancakeswap/widgets-internal'
+import { SORT_ORDER } from '@CryptoSwap/uikit'
+import { INetworkProps, IProtocolMenuProps } from '@CryptoSwap/widgets-internal'
 import { atom } from 'jotai'
 import { getQueryChainId } from 'wallet/util/getQueryChainId'
 import { FarmQuery } from 'state/farmsV4/search/edgeFarmQueries'
 import { DEFAULT_CHAINS } from 'state/farmsV4/state/farmPools/fetcher'
-import { ChainId, isEvm } from '@pancakeswap/chains'
+import { ChainId, isEvm } from '@CryptoSwap/chains'
 import { getProtocolsByIndex, parseUrlToSearchQuery } from '../utils/queryParser'
 
 const _searchQueryAtom = atom<FarmQuery>(parseUrlToSearchQuery())

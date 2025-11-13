@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/swap-sdk-core'
+import { Percent } from '@CryptoSwap/swap-sdk-core'
 
 export * from './pools'
 

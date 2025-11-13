@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount } from '@CryptoSwap/sdk'
 
 import { GasCost } from './gasCost'
 import { Pool } from './pool'

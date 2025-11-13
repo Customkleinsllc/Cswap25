@@ -1,6 +1,6 @@
 import { Dispatch, SetStateAction, useCallback, useRef } from 'react'
 import { Flex, InputGroup, InputLeftElement, NumberInput, NumberInputField } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 import { colors } from '@/theme/cssVariables/colors'
 import { numberRegExp } from '@/utils/numberish/regex'

@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { deserializeToken } from '@pancakeswap/token-lists'
+import { Token } from '@CryptoSwap/sdk'
+import { deserializeToken } from '@CryptoSwap/token-lists'
 import { createSelector } from '@reduxjs/toolkit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'

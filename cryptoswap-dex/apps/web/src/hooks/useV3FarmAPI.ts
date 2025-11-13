@@ -1,10 +1,10 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   defineFarmV3ConfigsFromUniversalFarm,
   fetchUniversalFarms,
   Protocol,
   UniversalFarmConfigV3,
-} from '@pancakeswap/farms'
+} from '@CryptoSwap/farms'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 

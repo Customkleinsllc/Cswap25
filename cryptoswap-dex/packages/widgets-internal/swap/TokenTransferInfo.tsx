@@ -1,5 +1,5 @@
-import { Currency } from "@pancakeswap/sdk";
-import { Text, Box, Flex, ArrowForwardIcon } from "@pancakeswap/uikit";
+import { Currency } from "@CryptoSwap/sdk";
+import { Text, Box, Flex, ArrowForwardIcon } from "@CryptoSwap/uikit";
 import { CurrencyLogo } from "../components/CurrencyLogo";
 
 interface TokenTransferInfoProps {

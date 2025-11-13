@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Modal, ModalV2, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, Modal, ModalV2, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { useRouter } from 'next/router'
 import { Suspense, useEffect, useState } from 'react'

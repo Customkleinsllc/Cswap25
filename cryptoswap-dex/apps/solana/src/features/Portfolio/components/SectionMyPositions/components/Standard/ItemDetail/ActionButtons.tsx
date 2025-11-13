@@ -1,5 +1,5 @@
 import { Flex } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import Button from '@/components/Button'
 import FullExpandIcon from '@/icons/misc/FullExpandIcon'
 import MinusIcon from '@/icons/misc/MinusIcon'

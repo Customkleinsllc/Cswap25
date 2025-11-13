@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { styled, useTheme } from "styled-components";
 import { Button, OpenNewIcon, Text } from "../../components";
 import { Link } from "../../components/Link";

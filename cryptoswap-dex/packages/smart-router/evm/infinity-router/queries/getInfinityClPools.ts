@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   CLPoolManagerAbi,
   INFI_CL_POOL_MANAGER_ADDRESSES,
@@ -7,13 +7,13 @@ import {
   findHook,
   getPoolId,
   isInfinitySupported,
-} from '@pancakeswap/infinity-sdk'
-import { multicallByGasLimit } from '@pancakeswap/multicall'
-import { Native } from '@pancakeswap/sdk'
-import { BigintIsh, Currency, getCurrencyAddress, sortCurrencies } from '@pancakeswap/swap-sdk-core'
+} from '@CryptoSwap/infinity-sdk'
+import { multicallByGasLimit } from '@CryptoSwap/multicall'
+import { Native } from '@CryptoSwap/sdk'
+import { BigintIsh, Currency, getCurrencyAddress, sortCurrencies } from '@CryptoSwap/swap-sdk-core'
 import { Address, Hex, decodeFunctionResult, encodeFunctionData } from 'viem'
 
-import { Tick } from '@pancakeswap/v3-sdk'
+import { Tick } from '@CryptoSwap/v3-sdk'
 import { infinityCLTickLensAbi } from '../../abis/IInfinityCLTickLens'
 import { CL_HOOK_PRESETS_BY_CHAIN, CL_PRESETS_BY_CHAIN } from '../../constants'
 import { INFI_CL_TICK_LENS_ADDRESSES } from '../../constants/infinity'

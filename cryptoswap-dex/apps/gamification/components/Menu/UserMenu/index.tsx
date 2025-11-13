@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, LogoutIcon, UserMenu as UIKitUserMenu, UserMenuItem, useModal } from '@pancakeswap/uikit'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
+import { Box, Flex, LogoutIcon, UserMenu as UIKitUserMenu, UserMenuItem, useModal } from '@CryptoSwap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import useAuth from 'hooks/useAuth'

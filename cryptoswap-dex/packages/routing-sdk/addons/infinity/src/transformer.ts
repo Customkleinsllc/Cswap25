@@ -1,11 +1,11 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   parseCurrency,
   parseCurrencyAmount,
   toSerializableCurrency,
   toSerializableCurrencyAmount,
-} from '@pancakeswap/routing-sdk'
-import { Tick } from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/routing-sdk'
+import { Tick } from '@CryptoSwap/v3-sdk'
 
 import { createInfinityBinPool } from './createInfinityBinPool'
 import { createInfinityCLPool } from './createInfinityCLPool'

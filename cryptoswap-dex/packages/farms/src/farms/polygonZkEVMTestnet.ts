@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { polygonZkEvmTestnetTokens } from '@pancakeswap/tokens'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { polygonZkEvmTestnetTokens } from '@CryptoSwap/tokens'
+import { FeeAmount, Pool } from '@CryptoSwap/v3-sdk'
 import { defineFarmV3ConfigsFromUniversalFarm } from '../defineFarmV3Configs'
 import { Protocol, SerializedFarmConfig, UniversalFarmConfig, UniversalFarmConfigV3 } from '../types'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box } from '@CryptoSwap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { Banner } from 'views/Quests/components/Banner'
 import { Quests } from 'views/Quests/components/Quests'

@@ -11,10 +11,10 @@ import {
   Td,
   useToast,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+} from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { getBlockExploreLink } from 'utils'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { styled } from 'styled-components'
 import useGelatoLimitOrdersLib from 'hooks/limitOrders/useGelatoLimitOrdersLib'
 import { useAccount, usePublicClient, useWalletClient } from 'wagmi'
@@ -22,7 +22,7 @@ import { useActiveChainId } from 'hooks/useActiveChainId'
 import { gelatoLimitABI } from 'config/abi/gelatoLimit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useCatchTxError from 'hooks/useCatchTxError'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { ExistingOrder } from 'views/LimitOrders/types'
 import { useQueryClient } from '@tanstack/react-query'
 import { EXISTING_ORDERS_QUERY_KEY } from 'views/LimitOrders/hooks/useGelatoLimitOrdersHistory'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { Address } from 'viem'
 
 export const INFINITY_SUPPORTED_CHAINS = [ChainId.BSC, ChainId.BSC_TESTNET, ChainId.SEPOLIA, ChainId.BASE] as const

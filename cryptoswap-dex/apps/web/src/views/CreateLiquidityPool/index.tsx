@@ -1,12 +1,12 @@
 import { useMemo } from 'react'
 import Page from 'components/Layout/Page'
 import styled, { css } from 'styled-components'
-import { INFINITY_SUPPORTED_CHAINS } from '@pancakeswap/infinity-sdk'
-import { ArrowForwardIcon, Box, Card, CardBody, Container, FlexGap, LinkExternal, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { LightGreyCard, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { INFINITY_SUPPORTED_CHAINS } from '@CryptoSwap/infinity-sdk'
+import { ArrowForwardIcon, Box, Card, CardBody, Container, FlexGap, LinkExternal, Text } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { LightGreyCard, NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
-import { getChainName } from '@pancakeswap/chains'
+import { getChainName } from '@CryptoSwap/chains'
 import { BreadcrumbNav } from './components/BreadcrumbNav'
 
 const StyledBox = styled(Box)`

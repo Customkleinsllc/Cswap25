@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Checkbox, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, Checkbox, Flex, Text } from '@CryptoSwap/uikit'
 import { useMenuTab, WalletView } from 'components/Menu/UserMenu/providers/MenuTabProvider'
 import { ViewState } from 'components/WalletModalV2/type'
 import { useWalletModalV2ViewState } from 'components/WalletModalV2/WalletModalV2ViewStateProvider'

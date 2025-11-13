@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/sdk'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Token } from '@CryptoSwap/sdk'
+import { Pool } from '@CryptoSwap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import Apr from 'views/Pools/components/Apr'
 

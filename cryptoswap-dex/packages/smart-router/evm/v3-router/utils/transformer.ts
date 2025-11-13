@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, ERC20Token, Native, Percent, TradeType } from '@pancakeswap/sdk'
-import { ADDRESS_ZERO, Tick } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { Currency, CurrencyAmount, ERC20Token, Native, Percent, TradeType } from '@CryptoSwap/sdk'
+import { ADDRESS_ZERO, Tick } from '@CryptoSwap/v3-sdk'
 import { Address } from 'viem'
 import {
   InfinityBinPool,

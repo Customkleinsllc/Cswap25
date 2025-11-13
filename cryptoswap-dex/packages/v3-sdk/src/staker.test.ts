@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@CryptoSwap/sdk'
 import { FeeAmount } from './constants'
 import { Pool } from './entities/pool'
 import { Staker } from './staker'

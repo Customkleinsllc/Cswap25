@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useQueries, useQuery } from '@tanstack/react-query'
 import { QUERY_SETTINGS_IMMUTABLE } from 'config/constants'
 import groupBy from 'lodash/groupBy'

@@ -1,5 +1,5 @@
-import { ArticleDataType } from '@pancakeswap/blog'
-import { Box, BoxProps, Card, Flex, Text } from '@pancakeswap/uikit'
+import { ArticleDataType } from '@CryptoSwap/blog'
+import { Box, BoxProps, Card, Flex, Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 import { HeightProps } from 'styled-system'
 

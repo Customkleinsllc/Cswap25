@@ -1,4 +1,4 @@
-import { ChainId, isSolana } from '@pancakeswap/chains'
+import { ChainId, isSolana } from '@CryptoSwap/chains'
 import {
   OrderType,
   type BridgeOrder,
@@ -6,9 +6,9 @@ import {
   type PriceOrder,
   type SVMOrder,
   type XOrder,
-} from '@pancakeswap/price-api-sdk'
-import { UnifiedCurrencyAmount, type Currency, type TradeType } from '@pancakeswap/swap-sdk-core'
-import { CAKE, STABLE_COIN, USDC, USDT } from '@pancakeswap/tokens'
+} from '@CryptoSwap/price-api-sdk'
+import { UnifiedCurrencyAmount, type Currency, type TradeType } from '@CryptoSwap/swap-sdk-core'
+import { CAKE, STABLE_COIN, USDC, USDT } from '@CryptoSwap/tokens'
 import { BridgeOrderFee, computeBridgeOrderFee } from './Bridge/utils'
 import { computeTradePriceBreakdown, SVMTradePriceBreakdown, TradePriceBreakdown } from './V3Swap/utils/exchange'
 

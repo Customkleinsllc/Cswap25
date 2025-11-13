@@ -1,8 +1,8 @@
 import BigNumber from "bignumber.js";
-import { Text, useTooltip, type TextProps } from "@pancakeswap/uikit";
-import { formatNumber, formatNumberWithFullDigits } from "@pancakeswap/utils/formatNumber";
+import { Text, useTooltip, type TextProps } from "@CryptoSwap/uikit";
+import { formatNumber, formatNumberWithFullDigits } from "@CryptoSwap/utils/formatNumber";
 import { type ReactNode, memo, useMemo, type ElementType, CSSProperties } from "react";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 
 export type NumberDisplayProps = {
   prefix?: ReactNode;

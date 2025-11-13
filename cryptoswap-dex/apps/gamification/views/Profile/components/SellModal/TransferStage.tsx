@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BinanceIcon, Button, ErrorIcon, Flex, Grid, Input, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { BinanceIcon, Button, ErrorIcon, Flex, Grid, Input, Text } from '@CryptoSwap/uikit'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { safeGetAddress } from 'utils'
 import { Divider, RoundedImage } from 'views/Profile/components/SellModal/shared/styles'

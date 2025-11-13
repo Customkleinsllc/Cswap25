@@ -1,5 +1,5 @@
-import { isChainSupported, ChainId, getChainIdByChainName } from '@pancakeswap/chains'
-import safeGetWindow from '@pancakeswap/utils/safeGetWindow'
+import { isChainSupported, ChainId, getChainIdByChainName } from '@CryptoSwap/chains'
+import safeGetWindow from '@CryptoSwap/utils/safeGetWindow'
 
 export function getQueryChainId() {
   const window = safeGetWindow()

@@ -1,4 +1,4 @@
-import { ContextApi } from '@pancakeswap/localization'
+import { ContextApi } from '@CryptoSwap/localization'
 import {
   AllBlogIcon,
   // CalenderIcon,
@@ -6,7 +6,7 @@ import {
   MenuItemsType,
   TrophyFillIcon,
   TrophyIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 
 export type ConfigMenuDropDownItemsType = DropdownMenuItems & { hideSubNav?: boolean }
 export type ConfigMenuItemsType = Omit<MenuItemsType, 'items'> & { hideSubNav?: boolean; image?: string } & {

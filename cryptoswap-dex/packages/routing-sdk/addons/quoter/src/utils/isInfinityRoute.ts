@@ -1,10 +1,10 @@
-import type { Pool } from '@pancakeswap/routing-sdk'
+import type { Pool } from '@CryptoSwap/routing-sdk'
 import {
   InfinityBinPool,
   InfinityCLPool,
   isInfinityBinPool,
   isInfinityCLPool,
-} from '@pancakeswap/routing-sdk-addon-infinity'
+} from '@CryptoSwap/routing-sdk-addon-infinity'
 
 type Route<P extends Pool = Pool> = {
   pools: P[]

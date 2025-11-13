@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { AutoColumn, Box, CheckmarkCircleIcon, Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@CryptoSwap/localization";
+import { AutoColumn, Box, CheckmarkCircleIcon, Text } from "@CryptoSwap/uikit";
 import { ReactNode } from "react";
 import { StepTitleAnimationContainer } from "./ApproveModalContent";
 import { FadePresence } from "./Logos";

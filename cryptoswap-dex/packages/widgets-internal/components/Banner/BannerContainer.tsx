@@ -1,4 +1,4 @@
-import { FlexGap, FlexGapProps } from "@pancakeswap/uikit";
+import { FlexGap, FlexGapProps } from "@CryptoSwap/uikit";
 import { PropsWithChildren } from "react";
 import styled from "styled-components";
 

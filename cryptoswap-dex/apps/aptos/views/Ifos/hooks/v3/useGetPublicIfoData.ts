@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import { Ifo } from 'config/constants/types'
 import { useCakePrice } from 'hooks/useStablePrice'

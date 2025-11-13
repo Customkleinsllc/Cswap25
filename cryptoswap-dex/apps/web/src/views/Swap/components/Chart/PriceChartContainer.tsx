@@ -1,4 +1,4 @@
-import { Currency, WNATIVE } from '@pancakeswap/sdk'
+import { Currency, WNATIVE } from '@CryptoSwap/sdk'
 import useTheme from 'hooks/useTheme'
 import { useCallback, useState } from 'react'
 import BnbWbnbNotice from './BnbWbnbNotice'

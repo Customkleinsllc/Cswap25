@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@CryptoSwap/chains'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import BigNumber from 'bignumber.js'
 import chunk from 'lodash/chunk'
 import fromPairs from 'lodash/fromPairs'

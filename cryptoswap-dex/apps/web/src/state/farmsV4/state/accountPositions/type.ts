@@ -1,8 +1,8 @@
-import type { Protocol } from '@pancakeswap/farms'
-import type { PoolKey } from '@pancakeswap/infinity-sdk'
-import type { ERC20Token, Pair } from '@pancakeswap/sdk'
-import type { LegacyStableSwapPair } from '@pancakeswap/smart-router/legacy-router'
-import type { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import type { Protocol } from '@CryptoSwap/farms'
+import type { PoolKey } from '@CryptoSwap/infinity-sdk'
+import type { ERC20Token, Pair } from '@CryptoSwap/sdk'
+import type { LegacyStableSwapPair } from '@CryptoSwap/smart-router/legacy-router'
+import type { CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import type { Address, Hex } from 'viem'
 
 export enum POSITION_STATUS {

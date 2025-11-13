@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { useToast } from '@CryptoSwap/uikit'
 import { SolanaDescriptionWithTx } from 'components/Toast'
 import React, { useCallback, useState } from 'react'
 

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { BigintIsh, CurrencyAmount, Fraction, Percent, Token, ZERO } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@CryptoSwap/chains'
+import { BigintIsh, CurrencyAmount, Fraction, Percent, Token, ZERO } from '@CryptoSwap/swap-sdk-core'
 import { afterEach, describe, expect, it, vi } from 'vitest'
 
 import { Tick } from '../entities'

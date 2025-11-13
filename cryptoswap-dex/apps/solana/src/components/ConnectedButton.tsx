@@ -1,7 +1,7 @@
-import { Button, ButtonProps } from '@pancakeswap/uikit'
+import { Button, ButtonProps } from '@CryptoSwap/uikit'
 import { useWalletModal } from '@solana/wallet-adapter-react-ui'
 import { LegacyRef, PropsWithChildren, forwardRef, useCallback } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useAppStore } from '@/store'
 
 type Props = PropsWithChildren<ButtonProps & { loadingText?: React.ReactNode }>

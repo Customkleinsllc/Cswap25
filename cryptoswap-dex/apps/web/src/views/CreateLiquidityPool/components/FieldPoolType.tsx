@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   BoxProps,
@@ -8,7 +8,7 @@ import {
   LinkExternal,
   PreTitle,
   QuestionHelper,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useCallback } from 'react'
 import { usePoolTypeQueryState, useStartingPriceQueryState } from 'state/infinity/create'
 import { useHookReset } from 'views/HookSettings/hooks/useHookReset'

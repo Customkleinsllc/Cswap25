@@ -1,6 +1,6 @@
 import { styled } from 'styled-components'
-import { Box, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { PostersItemData, PostersItemDataType } from '@pancakeswap/games'
+import { Box, useMatchBreakpoints } from '@CryptoSwap/uikit'
+import { PostersItemData, PostersItemDataType } from '@CryptoSwap/games'
 import { useIsIOS } from 'hooks/useIsIOS'
 
 const StyledCarouselContainer = styled(Box)<{ isHorizontal: boolean }>`

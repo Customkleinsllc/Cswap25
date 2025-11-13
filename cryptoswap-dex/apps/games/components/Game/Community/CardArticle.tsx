@@ -1,7 +1,7 @@
 import { styled } from 'styled-components'
-import { Box, Text, Flex } from '@pancakeswap/uikit'
+import { Box, Text, Flex } from '@CryptoSwap/uikit'
 import NextLink from 'next/link'
-import { ArticleDataType } from '@pancakeswap/blog'
+import { ArticleDataType } from '@CryptoSwap/blog'
 import { StyledLineClamp } from 'components/Game/Community/StyledLineClamp'
 
 const StyledBackgroundImage = styled(Box)<{ imgUrl: string }>`

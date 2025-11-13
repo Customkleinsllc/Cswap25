@@ -1,4 +1,4 @@
-import { CardBody, Flex, Text } from '@pancakeswap/uikit'
+import { CardBody, Flex, Text } from '@CryptoSwap/uikit'
 import NFTMedia from '../NFTMedia'
 import LocationTag from './LocationTag'
 import PreviewImage from './PreviewImage'

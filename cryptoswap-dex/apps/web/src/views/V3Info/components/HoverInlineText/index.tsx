@@ -1,4 +1,4 @@
-import { Text, useTooltip } from '@pancakeswap/uikit'
+import { Text, useTooltip } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 const TextWrapper = styled.div<{

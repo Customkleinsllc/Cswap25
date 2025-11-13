@@ -1,5 +1,5 @@
 import BN from 'bignumber.js'
-import { formatBigInt, formatBigIntToFixed, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt, formatBigIntToFixed, getFullDisplayBalance } from '@CryptoSwap/utils/formatBalance'
 
 describe('formatBigInt', () => {
   it.each([

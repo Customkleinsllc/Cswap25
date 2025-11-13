@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import { useSelectIdRouteParams } from 'hooks/dynamicRoute/useSelectIdRoute'
 import { useMemo } from 'react'
 import { useCurrencyBalancesWithChain } from 'state/wallet/hooks'

@@ -1,5 +1,5 @@
-import { Categories } from '@pancakeswap/blog'
-import { useTranslation } from '@pancakeswap/localization'
+import { Categories } from '@CryptoSwap/blog'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Flex,
@@ -9,7 +9,7 @@ import {
   SearchInput,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useQuery } from '@tanstack/react-query'
 import ArticleSortSelect from 'components/Article/ArticleSortSelect'
 import CardArticle from 'components/Article/CardArticle'

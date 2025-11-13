@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import Migration from 'views/Migration/bCake'
 
 const MigrationPage = () => <Migration />

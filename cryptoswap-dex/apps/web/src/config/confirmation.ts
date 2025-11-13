@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 
 export const BLOCK_CONFIRMATION = {
   [ChainId.BSC]: 3,

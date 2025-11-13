@@ -1,5 +1,5 @@
-import { Pair } from '@pancakeswap/sdk'
-import { Tag } from '@pancakeswap/uikit'
+import { Pair } from '@CryptoSwap/sdk'
+import { Tag } from '@CryptoSwap/uikit'
 import { useTokensDeposited } from 'components/PositionCard'
 import useTotalSupply from 'hooks/useTotalSupply'
 import React from 'react'

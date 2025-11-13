@@ -1,5 +1,5 @@
-import { isTestnetChainId } from '@pancakeswap/chains'
-import { Currency, getCurrencyAddress } from '@pancakeswap/sdk'
+import { isTestnetChainId } from '@CryptoSwap/chains'
+import { Currency, getCurrencyAddress } from '@CryptoSwap/sdk'
 import { useQuery } from '@tanstack/react-query'
 
 import { SLOW_INTERVAL } from 'config/constants'

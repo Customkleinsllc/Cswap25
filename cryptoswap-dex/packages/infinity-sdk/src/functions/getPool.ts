@@ -1,5 +1,5 @@
-import { BigintIsh, Currency } from '@pancakeswap/swap-sdk-core'
-import { getPool as getV3Pool, PoolState, Tick, TickConstructorArgs, TickDataProvider } from '@pancakeswap/v3-sdk'
+import { BigintIsh, Currency } from '@CryptoSwap/swap-sdk-core'
+import { getPool as getV3Pool, PoolState, Tick, TickConstructorArgs, TickDataProvider } from '@CryptoSwap/v3-sdk'
 import { PoolType } from '../types'
 
 export interface InfinityPoolState extends PoolState {

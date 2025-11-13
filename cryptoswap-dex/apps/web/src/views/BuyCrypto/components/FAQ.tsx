@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, CardBody, CardHeader, Heading, LinkExternal, Text, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Card, CardBody, CardHeader, Heading, LinkExternal, Text, useTooltip } from '@CryptoSwap/uikit'
 
 import FoldableText from 'components/FoldableSection/FoldableText'
 import { ONRAMP_PROVIDERS } from '../constants'

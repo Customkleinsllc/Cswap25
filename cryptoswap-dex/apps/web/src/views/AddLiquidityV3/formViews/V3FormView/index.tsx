@@ -1,8 +1,8 @@
-import { Protocol } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/sdk'
+import { Protocol } from '@CryptoSwap/farms'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount, Percent } from '@CryptoSwap/sdk'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
-import { Price } from '@pancakeswap/swap-sdk-core'
+import { Price } from '@CryptoSwap/swap-sdk-core'
 import {
   AutoColumn,
   Box,
@@ -23,9 +23,9 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { useIsExpertMode, useUserSlippage } from '@pancakeswap/utils/user'
-import { FeeAmount, NonfungiblePositionManager, Pool } from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/uikit'
+import { useIsExpertMode, useUserSlippage } from '@CryptoSwap/utils/user'
+import { FeeAmount, NonfungiblePositionManager, Pool } from '@CryptoSwap/v3-sdk'
 import {
   ConfirmationModalContent,
   Liquidity,
@@ -33,7 +33,7 @@ import {
   PricePeriodRangeChart,
   ZOOM_LEVELS,
   ZoomLevels,
-} from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import CurrencyInputPanelSimplify from 'components/CurrencyInputPanelSimplify'
 import TransactionConfirmationModal from 'components/TransactionConfirmationModal'

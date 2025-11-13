@@ -1,8 +1,8 @@
-import { ChainId } from '@pancakeswap/chains'
-import { TokenAddressMap as TTokenAddressMap, TokenInfo, TokenList, WrappedTokenInfo } from '@pancakeswap/token-lists'
-import { ListsState } from '@pancakeswap/token-lists/react'
-import { EMPTY_LIST } from '@pancakeswap/tokens'
-import { enumValues } from '@pancakeswap/utils/enumValues'
+import { ChainId } from '@CryptoSwap/chains'
+import { TokenAddressMap as TTokenAddressMap, TokenInfo, TokenList, WrappedTokenInfo } from '@CryptoSwap/token-lists'
+import { ListsState } from '@CryptoSwap/token-lists/react'
+import { EMPTY_LIST } from '@CryptoSwap/tokens'
+import { enumValues } from '@CryptoSwap/utils/enumValues'
 import {
   DEFAULT_LIST_OF_LISTS,
   MULTI_CHAIN_LIST_URLS,

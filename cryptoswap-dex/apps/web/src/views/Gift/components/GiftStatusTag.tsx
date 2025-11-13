@@ -1,4 +1,4 @@
-import { Tag } from '@pancakeswap/uikit'
+import { Tag } from '@CryptoSwap/uikit'
 import { GiftStatus } from '../types'
 
 const getStatusVariant = (status: GiftStatus) => {

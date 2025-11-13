@@ -1,6 +1,6 @@
-import { Box, FlexProps, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, FlexProps, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useAtomValue } from 'jotai'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import Script from 'next/script'
 import { useEffect } from 'react'
 import { DefaultTheme, useTheme } from 'styled-components'

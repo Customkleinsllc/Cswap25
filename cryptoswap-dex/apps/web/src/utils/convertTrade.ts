@@ -1,4 +1,4 @@
-import { type Pool, type Route, type Trade, toSerializableTrade } from '@pancakeswap/routing-sdk'
+import { type Pool, type Route, type Trade, toSerializableTrade } from '@CryptoSwap/routing-sdk'
 import {
   createInfinityBinPool,
   createInfinityCLPool,
@@ -6,18 +6,18 @@ import {
   isInfinityCLPool,
   toSerializableInfinityBinPool,
   toSerializableInfinityCLPool,
-} from '@pancakeswap/routing-sdk-addon-infinity'
-import { createStablePool, isStablePool, toSerializableStablePool } from '@pancakeswap/routing-sdk-addon-stable-swap'
-import { createV2Pool, isV2Pool, toSerializableV2Pool } from '@pancakeswap/routing-sdk-addon-v2'
-import { createV3Pool, isV3Pool, toSerializableV3Pool } from '@pancakeswap/routing-sdk-addon-v3'
+} from '@CryptoSwap/routing-sdk-addon-infinity'
+import { createStablePool, isStablePool, toSerializableStablePool } from '@CryptoSwap/routing-sdk-addon-stable-swap'
+import { createV2Pool, isV2Pool, toSerializableV2Pool } from '@CryptoSwap/routing-sdk-addon-v2'
+import { createV3Pool, isV3Pool, toSerializableV3Pool } from '@CryptoSwap/routing-sdk-addon-v3'
 import {
   type InfinityRouter,
   getRouteTypeByPools,
   PoolType,
   SmartRouter,
   Pool as SmartRouterPool,
-} from '@pancakeswap/smart-router'
-import type { TradeType } from '@pancakeswap/swap-sdk-core'
+} from '@CryptoSwap/smart-router'
+import type { TradeType } from '@CryptoSwap/swap-sdk-core'
 
 export function toRoutingSDKPool(p: SmartRouterPool): Pool {
   if (SmartRouter.isV3Pool(p)) {

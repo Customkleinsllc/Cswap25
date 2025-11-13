@@ -1,4 +1,4 @@
-import { ConfirmModalState } from '@pancakeswap/widgets-internal'
+import { ConfirmModalState } from '@CryptoSwap/widgets-internal'
 
 export enum ConfirmModalStateV1 {
   REVIEWING,

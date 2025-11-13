@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { BscScanIcon, Link, Text } from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
+import { BscScanIcon, Link, Text } from '@CryptoSwap/uikit'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { getBlockExploreLink, getBlockExploreName } from 'utils'
 

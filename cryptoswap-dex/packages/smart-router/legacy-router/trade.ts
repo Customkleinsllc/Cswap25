@@ -9,7 +9,7 @@ import {
   ONE,
   Price,
   computePriceImpact,
-} from '@pancakeswap/sdk'
+} from '@CryptoSwap/sdk'
 
 import { TradeWithStableSwap } from './types'
 import { getMidPrice } from './utils/route'

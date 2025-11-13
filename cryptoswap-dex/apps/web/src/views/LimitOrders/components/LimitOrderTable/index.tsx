@@ -1,6 +1,6 @@
 import { useState, memo, useMemo } from 'react'
-import { Flex, Card, ButtonTabMenu } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Flex, Card, ButtonTabMenu } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import noop from 'lodash/noop'
 import useGelatoLimitOrdersHistory from '../../hooks/useGelatoLimitOrdersHistory'
 

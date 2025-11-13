@@ -1,4 +1,4 @@
-import { TranslateFunction } from '@pancakeswap/localization'
+import { TranslateFunction } from '@CryptoSwap/localization'
 import { HttpRequestError } from 'viem'
 import { parseViemError } from './errors'
 import { getLogger } from './datadog'

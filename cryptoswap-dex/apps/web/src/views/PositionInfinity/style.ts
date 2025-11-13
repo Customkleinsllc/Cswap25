@@ -1,4 +1,4 @@
-import { Card, CardHeader } from '@pancakeswap/uikit'
+import { Card, CardHeader } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 
 export const BodyWrapper = styled(Card)`

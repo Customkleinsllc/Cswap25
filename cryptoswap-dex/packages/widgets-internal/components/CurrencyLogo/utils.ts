@@ -1,6 +1,6 @@
-import { ChainId } from "@pancakeswap/chains";
-import { Currency, NATIVE, Token } from "@pancakeswap/sdk";
-import { bscTokens, ethereumTokens } from "@pancakeswap/tokens";
+import { ChainId } from "@CryptoSwap/chains";
+import { Currency, NATIVE, Token } from "@CryptoSwap/sdk";
+import { bscTokens, ethereumTokens } from "@CryptoSwap/tokens";
 import memoize from "lodash/memoize";
 import { getAddress } from "viem";
 import { CurrencyInfo } from "./types";

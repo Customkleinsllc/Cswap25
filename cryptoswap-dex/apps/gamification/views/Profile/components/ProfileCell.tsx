@@ -1,8 +1,8 @@
-import { Box, Flex, ProfileAvatar, Skeleton, Text } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Box, Flex, ProfileAvatar, Skeleton, Text } from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { styled } from 'styled-components'
 
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { useDomainNameForAddress } from 'hooks/useDomain'
 import { useProfileForAddress } from 'hooks/useProfile'
 

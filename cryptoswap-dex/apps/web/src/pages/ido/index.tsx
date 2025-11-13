@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { IdoPageLayout } from '../../views/Idos'
 import IDO from '../../views/Idos/ido'
 

@@ -1,4 +1,4 @@
-import { ifoV7ABI } from '@pancakeswap/ifos'
+import { ifoV7ABI } from '@CryptoSwap/ifos'
 import { useQuery } from '@tanstack/react-query'
 import { useMemo } from 'react'
 

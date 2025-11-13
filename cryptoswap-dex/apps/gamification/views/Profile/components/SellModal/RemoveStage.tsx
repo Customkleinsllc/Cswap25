@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, Flex, Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 const Divider = styled.div`

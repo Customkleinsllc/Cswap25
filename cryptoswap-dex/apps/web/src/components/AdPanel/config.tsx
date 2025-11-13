@@ -1,4 +1,4 @@
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useTradingCompetitionAds } from 'components/AdPanel/Ads/AdTradingCompetition'
 import { useMemo } from 'react'
 import { AdCrossChain } from './Ads/AdCrossChain'

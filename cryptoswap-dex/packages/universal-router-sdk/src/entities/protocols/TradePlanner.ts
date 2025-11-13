@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, TradeType } from '@CryptoSwap/sdk'
 import {
   ADDRESS_THIS,
   getPoolAddress,
@@ -9,9 +9,9 @@ import {
   SmartRouter,
   SmartRouterTrade,
   StablePool,
-} from '@pancakeswap/smart-router'
+} from '@CryptoSwap/smart-router'
 
-import { ACTIONS, ActionsPlanner, encodePoolKey } from '@pancakeswap/infinity-sdk'
+import { ACTIONS, ActionsPlanner, encodePoolKey } from '@CryptoSwap/infinity-sdk'
 import first from 'lodash/first'
 import last from 'lodash/last'
 import { Address, zeroAddress } from 'viem'

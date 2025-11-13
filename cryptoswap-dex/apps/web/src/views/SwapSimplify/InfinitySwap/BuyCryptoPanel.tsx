@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, FlexGap, InfoIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, FlexGap, InfoIcon, Text } from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { memo } from 'react'
 import { styled } from 'styled-components'

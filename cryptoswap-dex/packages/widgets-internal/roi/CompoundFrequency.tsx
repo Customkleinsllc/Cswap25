@@ -1,7 +1,7 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { memo, useCallback, useMemo } from "react";
 
-import { ButtonMenuItem, Flex, Checkbox } from "@pancakeswap/uikit";
+import { ButtonMenuItem, Flex, Checkbox } from "@CryptoSwap/uikit";
 import { FullWidthButtonMenu } from "./FullWidthButtonMenu";
 
 export const FREQUENCIES = ["12h", "1d", "7d", "30d"];

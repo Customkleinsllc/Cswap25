@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Button,
@@ -13,7 +13,7 @@ import {
   ModalTitle,
   Text,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { ReactNode, useCallback, useState } from 'react'
 import { styled } from 'styled-components'
 

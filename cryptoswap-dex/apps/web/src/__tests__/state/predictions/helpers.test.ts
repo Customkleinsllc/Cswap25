@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/no-loss-of-precision */
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { makeFutureRoundResponse, transformBetResponse, transformUserResponse } from 'state/predictions/helpers'
 import numberOrNull from 'utils/numberOrNull'
 

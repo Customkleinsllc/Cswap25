@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import styled from 'styled-components'
-import { ArrowDropDownIcon, ArrowDropUpIcon, AtomBox, AutoRow, Button, Flex, FlexGap, Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { ArrowDropDownIcon, ArrowDropUpIcon, AtomBox, AutoRow, Button, Flex, FlexGap, Text } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { WalletAdaptedNetwork, WalletConfigV3, WalletIds } from '../../types'
 import { WalletSelectItem, WalletSelectSection } from './WalletSelectSection'
 

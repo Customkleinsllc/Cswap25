@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 
 // Revalidate interval in milliseconds
 export const POOLS_FAST_REVALIDATE = {

@@ -1,4 +1,4 @@
-import { Token, getCurrencyAddress } from '@pancakeswap/swap-sdk-core'
+import { Token, getCurrencyAddress } from '@CryptoSwap/swap-sdk-core'
 import { useCurrencyByChainId } from 'hooks/Tokens'
 import { useMemo } from 'react'
 import { useChainIdByQuery } from 'state/info/hooks'

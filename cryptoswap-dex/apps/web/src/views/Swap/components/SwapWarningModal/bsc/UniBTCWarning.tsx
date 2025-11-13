@@ -1,5 +1,5 @@
-import { useTranslation, Trans } from '@pancakeswap/localization'
-import { Box, Link, Text } from '@pancakeswap/uikit'
+import { useTranslation, Trans } from '@CryptoSwap/localization'
+import { Box, Link, Text } from '@CryptoSwap/uikit'
 
 const LUSDWarning = () => {
   const { t } = useTranslation()

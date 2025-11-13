@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { Currency, isCurrencySorted } from '@pancakeswap/swap-sdk-core'
+import { Protocol } from '@CryptoSwap/farms'
+import { Currency, isCurrencySorted } from '@CryptoSwap/swap-sdk-core'
 import { useQuery } from '@tanstack/react-query'
 import { QUERY_SETTINGS_IMMUTABLE, QUERY_SETTINGS_WITHOUT_INTERVAL_REFETCH } from 'config/constants'
 import { InfinityProtocol } from 'config/constants/protocols'

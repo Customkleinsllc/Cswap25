@@ -1,4 +1,4 @@
-import type { Currency, Token, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import type { Currency, Token, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 
 import type { Pool } from './pool'
 import type { Route } from './route'

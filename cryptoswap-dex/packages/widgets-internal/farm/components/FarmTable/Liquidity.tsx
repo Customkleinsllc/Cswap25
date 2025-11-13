@@ -1,6 +1,6 @@
-import { TranslateFunction, useTranslation } from "@pancakeswap/localization";
-import { HelpIcon, Skeleton, Text, TooltipRefs, useTooltip } from "@pancakeswap/uikit";
-import getTimePeriods from "@pancakeswap/utils/getTimePeriods";
+import { TranslateFunction, useTranslation } from "@CryptoSwap/localization";
+import { HelpIcon, Skeleton, Text, TooltipRefs, useTooltip } from "@CryptoSwap/uikit";
+import getTimePeriods from "@CryptoSwap/utils/getTimePeriods";
 import dayjs from "dayjs";
 import { styled } from "styled-components";
 import { FarmTableLiquidityProps } from "../../types";

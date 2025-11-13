@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Button,
@@ -12,10 +12,10 @@ import {
   useToast,
   VisibilityOff,
   VisibilityOn,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { NextLinkFromReactRouter as ReactRouterLink } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatBalance'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
+import { NextLinkFromReactRouter as ReactRouterLink } from '@CryptoSwap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { Achievement } from 'config/constants/types'
 import { useDomainNameForAddress } from 'hooks/useDomain'

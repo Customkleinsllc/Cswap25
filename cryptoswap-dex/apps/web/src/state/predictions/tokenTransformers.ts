@@ -1,4 +1,4 @@
-import { BetPosition } from '@pancakeswap/prediction'
+import { BetPosition } from '@CryptoSwap/prediction'
 import numberOrNull from 'utils/numberOrNull'
 import { Bet, PredictionUser, Round } from '../types'
 import { BetResponseBNB } from './bnbQueries'

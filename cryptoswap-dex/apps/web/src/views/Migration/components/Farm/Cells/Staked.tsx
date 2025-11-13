@@ -1,11 +1,11 @@
-import { Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Flex, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import React, { useMemo } from 'react'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { formatLpBalance } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@CryptoSwap/localization'
+import { formatLpBalance } from '@CryptoSwap/utils/formatBalance'
 
 const StyledCell = styled(Pool.BaseCell)`
   flex: 0;

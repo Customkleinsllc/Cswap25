@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@CryptoSwap/sdk'
 import { pancakeRouter02ABI } from 'config/abi/IPancakeRouter02'
 import { BIPS_BASE, V2_ROUTER_ADDRESS } from 'config/constants/exchange'
 import { useActiveChainId } from 'hooks/useActiveChainId'

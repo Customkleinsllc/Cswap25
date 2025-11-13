@@ -1,4 +1,4 @@
-import { getChainName, isEvm } from '@pancakeswap/chains'
+import { getChainName, isEvm } from '@CryptoSwap/chains'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { useActiveChainIdRef } from 'hooks/useAccountActiveChain'
 import useAuth from 'hooks/useAuth'

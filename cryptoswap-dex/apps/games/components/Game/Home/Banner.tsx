@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowForwardIcon, Box, Flex, LinkExternal, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ArrowForwardIcon, Box, Flex, LinkExternal, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 const StyledContainer = styled(Box)`

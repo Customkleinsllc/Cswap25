@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Column, Skeleton, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Column, Skeleton, Text } from '@CryptoSwap/uikit'
 import React, { useMemo } from 'react'
 import { usePoolApr } from 'state/farmsV4/hooks'
 import { useAccountV3Position } from 'state/farmsV4/state/accountPositions/hooks/useAccountV3Position'

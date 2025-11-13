@@ -1,6 +1,6 @@
-import { isSolana } from '@pancakeswap/chains'
-import { HOOK_CATEGORY, findHook } from '@pancakeswap/infinity-sdk'
-import { OrderType } from '@pancakeswap/price-api-sdk'
+import { isSolana } from '@CryptoSwap/chains'
+import { HOOK_CATEGORY, findHook } from '@CryptoSwap/infinity-sdk'
+import { OrderType } from '@CryptoSwap/price-api-sdk'
 import {
   Currency,
   CurrencyAmount,
@@ -12,11 +12,11 @@ import {
   UnifiedCurrency,
   UnifiedCurrencyAmount,
   ZERO,
-} from '@pancakeswap/sdk'
-import { Route, SmartRouter, SmartRouterTrade } from '@pancakeswap/smart-router'
-import { formatPrice, parseNumberToFraction } from '@pancakeswap/utils/formatFractions'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
-import { displaySymbolWithChainName } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/sdk'
+import { Route, SmartRouter, SmartRouterTrade } from '@CryptoSwap/smart-router'
+import { formatPrice, parseNumberToFraction } from '@CryptoSwap/utils/formatFractions'
+import { FeeAmount } from '@CryptoSwap/v3-sdk'
+import { displaySymbolWithChainName } from '@CryptoSwap/widgets-internal'
 
 import { BIPS_BASE, INPUT_FRACTION_AFTER_FEE } from 'config/constants/exchange'
 import last from 'lodash/last'

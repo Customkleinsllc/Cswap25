@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { TokenList, Version } from '@pancakeswap/token-lists'
+import { useTranslation } from '@CryptoSwap/localization'
+import { TokenList, Version } from '@CryptoSwap/token-lists'
 import {
   acceptListUpdate,
   disableList,
   enableList,
   removeList,
   useFetchListCallback,
-} from '@pancakeswap/token-lists/react'
+} from '@CryptoSwap/token-lists/react'
 import {
   AutoColumn,
   Button,
@@ -19,10 +19,10 @@ import {
   Toggle,
   useConfirm,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { ListLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { ListLogo } from '@CryptoSwap/widgets-internal'
 
-import uriToHttp from '@pancakeswap/utils/uriToHttp'
+import uriToHttp from '@CryptoSwap/utils/uriToHttp'
 import Card from 'components/Card'
 import { MULTI_CHAIN_LIST_URLS, UNSUPPORTED_LIST_URLS } from 'config/constants/lists'
 import { useAtomValue } from 'jotai'

@@ -1,4 +1,4 @@
-import { NoProfileAvatarIcon } from '@pancakeswap/uikit'
+import { NoProfileAvatarIcon } from '@CryptoSwap/uikit'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { Profile } from 'hooks/useProfile/type'
 import { styled } from 'styled-components'

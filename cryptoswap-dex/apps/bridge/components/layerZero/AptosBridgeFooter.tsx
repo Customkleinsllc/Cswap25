@@ -1,5 +1,5 @@
 import PoweredBy from 'components/layerZero/PoweredBy'
-import { LinkExternal } from '@pancakeswap/uikit'
+import { LinkExternal } from '@CryptoSwap/uikit'
 
 const AptosBridgeFooter = ({ isCake }: { isCake?: boolean }) => {
   return (

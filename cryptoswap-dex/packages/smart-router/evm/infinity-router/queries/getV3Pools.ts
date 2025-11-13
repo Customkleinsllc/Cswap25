@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { multicallByGasLimit } from '@pancakeswap/multicall'
-import { BigintIsh, Currency } from '@pancakeswap/sdk'
-import { FeeAmount, TICK_SPACINGS, Tick } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { multicallByGasLimit } from '@CryptoSwap/multicall'
+import { BigintIsh, Currency } from '@CryptoSwap/sdk'
+import { FeeAmount, TICK_SPACINGS, Tick } from '@CryptoSwap/v3-sdk'
 import { Address, decodeFunctionResult, encodeFunctionData } from 'viem'
 
 import { tickLensAbi } from '../../abis/ITickLens'

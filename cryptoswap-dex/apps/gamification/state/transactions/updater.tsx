@@ -1,6 +1,6 @@
-import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
+import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
+import { useToast } from '@CryptoSwap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { BSC_BLOCK_TIME } from 'config'
 import forEach from 'lodash/forEach'
@@ -16,7 +16,7 @@ import {
   WaitForTransactionReceiptTimeoutError,
 } from 'viem'
 import { usePublicClient } from 'wagmi'
-import { useFetchBlockData } from '@pancakeswap/wagmi'
+import { useFetchBlockData } from '@CryptoSwap/wagmi'
 import { finalizeTransaction } from './actions'
 import { useAllChainTransactions } from './hooks'
 import { TransactionDetails } from './reducer'

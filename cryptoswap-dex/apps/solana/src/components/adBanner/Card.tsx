@@ -1,6 +1,6 @@
-import { Box, BoxProps, CloseIcon, IconButton, useMatchBreakpoints } from '@pancakeswap/uikit'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
-import { useShowAdPanel } from '@pancakeswap/widgets-internal'
+import { Box, BoxProps, CloseIcon, IconButton, useMatchBreakpoints } from '@CryptoSwap/uikit'
+import isUndefinedOrNull from '@CryptoSwap/utils/isUndefinedOrNull'
+import { useShowAdPanel } from '@CryptoSwap/widgets-internal'
 import { forwardRef, useEffect, useRef, useState } from 'react'
 import styled from 'styled-components'
 

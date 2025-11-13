@@ -4,7 +4,7 @@ import {
   CardBody as RawCardBody,
   CardFooter as RawCardFooter,
   CardHeader as RawCardHeader,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 
 export const Card = styled(RawCard)`
   overflow: initial;

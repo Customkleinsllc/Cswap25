@@ -4,7 +4,7 @@ import {
   ResponseArticleType,
   fetchAPI,
   transformArticle,
-} from '@pancakeswap/blog'
+} from '@CryptoSwap/blog'
 import { useQuery } from '@tanstack/react-query'
 import qs from 'qs'
 

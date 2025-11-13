@@ -1,10 +1,10 @@
 import dynamic from 'next/dynamic'
 import { CSSProperties, memo, useCallback, useMemo, useRef, useState } from 'react'
 
-import { AutoColumn, Button, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { AutoColumn, Button, useMatchBreakpoints } from '@CryptoSwap/uikit'
 
-import { useTranslation } from '@pancakeswap/localization'
-import replaceBrowserHistoryMultiple from '@pancakeswap/utils/replaceBrowserHistoryMultiple'
+import { useTranslation } from '@CryptoSwap/localization'
+import replaceBrowserHistoryMultiple from '@CryptoSwap/utils/replaceBrowserHistoryMultiple'
 
 import { AutoRow } from 'components/Layout/Row'
 
@@ -13,8 +13,8 @@ import { useSwapState } from 'state/swap/hooks'
 import { useSwapActionHandlers } from 'state/swap/useSwapActionHandlers'
 import { keyframes, styled } from 'styled-components'
 
-import { useTheme } from '@pancakeswap/hooks'
-import { SwapUIV2 } from '@pancakeswap/widgets-internal'
+import { useTheme } from '@CryptoSwap/hooks'
+import { SwapUIV2 } from '@CryptoSwap/widgets-internal'
 import { LottieRefCurrentProps } from 'lottie-react'
 
 import { CHAIN_QUERY_NAME } from 'config/chains'

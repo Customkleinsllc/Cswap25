@@ -1,5 +1,5 @@
-import { getPermit2Address } from '@pancakeswap/permit2-sdk'
-import { Currency, Token } from '@pancakeswap/swap-sdk-core'
+import { getPermit2Address } from '@CryptoSwap/permit2-sdk'
+import { Currency, Token } from '@CryptoSwap/swap-sdk-core'
 import { Address } from 'viem'
 import { useActiveChainId } from './useActiveChainId'
 import { useTokenAllowanceByChainId } from './useTokenAllowance'

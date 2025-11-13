@@ -1,6 +1,6 @@
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@CryptoSwap/uikit'
 import { Flex, Text, HStack, Spacer } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { KeyboardEvent, useCallback, useState } from 'react'
 import Decimal from 'decimal.js'
 import DecimalInput from '@/components/DecimalInput'

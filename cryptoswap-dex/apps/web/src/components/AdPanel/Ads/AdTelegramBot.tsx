@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { TelegramIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { TelegramIcon } from '@CryptoSwap/uikit'
 import { BodyText } from '../BodyText'
 import { AdButton } from '../Button'
 import { AdCard } from '../Card'

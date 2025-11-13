@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AtomBox,
   CloseIcon,
@@ -10,7 +10,7 @@ import {
   Text,
   Toggle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useAtomValue } from 'jotai'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ASSET_CDN } from '../../config/url'

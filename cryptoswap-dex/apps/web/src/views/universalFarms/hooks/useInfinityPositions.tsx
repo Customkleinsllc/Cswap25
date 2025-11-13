@@ -1,5 +1,5 @@
-import { ALL_PROTOCOLS, Protocol } from '@pancakeswap/farms'
-import { INetworkProps, ITokenProps, toTokenValue } from '@pancakeswap/widgets-internal'
+import { ALL_PROTOCOLS, Protocol } from '@CryptoSwap/farms'
+import { INetworkProps, ITokenProps, toTokenValue } from '@CryptoSwap/widgets-internal'
 import intersection from 'lodash/intersection'
 import { useCallback, useMemo } from 'react'
 import { useAccountInfinityBinPositions, useAccountInfinityCLPositions } from 'state/farmsV4/hooks'

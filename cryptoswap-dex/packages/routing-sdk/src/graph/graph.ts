@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Currency } from '@CryptoSwap/swap-sdk-core'
 import memoize from 'lodash/memoize.js'
 import invariant from 'tiny-invariant'
 

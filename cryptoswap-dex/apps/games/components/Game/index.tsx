@@ -1,5 +1,5 @@
-import { GameType } from '@pancakeswap/games'
-import { Box } from '@pancakeswap/uikit'
+import { GameType } from '@CryptoSwap/games'
+import { Box } from '@CryptoSwap/uikit'
 import { Decorations } from 'components/Game/Decorations'
 import { Banner } from 'components/Game/Home/Banner'
 import { Game } from 'components/Game/Home/Game'

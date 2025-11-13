@@ -1,6 +1,6 @@
-import { Flex, Button, Text } from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
+import { Flex, Button, Text } from '@CryptoSwap/uikit'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
+import { SPLToken } from '@CryptoSwap/swap-sdk-core'
 import { CSSProperties } from 'react'
 
 interface SolanaImportRowProps {

@@ -1,4 +1,4 @@
-import { ArrowForwardIcon, Button, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { ArrowForwardIcon, Button, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useHoverContext } from 'hooks/useHover'
 import { useRouter } from 'next/router'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { Language, languageList, useTranslation } from "@pancakeswap/localization";
+import { Language, languageList, useTranslation } from "@CryptoSwap/localization";
 import { Box, LangSelector } from "../../../components";
 
 export type LocaleSelectorProps = {

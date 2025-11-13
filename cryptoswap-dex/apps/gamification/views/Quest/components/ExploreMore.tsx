@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, FlexGap, Link, OpenNewIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, FlexGap, Link, OpenNewIcon, Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 // import { Quest } from 'views/Quests/components/Quest'
 

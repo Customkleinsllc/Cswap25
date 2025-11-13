@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, CardProps, DotIcon, FlexGap, InfoIcon, QuestionHelperV2, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, CardProps, DotIcon, FlexGap, InfoIcon, QuestionHelperV2, Text } from '@CryptoSwap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip, TooltipProps } from 'recharts'
 import styled from 'styled-components'

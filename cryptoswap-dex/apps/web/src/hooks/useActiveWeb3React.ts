@@ -1,4 +1,4 @@
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { useWeb3React } from '@CryptoSwap/wagmi'
 import { useActiveChainId } from './useActiveChainId'
 
 /**

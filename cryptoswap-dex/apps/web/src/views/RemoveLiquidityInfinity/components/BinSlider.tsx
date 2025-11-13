@@ -1,4 +1,4 @@
-import { bunnyHeadMain, bunnyHeadMax } from '@pancakeswap/uikit/components/Slider/styles'
+import { bunnyHeadMain, bunnyHeadMax } from '@CryptoSwap/uikit/components/Slider/styles'
 import Slider, { SliderProps } from 'rc-slider'
 import 'rc-slider/assets/index.css'
 import styled from 'styled-components'

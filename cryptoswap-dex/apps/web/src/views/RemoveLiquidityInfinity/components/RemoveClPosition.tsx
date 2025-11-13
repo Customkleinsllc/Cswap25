@@ -1,10 +1,10 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { useTheme } from '@pancakeswap/hooks'
-import { getPoolId } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { zeroAddress } from '@pancakeswap/price-api-sdk'
+import { useTheme } from '@CryptoSwap/hooks'
+import { getPoolId } from '@CryptoSwap/infinity-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { zeroAddress } from '@CryptoSwap/price-api-sdk'
 import { LiquiditySlippageButton, SlippageButton } from 'views/Swap/components/SlippageButton'
-import { Percent } from '@pancakeswap/swap-sdk-core'
+import { Percent } from '@CryptoSwap/swap-sdk-core'
 import {
   ArrowDownIcon,
   Button,
@@ -18,9 +18,9 @@ import {
   Slider,
   Text,
   Toggle,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+} from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatNumber'
+import { useUserSlippage } from '@CryptoSwap/utils/user'
 import { LightGreyCard } from 'components/Card'
 import Divider from 'components/Divider'
 import FormattedCurrencyAmount from 'components/FormattedCurrencyAmount/FormattedCurrencyAmount'

@@ -1,6 +1,6 @@
-import { Pool, Position } from '@pancakeswap/v3-sdk'
+import { Pool, Position } from '@CryptoSwap/v3-sdk'
 import { useCurrency } from 'hooks/Tokens'
-import { PositionDetails } from '@pancakeswap/farms'
+import { PositionDetails } from '@CryptoSwap/farms'
 import { usePool } from './usePools'
 
 export function useDerivedPositionInfo(positionDetails: PositionDetails | undefined): {

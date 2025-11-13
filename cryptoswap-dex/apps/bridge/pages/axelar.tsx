@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { SquidWidget } from '@0xsquid/widget'
 import { AppConfig } from '@0xsquid/widget/widget/core/types/config'
-import { Box, PancakeTheme } from '@pancakeswap/uikit'
+import { Box, PancakeTheme } from '@CryptoSwap/uikit'
 import { useTheme } from 'styled-components'
 import PageContainer from 'components/Page'
 

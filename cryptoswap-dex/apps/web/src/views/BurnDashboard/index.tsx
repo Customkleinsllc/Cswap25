@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoColumn,
   Box,
@@ -9,8 +9,8 @@ import {
   Skeleton,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 import styled from 'styled-components'
 import { BurnLastSevenDaysCard } from './components/burns/BurnLastSevenDaysCard'

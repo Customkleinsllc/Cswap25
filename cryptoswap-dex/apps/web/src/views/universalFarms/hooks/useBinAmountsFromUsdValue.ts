@@ -1,4 +1,4 @@
-import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import BN from 'bignumber.js'
 import { useMemo } from 'react'
 

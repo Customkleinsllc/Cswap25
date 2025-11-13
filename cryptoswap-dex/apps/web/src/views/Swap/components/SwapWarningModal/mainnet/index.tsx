@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import SwapWarningTokensConfig from 'config/constants/swapWarningTokens'
 import ALETHWarning from './ALETHWarning'
 

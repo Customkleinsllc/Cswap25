@@ -1,6 +1,6 @@
-import { TrendingTagType } from '@pancakeswap/games'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Text } from '@pancakeswap/uikit'
+import { TrendingTagType } from '@CryptoSwap/games'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, Flex, Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 export const StyledTag = styled(Button)<{ $isPurple?: boolean }>`

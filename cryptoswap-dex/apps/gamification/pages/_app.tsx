@@ -1,5 +1,5 @@
-import { LanguageProvider } from '@pancakeswap/localization'
-import { ModalProvider, PancakeTheme, ResetCSS, ToastListener, UIKitProvider, dark, light } from '@pancakeswap/uikit'
+import { LanguageProvider } from '@CryptoSwap/localization'
+import { ModalProvider, PancakeTheme, ResetCSS, ToastListener, UIKitProvider, dark, light } from '@CryptoSwap/uikit'
 import { HydrationBoundary, QueryClient, QueryClientProvider } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import { NetworkModal } from 'components/NetworkModal'

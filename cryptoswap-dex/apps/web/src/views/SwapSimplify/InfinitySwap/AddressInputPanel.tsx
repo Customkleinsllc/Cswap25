@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, BscScanIcon, FlexGap, Link, SwapCSS, Text } from '@pancakeswap/uikit'
+import { ChainId } from '@CryptoSwap/chains'
+import { useDebounce } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoColumn, BscScanIcon, FlexGap, Link, SwapCSS, Text } from '@CryptoSwap/uikit'
 
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useGetENSAddressByName } from 'hooks/useGetENSAddressByName'

@@ -11,9 +11,9 @@ import {
   SyncAltIcon,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { CurrencyLogo, DoubleCurrencyLogo } from 'components/Logo'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useCallback, useState } from 'react'
 import SwapChart from './SwapChart'
 import { StyledPriceChart } from './styles'

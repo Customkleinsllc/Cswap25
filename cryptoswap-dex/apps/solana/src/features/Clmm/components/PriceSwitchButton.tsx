@@ -1,5 +1,5 @@
-import { SwapHorizIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { SwapHorizIcon } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { Button } from '@chakra-ui/react'
 import { colors } from '@/theme/cssVariables/colors'
 

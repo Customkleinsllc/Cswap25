@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoColumn,
   Box,
@@ -15,8 +15,8 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 
 import Page from 'components/Layout/Page'
 import { TabToggle, TabToggleGroup } from 'components/TabToggle'
@@ -30,9 +30,9 @@ import { useEffect, useMemo, useState } from 'react'
 import { getBlockExploreLink, safeGetAddress } from 'utils'
 import { formatAmount } from 'utils/formatInfoNumbers'
 
-import { CAKE, USDT } from '@pancakeswap/tokens'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { CAKE, USDT } from '@CryptoSwap/tokens'
+import isUndefinedOrNull from '@CryptoSwap/utils/isUndefinedOrNull'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { getSelectInfinityLiquidityURL } from 'config/constants/liquidity'
 import { ChainLinkSupportChains, multiChainId, multiChainScan } from 'state/info/constant'
 import {

@@ -1,6 +1,6 @@
 import { Wallet as SolanaWalletAdapter } from '@solana/wallet-adapter-react'
 import { WalletName, WalletReadyState } from '@solana/wallet-adapter-base'
-import safeGetWindow from '@pancakeswap/utils/safeGetWindow'
+import safeGetWindow from '@CryptoSwap/utils/safeGetWindow'
 import { WalletAdaptedNetwork, WalletConfigV3 } from '../types'
 import { WalletIds } from './walletIds'
 import { EvmConnectorNames, SolanaWalletNames, SolanaConnectorNames } from './connectorNames'

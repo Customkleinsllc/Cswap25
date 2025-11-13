@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { LinkExternal, Text } from '@pancakeswap/uikit'
-import { displayApr } from '@pancakeswap/utils/displayApr'
+import { useTranslation } from '@CryptoSwap/localization'
+import { LinkExternal, Text } from '@CryptoSwap/uikit'
+import { displayApr } from '@CryptoSwap/utils/displayApr'
 import { PropsWithChildren } from 'react'
 import styled from 'styled-components'
 

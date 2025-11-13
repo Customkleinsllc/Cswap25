@@ -1,6 +1,6 @@
-import { Currency } from '@pancakeswap/sdk'
-import { Box, Flex } from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { Currency } from '@CryptoSwap/sdk'
+import { Box, Flex } from '@CryptoSwap/uikit'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { styled } from 'styled-components'
 

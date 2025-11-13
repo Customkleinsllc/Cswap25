@@ -1,4 +1,4 @@
-import type { TranslateFunction } from '@pancakeswap/localization'
+import type { TranslateFunction } from '@CryptoSwap/localization'
 import { SubsctiptionType } from '../types'
 
 export const getOnBoardingButtonText = (

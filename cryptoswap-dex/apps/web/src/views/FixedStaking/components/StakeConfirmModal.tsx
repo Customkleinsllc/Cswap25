@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { PreTitle, Flex, Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { PreTitle, Flex, Box, Text } from '@CryptoSwap/uikit'
 import { GreyCard } from 'components/Card'
-import { CurrencyAmount, Percent } from '@pancakeswap/sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { CurrencyAmount, Percent } from '@CryptoSwap/sdk'
+import { Currency } from '@CryptoSwap/swap-sdk-core'
 
 import FixedStakingOverview from './FixedStakingOverview'
 import { AmountWithUSDSub } from './AmountWithUSDSub'

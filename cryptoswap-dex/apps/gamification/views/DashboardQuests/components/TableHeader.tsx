@@ -1,10 +1,10 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { StyledCell } from 'views/DashboardCampaigns/components/TableStyle'
 import { SortBy, Touchable } from 'views/DashboardQuests/components/SortButton'
-// import { Box, SortArrowIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+// import { Box, SortArrowIcon, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 // import { SortButton, SortBy, Touchable, getSortClassName } from 'views/DashboardQuests/components/SortButton'
 
 const StyledRow = styled('div')`

@@ -1,4 +1,4 @@
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ERC20Token } from '@CryptoSwap/sdk'
 import { useQuery } from '@tanstack/react-query'
 import { SLOW_INTERVAL } from 'config/constants'
 import { useOfficialsAndUserAddedTokensByChainIds } from 'hooks/Tokens'

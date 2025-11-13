@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Box, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoColumn, Box, Text } from '@CryptoSwap/uikit'
 import useTheme from 'hooks/useTheme'
 import { DensityChartEntry, PoolDataForView } from 'state/info/types'
 import { styled } from 'styled-components'

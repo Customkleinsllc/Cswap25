@@ -1,5 +1,5 @@
-import type { ExclusiveDutchOrderInfoJSON, ExclusiveDutchOrderTrade } from '@pancakeswap/pcsx-sdk'
-import type { InfinityRouter, Route, RouteType } from '@pancakeswap/smart-router'
+import type { ExclusiveDutchOrderInfoJSON, ExclusiveDutchOrderTrade } from '@CryptoSwap/pcsx-sdk'
+import type { InfinityRouter, Route, RouteType } from '@CryptoSwap/smart-router'
 import type {
   Currency,
   CurrencyAmount,
@@ -7,7 +7,7 @@ import type {
   SPLToken,
   TradeType,
   UnifiedCurrencyAmount,
-} from '@pancakeswap/swap-sdk-core'
+} from '@CryptoSwap/swap-sdk-core'
 import type { AMMOrder } from './amm'
 import { Hex } from './common'
 import { OrderType } from './orderType'

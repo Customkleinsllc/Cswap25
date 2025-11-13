@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@CryptoSwap/uikit'
 import {
   Flex,
   Image,
@@ -14,7 +14,7 @@ import {
   useClipboard
 } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { colors } from '@/theme/cssVariables/colors'
 import { encodeStr } from '@/utils/common'
 import CopyIcon from '@/icons/misc/CopyIcon'

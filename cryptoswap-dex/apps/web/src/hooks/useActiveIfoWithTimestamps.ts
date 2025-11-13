@@ -1,4 +1,4 @@
-import { Ifo, ifoV7ABI } from '@pancakeswap/ifos'
+import { Ifo, ifoV7ABI } from '@CryptoSwap/ifos'
 import { useQuery } from '@tanstack/react-query'
 
 import { publicClient } from 'utils/wagmi'

@@ -1,6 +1,6 @@
 import { useState } from 'react'
-import { Text } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { SelectButton } from 'components/SelectButton'
 import { EvenWidthAutoRow } from 'components/Layout/EvenWidthAutoRow'
 import { TOTAL_FEE } from 'config/constants/info'

@@ -1,5 +1,5 @@
-import { ERC20Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { ERC20Token } from '@CryptoSwap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
 import getLpAddress from 'utils/getLpAddress'
 
 const CAKE_AS_STRING = '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82'

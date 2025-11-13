@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ContextApi } from '@pancakeswap/localization'
-import { OptionProps } from '@pancakeswap/uikit'
+import { ChainId } from '@CryptoSwap/chains'
+import { ContextApi } from '@CryptoSwap/localization'
+import { OptionProps } from '@CryptoSwap/uikit'
 import {
   EventInformation,
   PancakeNotificationBuilders,

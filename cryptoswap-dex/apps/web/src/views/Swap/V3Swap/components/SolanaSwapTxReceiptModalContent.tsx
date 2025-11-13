@@ -1,8 +1,8 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Image, Link } from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { solanaExplorerAtom } from '@pancakeswap/utils/user'
-import { SwapTransactionReceiptModalContent } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Image, Link } from '@CryptoSwap/uikit'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
+import { solanaExplorerAtom } from '@CryptoSwap/utils/user'
+import { SwapTransactionReceiptModalContent } from '@CryptoSwap/widgets-internal'
 import { useAtomValue } from 'jotai'
 import { useMemo } from 'react'
 

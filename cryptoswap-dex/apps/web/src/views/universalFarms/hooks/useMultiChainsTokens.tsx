@@ -1,5 +1,5 @@
-import { ChainId, ERC20Token } from '@pancakeswap/sdk'
-import type { TokenInfo } from '@pancakeswap/token-lists'
+import { ChainId, ERC20Token } from '@CryptoSwap/sdk'
+import type { TokenInfo } from '@CryptoSwap/token-lists'
 import {
   PANCAKE_ARB_DEFAULT,
   PANCAKE_BASE_DEFAULT,

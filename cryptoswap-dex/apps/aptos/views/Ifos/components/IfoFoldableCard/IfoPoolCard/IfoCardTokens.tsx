@@ -1,7 +1,7 @@
-import { Currency } from '@pancakeswap/aptos-swap-sdk'
-import { useAccount } from '@pancakeswap/awgmi'
-import { getBalanceNumber, getFullDisplayBalance } from '@pancakeswap/utils/formatBalance'
-import { useTranslation } from '@pancakeswap/localization'
+import { Currency } from '@CryptoSwap/aptos-swap-sdk'
+import { useAccount } from '@CryptoSwap/awgmi'
+import { getBalanceNumber, getFullDisplayBalance } from '@CryptoSwap/utils/formatBalance'
+import { useTranslation } from '@CryptoSwap/localization'
 
 import {
   Text,
@@ -18,7 +18,7 @@ import {
   IfoPercentageOfTotal,
   IfoVestingAvailableToClaim,
   BalanceWithLoading,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { TokenImage, TokenPairImage } from 'components/TokenImage'
 import { Ifo, PoolIds } from 'config/constants/types'
 import { PublicIfoData, WalletIfoData } from 'views/Ifos/types'

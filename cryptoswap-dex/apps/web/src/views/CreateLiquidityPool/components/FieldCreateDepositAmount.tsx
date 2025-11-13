@@ -1,4 +1,4 @@
-import { Box, BoxProps } from '@pancakeswap/uikit'
+import { Box, BoxProps } from '@CryptoSwap/uikit'
 import { FieldDepositAmount } from 'components/Liquidity/Form/FieldDepositAmount'
 import { useSelectIdRouteParams } from 'hooks/dynamicRoute/useSelectIdRoute'
 import { useCreateDepositAmounts, useCreateDepositAmountsEnabled } from '../hooks/useCreateDepositAmounts'

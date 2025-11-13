@@ -1,4 +1,4 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
 import {
   AutoRow,
   Button,
@@ -10,14 +10,14 @@ import {
   Text,
   TooltipText,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { LightGreyCard } from 'components/Card'
 
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@CryptoSwap/chains'
+import { Currency, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import { getMerklLink } from 'utils/getMerklLink'
-import { Protocol } from '@pancakeswap/farms'
+import { Protocol } from '@CryptoSwap/farms'
 import useMerkl from '../../hooks/useMerkl'
 
 function TextWarning({ tokenAmount }: { tokenAmount: CurrencyAmount<Currency> }) {

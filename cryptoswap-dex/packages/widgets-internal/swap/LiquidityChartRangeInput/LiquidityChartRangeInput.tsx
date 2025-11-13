@@ -1,7 +1,7 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency, Price } from "@pancakeswap/swap-sdk-core";
-import { AutoColumn, BunnyKnownPlaceholder, ChartDisableIcon, LineGraphIcon } from "@pancakeswap/uikit";
-import { FeeAmount } from "@pancakeswap/v3-sdk";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Currency, Price } from "@CryptoSwap/swap-sdk-core";
+import { AutoColumn, BunnyKnownPlaceholder, ChartDisableIcon, LineGraphIcon } from "@CryptoSwap/uikit";
+import { FeeAmount } from "@CryptoSwap/v3-sdk";
 import * as Sentry from "@sentry/nextjs";
 import { format } from "d3";
 import { saturate } from "polished";

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, CheckmarkCircleFillIcon, CircleLoader, FlexGap, InfoIcon, Input, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, CheckmarkCircleFillIcon, CircleLoader, FlexGap, InfoIcon, Input, Text } from '@CryptoSwap/uikit'
 import Divider from 'components/Divider'
 import { useLayoutEffect, useRef } from 'react'
 import styled from 'styled-components'

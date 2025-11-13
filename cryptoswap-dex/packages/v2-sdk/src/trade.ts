@@ -1,5 +1,5 @@
-import { Currency, Percent, TradeType } from '@pancakeswap/swap-sdk-core'
-import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from '@pancakeswap/swap-sdk-evm'
+import { Currency, Percent, TradeType } from '@CryptoSwap/swap-sdk-core'
+import { ONE_HUNDRED_PERCENT, ZERO_PERCENT } from '@CryptoSwap/swap-sdk-evm'
 
 import { Trade } from './entities'
 

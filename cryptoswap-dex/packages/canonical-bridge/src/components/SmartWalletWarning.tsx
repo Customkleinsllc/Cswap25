@@ -1,6 +1,6 @@
 import { useBytecode } from 'wagmi'
-import { useTranslation } from '@pancakeswap/localization'
-import { Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Message, MessageText } from '@CryptoSwap/uikit'
 import { useMemo } from 'react'
 import { useChainFromWidget } from '../hooks/useChainFromWidget'
 import { chains } from '../configs'

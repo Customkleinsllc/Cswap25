@@ -1,4 +1,4 @@
-import { Card } from '@pancakeswap/uikit'
+import { Card } from '@CryptoSwap/uikit'
 import DefaultCard from 'components/Card'
 import styled from 'styled-components'
 

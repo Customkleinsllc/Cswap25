@@ -1,17 +1,17 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ChainId, Currency, CurrencyAmount, Token, TradeType } from '@CryptoSwap/sdk'
 import { useCallback, useMemo } from 'react'
 
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
-import { Box, BscScanIcon, Flex, InjectedModalProps, Link } from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { WrappedTokenInfo } from '@CryptoSwap/token-lists'
+import { Box, BscScanIcon, Flex, InjectedModalProps, Link } from '@CryptoSwap/uikit'
+import { formatAmount } from '@CryptoSwap/utils/formatFractions'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import {
   ApproveModalContent,
   ConfirmModalState,
   SwapPendingModalContent,
   SwapTransactionReceiptModalContent,
-} from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/widgets-internal'
 import AddToWalletButton, { AddToWalletTextOptions } from 'components/AddToWallet/AddToWalletButton'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useAutoSlippageWithFallback } from 'hooks/useAutoSlippageWithFallback'
@@ -21,7 +21,7 @@ import { useBlockExploreLink, useBlockExploreName } from 'utils'
 import { wrappedCurrency } from 'utils/wrappedCurrency'
 import ConfirmSwapModalContainer from 'views/Swap/components/ConfirmSwapModalContainer'
 import { SwapTransactionErrorContent } from 'views/Swap/components/SwapTransactionErrorContent'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@CryptoSwap/chains'
 
 import { Hash } from 'viem'
 import { EVMInterfaceOrder, InterfaceOrder, isXOrder } from 'views/Swap/utils'

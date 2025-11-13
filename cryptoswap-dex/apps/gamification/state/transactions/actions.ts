@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { createAction } from '@reduxjs/toolkit'
 
 export type TransactionType = 'approve' | 'swap'

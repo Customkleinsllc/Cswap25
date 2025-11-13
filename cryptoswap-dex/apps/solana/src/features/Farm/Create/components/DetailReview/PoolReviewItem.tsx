@@ -1,6 +1,6 @@
 import { Box, HStack, Text } from '@chakra-ui/react'
-import { ApiV3PoolInfoItem } from '@pancakeswap/solana-core-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { ApiV3PoolInfoItem } from '@CryptoSwap/solana-core-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
 import { Desktop, Mobile } from '@/components/MobileDesktop'
 import { QuestionToolTip } from '@/components/QuestionToolTip'
 import TokenAvatarPair from '@/components/TokenAvatarPair'

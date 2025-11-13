@@ -1,5 +1,5 @@
-import { UnifiedCurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { formatScientificToDecimal } from '@pancakeswap/utils/formatNumber'
+import { UnifiedCurrencyAmount } from '@CryptoSwap/swap-sdk-core'
+import { formatScientificToDecimal } from '@CryptoSwap/utils/formatNumber'
 import { useQuery } from '@tanstack/react-query'
 import { useUnifiedCurrency } from 'hooks/Tokens'
 import { useMemo } from 'react'

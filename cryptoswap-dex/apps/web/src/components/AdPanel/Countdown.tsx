@@ -1,6 +1,6 @@
-import { useCountdown } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps } from '@pancakeswap/uikit'
+import { useCountdown } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, BoxProps } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 
 const CountDownWrapper = styled(Box)`

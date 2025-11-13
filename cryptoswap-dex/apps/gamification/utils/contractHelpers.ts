@@ -8,7 +8,7 @@ import {
 } from 'utils/addressHelpers'
 
 // ABI
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { bunnyFactoryABI } from 'config/abi/bunnyFactory'
 import { nftMarketABI } from 'config/abi/nftMarket'
 import { pancakeProfileABI } from 'config/abi/pancakeProfile'

@@ -1,5 +1,5 @@
-import { Box, Button, Flex, InputProps } from '@pancakeswap/uikit'
-import { scales } from '@pancakeswap/uikit/components/PancakeToggle/types'
+import { Box, Button, Flex, InputProps } from '@CryptoSwap/uikit'
+import { scales } from '@CryptoSwap/uikit/components/PancakeToggle/types'
 import { AppBody } from 'components/App'
 import { DefaultTheme, css, styled } from 'styled-components'
 

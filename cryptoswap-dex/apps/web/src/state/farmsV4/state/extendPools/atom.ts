@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Protocol, supportedChainIdV4 } from '@pancakeswap/farms'
+import { ChainId } from '@CryptoSwap/chains'
+import { Protocol, supportedChainIdV4 } from '@CryptoSwap/farms'
 import { atom, useAtom, useAtomValue } from 'jotai'
 import isEqual from 'lodash/isEqual'
 import uniqWith from 'lodash/uniqWith'

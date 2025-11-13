@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/sdk'
-import { CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@CryptoSwap/sdk'
+import { CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import useNativeCurrency from 'hooks/useNativeCurrency'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
 import { useMemo } from 'react'

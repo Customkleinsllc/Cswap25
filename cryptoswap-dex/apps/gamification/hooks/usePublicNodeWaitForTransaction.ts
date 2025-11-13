@@ -1,4 +1,4 @@
-import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@pancakeswap/chains'
+import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@CryptoSwap/chains'
 import { BSC_BLOCK_TIME } from 'config'
 import { CHAINS } from 'config/chains'
 import first from 'lodash/first'
@@ -16,7 +16,7 @@ import {
   http,
 } from 'viem'
 import { usePublicClient } from 'wagmi'
-import { useFetchBlockData } from '@pancakeswap/wagmi'
+import { useFetchBlockData } from '@CryptoSwap/wagmi'
 import { useActiveChainId } from './useActiveChainId'
 
 export const viemClientsPublicNodes = CHAINS.reduce((prev, cur) => {

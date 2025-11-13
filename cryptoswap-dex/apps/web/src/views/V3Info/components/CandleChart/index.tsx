@@ -1,4 +1,4 @@
-import { baseColors, darkColors, lightColors } from '@pancakeswap/uikit'
+import { baseColors, darkColors, lightColors } from '@CryptoSwap/uikit'
 import dayjs from 'dayjs'
 import utc from 'dayjs/plugin/utc'
 import useTheme from 'hooks/useTheme'

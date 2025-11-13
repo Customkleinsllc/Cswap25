@@ -1,4 +1,4 @@
-import { Flex } from '@pancakeswap/uikit'
+import { Flex } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 
 export const SecondaryCard = styled(Flex)`

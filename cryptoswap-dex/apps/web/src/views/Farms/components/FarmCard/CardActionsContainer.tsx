@@ -1,6 +1,6 @@
-import { FarmWithStakedValue } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { AtomBox, Flex, RowBetween, Skeleton, Text } from '@pancakeswap/uikit'
+import { FarmWithStakedValue } from '@CryptoSwap/farms'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AtomBox, Flex, RowBetween, Skeleton, Text } from '@CryptoSwap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 
 import { useMemo } from 'react'

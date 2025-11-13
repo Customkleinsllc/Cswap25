@@ -1,4 +1,4 @@
-import { Box, Flex, Spinner, Text } from '@pancakeswap/uikit'
+import { Box, Flex, Spinner, Text } from '@CryptoSwap/uikit'
 
 interface LoadingProps {
   title: string

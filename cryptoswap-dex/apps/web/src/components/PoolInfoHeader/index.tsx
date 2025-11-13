@@ -1,7 +1,7 @@
-import { Protocol } from '@pancakeswap/farms'
-import { HookData } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Percent } from '@pancakeswap/sdk'
+import { Protocol } from '@CryptoSwap/farms'
+import { HookData } from '@CryptoSwap/infinity-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, Percent } from '@CryptoSwap/sdk'
 import {
   AutoColumn,
   Box,
@@ -17,9 +17,9 @@ import {
   Tag,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
-import { CurrencyLogo, DoubleCurrencyLogo, FeeTierTooltip, Liquidity } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatNumber'
+import { CurrencyLogo, DoubleCurrencyLogo, FeeTierTooltip, Liquidity } from '@CryptoSwap/widgets-internal'
 import { InfinityFeeTierBreakdown } from 'components/FeeTierBreakdown'
 import { LinkType, MiniUniversalFarmsOverlay } from 'components/MiniUniversalFarms/MiniUniversalFarmsOverlay'
 import { getFarmAprInfo } from 'state/farmsV4/search/farm.util'

@@ -1,9 +1,9 @@
 import BigNumber from "bignumber.js";
 import { useCallback, useMemo, useState } from "react";
-import { useTranslation } from "@pancakeswap/localization";
-import { getFullDisplayBalance } from "@pancakeswap/utils/formatBalance";
-import { trimTrailZero } from "@pancakeswap/utils/trimTrailZero";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
+import { useTranslation } from "@CryptoSwap/localization";
+import { getFullDisplayBalance } from "@CryptoSwap/utils/formatBalance";
+import { trimTrailZero } from "@CryptoSwap/utils/trimTrailZero";
+import { BIG_ZERO } from "@CryptoSwap/utils/bigNumber";
 import {
   Button,
   AutoRenewIcon,
@@ -14,7 +14,7 @@ import {
   ModalBody,
   ModalActions,
   ModalInput,
-} from "@pancakeswap/uikit";
+} from "@CryptoSwap/uikit";
 
 interface WithdrawModalProps {
   max: BigNumber;

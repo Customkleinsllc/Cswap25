@@ -1,4 +1,4 @@
-import { WNATIVE } from '@pancakeswap/swap-sdk-evm'
+import { WNATIVE } from '@CryptoSwap/swap-sdk-evm'
 import { describe, expect, test } from 'vitest'
 import { TreeMath } from '../../utils/math/TreeMath'
 import { BinPoolState } from './createBinPool'

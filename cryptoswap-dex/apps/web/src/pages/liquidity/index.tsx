@@ -1,6 +1,6 @@
-import { PositionDetails } from '@pancakeswap/farms'
-import { useTranslation } from '@pancakeswap/localization'
-import { isStableSwapSupported } from '@pancakeswap/stable-swap-sdk'
+import { PositionDetails } from '@CryptoSwap/farms'
+import { useTranslation } from '@CryptoSwap/localization'
+import { isStableSwapSupported } from '@CryptoSwap/stable-swap-sdk'
 import {
   AddIcon,
   Button,
@@ -16,8 +16,8 @@ import {
   Tag,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { Liquidity, NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { Liquidity, NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { AppBody, AppHeader } from 'components/App'
 import TransactionsModal from 'components/App/Transactions/TransactionsModal'
 import { RangeTag } from 'components/RangeTag'

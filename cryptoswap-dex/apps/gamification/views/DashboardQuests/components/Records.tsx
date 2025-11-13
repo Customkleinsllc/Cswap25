@@ -1,4 +1,4 @@
-import { Box, Card, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Card, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { SpinnerWithLoadingText } from 'components/SpinnerWithLoadingText'
 import { styled } from 'styled-components'
 import { SingleQuestData } from 'views/DashboardQuestEdit/hooks/useGetSingleQuestData'

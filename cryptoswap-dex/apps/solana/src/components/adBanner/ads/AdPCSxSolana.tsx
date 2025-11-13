@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
-import { AdPlayerProps } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Text } from '@CryptoSwap/uikit'
+import { AdPlayerProps } from '@CryptoSwap/widgets-internal'
 
 import { BodyText } from '../BodyText'
 import { AdButton } from '../Button'

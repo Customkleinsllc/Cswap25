@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, Token } from '@CryptoSwap/sdk'
+import { WrappedTokenInfo } from '@CryptoSwap/token-lists'
 import {
   AutoColumn,
   BscScanIcon,
@@ -16,9 +16,9 @@ import {
   Tag,
   Text,
   useTooltip,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { ListLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
+import { ListLogo } from '@CryptoSwap/widgets-internal'
 import { useQuery } from '@tanstack/react-query'
 import AccessRisk, { TOKEN_RISK } from 'components/AccessRisk'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'

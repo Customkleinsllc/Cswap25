@@ -1,6 +1,6 @@
-import { useTheme } from "@pancakeswap/hooks";
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/swap-sdk-core";
+import { useTheme } from "@CryptoSwap/hooks";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Currency } from "@CryptoSwap/swap-sdk-core";
 import {
   AutoColumn,
   Box,
@@ -13,7 +13,7 @@ import {
   Text,
   TooltipText,
   useTooltip,
-} from "@pancakeswap/uikit";
+} from "@CryptoSwap/uikit";
 import { FC, ReactNode, Ref, useMemo, useRef } from "react";
 import styled, { css } from "styled-components";
 import { CurrencyLogo } from "../components/CurrencyLogo";

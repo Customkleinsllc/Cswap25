@@ -1,4 +1,4 @@
-import { Card, CardProps, Text, TextProps } from '@pancakeswap/uikit'
+import { Card, CardProps, Text, TextProps } from '@CryptoSwap/uikit'
 import { PropsWithChildren } from 'react'
 
 export const StatsCard = ({ children, ...props }: PropsWithChildren<CardProps>) => {

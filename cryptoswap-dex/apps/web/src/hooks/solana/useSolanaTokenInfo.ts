@@ -1,8 +1,8 @@
 import { useMemo } from 'react'
 import { useQuery } from '@tanstack/react-query'
 import { PublicKey } from '@solana/web3.js'
-import type { TokenInfo } from '@pancakeswap/solana-core-sdk'
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
+import type { TokenInfo } from '@CryptoSwap/solana-core-sdk'
+import { SPLToken } from '@CryptoSwap/swap-sdk-core'
 import { convertRawTokenInfoIntoSPLToken } from 'config/solana-list'
 import { useSolanaTokenList } from 'hooks/solana/useSolanaTokenList'
 

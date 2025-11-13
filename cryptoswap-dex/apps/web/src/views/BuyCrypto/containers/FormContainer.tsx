@@ -1,5 +1,5 @@
 import { PropsWithChildren, memo } from 'react'
-import { Column } from '@pancakeswap/uikit'
+import { Column } from '@CryptoSwap/uikit'
 import { Wrapper } from '../styles'
 
 export const FormContainer = memo(function FormContainer({ children }: PropsWithChildren) {

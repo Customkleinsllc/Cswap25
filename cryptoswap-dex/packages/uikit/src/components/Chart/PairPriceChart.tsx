@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { formatAmount, formatAmountNotation, tokenPrecisionStyle } from "@pancakeswap/utils/formatInfoNumbers";
+import { useTranslation } from "@CryptoSwap/localization";
+import { formatAmount, formatAmountNotation, tokenPrecisionStyle } from "@CryptoSwap/utils/formatInfoNumbers";
 import dayjs from "dayjs";
 import {
   BarData,

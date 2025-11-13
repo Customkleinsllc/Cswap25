@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, QuestionHelper, Spinner, Text, Toggle, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Flex, QuestionHelper, Spinner, Text, Toggle, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import WormholeBridge from '@wormhole-foundation/wormhole-connect'
 import GeneralRiskAcceptModal from 'components/GeneralDisclaimerModal/GeneralRiskAcceptModal'
 import { BridgeDisclaimerConfigs } from 'components/GeneralDisclaimerModal/config'

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useMemo } from 'react'
 import { calculateGasMargin } from 'utils'
 import { isUserRejected } from 'utils/sentry'
@@ -14,7 +14,7 @@ import {
 } from 'viem'
 import { useSendTransaction } from 'wagmi'
 
-import { ClassicOrder, OrderType } from '@pancakeswap/price-api-sdk'
+import { ClassicOrder, OrderType } from '@CryptoSwap/price-api-sdk'
 import { usePaymaster } from 'hooks/usePaymaster'
 import { logger } from 'utils/datadog'
 import { InterfaceOrder } from 'views/Swap/utils'

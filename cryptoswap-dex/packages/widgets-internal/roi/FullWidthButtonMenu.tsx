@@ -1,6 +1,6 @@
 import { styled } from "styled-components";
 
-import { ButtonMenu } from "@pancakeswap/uikit";
+import { ButtonMenu } from "@CryptoSwap/uikit";
 
 export const FullWidthButtonMenu = styled(ButtonMenu)<{ disabled?: boolean }>`
   width: 100%;

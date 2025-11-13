@@ -1,5 +1,5 @@
-import { Currency } from "@pancakeswap/sdk";
-import { ArrowUpIcon, AutoColumn, Box, ColumnCenter, Spinner, Text } from "@pancakeswap/uikit";
+import { Currency } from "@CryptoSwap/sdk";
+import { ArrowUpIcon, AutoColumn, Box, ColumnCenter, Spinner, Text } from "@CryptoSwap/uikit";
 import { ReactNode } from "react";
 import TokenTransferInfo from "./TokenTransferInfo";
 

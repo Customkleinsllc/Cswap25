@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   BetPosition,
   FUTURE_ROUND_COUNT,
@@ -8,7 +8,7 @@ import {
   PredictionsChartView,
   PredictionStatus,
   ROUNDS_PER_PAGE,
-} from '@pancakeswap/prediction'
+} from '@CryptoSwap/prediction'
 import { createAsyncThunk, createSlice, PayloadAction } from '@reduxjs/toolkit'
 import { FetchStatus } from 'config/constants/types'
 import merge from 'lodash/merge'

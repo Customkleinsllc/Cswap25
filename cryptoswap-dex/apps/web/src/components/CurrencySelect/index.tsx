@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowDropDownIcon,
   Box,
@@ -8,14 +8,14 @@ import {
   Flex,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
+} from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatBalance'
+import { formatAmount } from '@CryptoSwap/utils/formatFractions'
 import CurrencySearchModal, { CurrencySearchModalProps } from 'components/SearchModal/CurrencySearchModal'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
 import { useCurrencyBalance } from 'state/wallet/hooks'
 import { useAccount } from 'wagmi'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Currency } from '@CryptoSwap/swap-sdk-core'
 import { AutoRow, RowBetween } from '../Layout/Row'
 import { CurrencyLogo } from '../Logo'
 

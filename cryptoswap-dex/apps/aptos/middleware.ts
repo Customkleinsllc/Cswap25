@@ -1,4 +1,4 @@
-import { shouldGeoBlock } from '@pancakeswap/utils/geoBlock'
+import { shouldGeoBlock } from '@CryptoSwap/utils/geoBlock'
 import { geolocation } from '@vercel/functions'
 import { NextRequest, NextResponse } from 'next/server'
 

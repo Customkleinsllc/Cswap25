@@ -1,4 +1,4 @@
-import { ISortOrder } from '@pancakeswap/uikit'
+import { ISortOrder } from '@CryptoSwap/uikit'
 import { DEFAULT_ACTIVE_LIST_URLS } from 'config/constants/lists'
 import { useTokenListPrepared } from 'hooks/useTokenListPrepared'
 import { useAtomValue, useSetAtom } from 'jotai'

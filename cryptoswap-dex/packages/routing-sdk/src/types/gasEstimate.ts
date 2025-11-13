@@ -1,4 +1,4 @@
-import type { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
+import type { Currency, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
 import { SerializableCurrencyAmount } from './currency'
 
 export type GasUseEstimate = {

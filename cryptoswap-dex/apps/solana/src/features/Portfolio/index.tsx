@@ -1,5 +1,5 @@
 import { Box } from '@chakra-ui/react'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { PositionTabValues } from '@/hooks/portfolio/useAllPositionInfo'
 import { AcceleraytorAlertChip } from './AcceleraytorAlertChip'
 import { CreateFarmTabValues } from './components/SectionMyFarms'

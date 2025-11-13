@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { createAction } from '@reduxjs/toolkit'
 
 // fired once when the app reloads but before the app renders

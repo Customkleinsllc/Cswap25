@@ -1,5 +1,5 @@
-import type { Pool } from '@pancakeswap/routing-sdk'
-import { isInfinityBinPool, isInfinityCLPool } from '@pancakeswap/routing-sdk-addon-infinity'
+import type { Pool } from '@CryptoSwap/routing-sdk'
+import { isInfinityBinPool, isInfinityCLPool } from '@CryptoSwap/routing-sdk-addon-infinity'
 
 import { SupportedPool, V3SupportedPool } from '../types'
 

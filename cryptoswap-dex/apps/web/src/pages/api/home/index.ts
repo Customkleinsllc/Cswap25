@@ -1,4 +1,4 @@
-import { cacheByLRU } from '@pancakeswap/utils/cacheByLRU'
+import { cacheByLRU } from '@CryptoSwap/utils/cacheByLRU'
 import { NextApiHandler } from 'next'
 import { homePageChainsInfo, homePageCurrencies, partners } from './homePageDataQuery'
 import { queryPools } from './queries/queryPools'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { bscDynamicHooks, bscHooksList } from './bsc'
 import { bscTestnetDynamicHooks, bscTestnetHooksList } from './bscTestnet'
 import { baseDynamicHooks, baseHooksList } from './base'

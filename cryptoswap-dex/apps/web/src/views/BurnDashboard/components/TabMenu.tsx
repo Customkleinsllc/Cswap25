@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, FlexGap, FlexGapProps } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, FlexGap, FlexGapProps } from '@CryptoSwap/uikit'
 import { useCallback, useEffect, useState } from 'react'
 
 import styled, { css } from 'styled-components'

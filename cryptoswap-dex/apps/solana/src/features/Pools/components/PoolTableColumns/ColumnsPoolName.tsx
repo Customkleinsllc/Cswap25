@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from 'react'
 import { Center, Flex, Grid, GridItem, HStack, Tag, Text } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useRouter } from 'next/router'
 import TokenAvatarPair from '@/components/TokenAvatarPair'
 import { FormattedPoolInfoItem } from '@/hooks/pool/type'

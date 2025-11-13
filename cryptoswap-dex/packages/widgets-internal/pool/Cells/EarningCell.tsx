@@ -1,10 +1,10 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { BIG_ZERO } from "@pancakeswap/utils/bigNumber";
-import { getBalanceNumber } from "@pancakeswap/utils/formatBalance";
+import { useTranslation } from "@CryptoSwap/localization";
+import { BIG_ZERO } from "@CryptoSwap/utils/bigNumber";
+import { getBalanceNumber } from "@CryptoSwap/utils/formatBalance";
 import BigNumber from "bignumber.js";
 import { styled } from "styled-components";
 
-import { Balance, Box, Flex, Skeleton, Text, useMatchBreakpoints } from "@pancakeswap/uikit";
+import { Balance, Box, Flex, Skeleton, Text, useMatchBreakpoints } from "@CryptoSwap/uikit";
 import { DeserializedPool } from "../types";
 import { BaseCell, CellContent } from "./BaseCell";
 

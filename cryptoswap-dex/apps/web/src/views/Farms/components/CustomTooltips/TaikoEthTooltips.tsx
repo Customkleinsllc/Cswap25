@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, InfoFilledIcon, LinkExternal, Text, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, InfoFilledIcon, LinkExternal, Text, useTooltip } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 
 const InlineLink = styled(LinkExternal)`

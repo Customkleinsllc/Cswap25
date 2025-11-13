@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Fraction } from '@pancakeswap/sdk'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
+import { Currency, CurrencyAmount, Fraction } from '@CryptoSwap/sdk'
+import { formatAmount } from '@CryptoSwap/utils/formatFractions'
 
 const CURRENCY_AMOUNT_MIN = new Fraction(1n, 1000000n)
 

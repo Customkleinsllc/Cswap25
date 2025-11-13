@@ -1,5 +1,5 @@
-import { Card, CardBody, Flex, Heading, ProfileAvatar } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Card, CardBody, Flex, Heading, ProfileAvatar } from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 
 import { css, styled } from 'styled-components'
 

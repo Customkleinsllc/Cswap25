@@ -1,4 +1,4 @@
-import { Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { HomePageToken } from 'pages/api/home/types'
 import styled from 'styled-components'
 

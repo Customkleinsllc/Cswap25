@@ -1,6 +1,6 @@
-import { useConnect, useDisconnect } from '@pancakeswap/awgmi'
-import { ConnectorNotFoundError } from '@pancakeswap/awgmi/core'
-import { WalletConnectorNotFoundError } from '@pancakeswap/ui-wallets'
+import { useConnect, useDisconnect } from '@CryptoSwap/awgmi'
+import { ConnectorNotFoundError } from '@CryptoSwap/awgmi/core'
+import { WalletConnectorNotFoundError } from '@CryptoSwap/ui-wallets'
 import { ConnectorNames } from 'config/wallets'
 import { useActiveNetwork } from './useNetwork'
 

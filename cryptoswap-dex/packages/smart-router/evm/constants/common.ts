@@ -1,4 +1,4 @@
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@CryptoSwap/sdk'
 
 export const BIG_INT_TEN = 10n
 // one basis point

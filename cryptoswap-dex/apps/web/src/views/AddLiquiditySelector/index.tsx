@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { UnifiedCurrency } from '@pancakeswap/swap-sdk-core'
+import { useTranslation } from '@CryptoSwap/localization'
+import { UnifiedCurrency } from '@CryptoSwap/swap-sdk-core'
 import {
   AddIcon,
   Button,
@@ -10,8 +10,8 @@ import {
   FlexGap,
   PreTitle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { PoolTypeFilter, getCurrencyAddress } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { PoolTypeFilter, getCurrencyAddress } from '@CryptoSwap/widgets-internal'
 import { NetworkSelector } from 'components/NetworkSelector'
 import { CommonBasesType } from 'components/SearchModal/types'
 import { CHAIN_QUERY_NAME } from 'config/chains'
@@ -23,14 +23,14 @@ import currencyId from 'utils/currencyId'
 import { TokenFilterContainer } from 'views/AddLiquidityInfinity/components/styles'
 import { usePoolTypes } from 'views/universalFarms/constants'
 
-import { INFINITY_SUPPORTED_CHAINS } from '@pancakeswap/infinity-sdk'
+import { INFINITY_SUPPORTED_CHAINS } from '@CryptoSwap/infinity-sdk'
 import { CurrencySelectV2 } from 'components/CurrencySelectV2'
 import { useSelectIdRouteParams } from 'hooks/dynamicRoute/useSelectIdRoute'
 import { useStableSwapSupportedTokens } from 'hooks/useStableSwapSupportedTokens'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'
 import { COMPACT_LIQUIDITY_TYPES, LIQUIDITY_TYPES, LiquidityType } from 'utils/types'
 import { Chain } from 'viem/chains'
-import { bscTokens } from '@pancakeswap/tokens'
+import { bscTokens } from '@CryptoSwap/tokens'
 import { PERSIST_CHAIN_KEY } from 'config/constants'
 import { usePoolTypeQuery } from './hooks/usePoolTypeQuery'
 

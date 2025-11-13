@@ -1,8 +1,8 @@
 // TODO PCS refactor ternaries
 /* eslint-disable no-nested-ternary */
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowBackIcon, ArrowForwardIcon, Box, Flex, Radio, ScanLink, Skeleton, Text } from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ArrowBackIcon, ArrowForwardIcon, Box, Flex, Radio, ScanLink, Skeleton, Text } from '@CryptoSwap/uikit'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { ITEMS_PER_INFO_TABLE_PAGE } from 'config/constants/info'
 import dayjs from 'dayjs'
 import relativeTime from 'dayjs/plugin/relativeTime'

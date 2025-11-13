@@ -1,8 +1,8 @@
-import { usePreviousValue } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token, UnifiedCurrency, UnifiedToken } from '@pancakeswap/sdk'
-import { TokenList } from '@pancakeswap/token-lists'
-import { enableList, removeList, useFetchListCallback } from '@pancakeswap/token-lists/react'
+import { usePreviousValue } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, Token, UnifiedCurrency, UnifiedToken } from '@CryptoSwap/sdk'
+import { TokenList } from '@CryptoSwap/token-lists'
+import { enableList, removeList, useFetchListCallback } from '@CryptoSwap/token-lists/react'
 import {
   Button,
   Heading,
@@ -15,8 +15,8 @@ import {
   ModalHeader,
   ModalTitle,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { ImportList } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { ImportList } from '@CryptoSwap/widgets-internal'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { useAllLists } from 'state/lists/hooks'
 import { useListState } from 'state/lists/lists'

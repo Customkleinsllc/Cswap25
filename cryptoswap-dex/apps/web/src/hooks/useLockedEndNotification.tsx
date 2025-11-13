@@ -1,8 +1,8 @@
-import { StyledLink, Text, useToast } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { StyledLink, Text, useToast } from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+import { useTranslation } from '@CryptoSwap/localization'
+import isUndefinedOrNull from '@CryptoSwap/utils/isUndefinedOrNull'
 import { useQueryClient } from '@tanstack/react-query'
 import { useAtom } from 'jotai'
 import { useEffect } from 'react'

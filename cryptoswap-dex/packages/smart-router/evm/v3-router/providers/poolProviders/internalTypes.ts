@@ -1,5 +1,5 @@
-import { Currency } from '@pancakeswap/sdk'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { Currency } from '@CryptoSwap/sdk'
+import { FeeAmount } from '@CryptoSwap/v3-sdk'
 
 // Information used to identify a pool
 export interface PoolMeta {

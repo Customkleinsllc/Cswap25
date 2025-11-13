@@ -1,23 +1,23 @@
-import { ChainId, chainNamesInKebabCase } from '@pancakeswap/chains'
+import { ChainId, chainNamesInKebabCase } from '@CryptoSwap/chains'
 import {
   FarmV4SupportedChainId,
   fetchAllUniversalFarms,
   Protocol,
   supportedChainIdV4,
   UniversalFarmConfig,
-} from '@pancakeswap/farms'
-import { getCurrencyAddress, Pair } from '@pancakeswap/sdk'
-import { InfinityRouter } from '@pancakeswap/smart-router'
+} from '@CryptoSwap/farms'
+import { getCurrencyAddress, Pair } from '@CryptoSwap/sdk'
+import { InfinityRouter } from '@CryptoSwap/smart-router'
 
-import { SORT_ORDER } from '@pancakeswap/uikit'
-import uniqBy from '@pancakeswap/utils/uniqBy'
-import { computePoolAddress, DEPLOYER_ADDRESSES } from '@pancakeswap/v3-sdk'
+import { SORT_ORDER } from '@CryptoSwap/uikit'
+import uniqBy from '@CryptoSwap/utils/uniqBy'
+import { computePoolAddress, DEPLOYER_ADDRESSES } from '@CryptoSwap/v3-sdk'
 import { edgeQueries } from 'quoter/utils/edgePoolQueries'
 import { APIChain, getEdgeChainName } from 'quoter/utils/edgeQueries.util'
 import { PoolInfo } from 'state/farmsV4/state/type'
 import { explorerApiClient } from 'state/info/api/client'
 import { Address } from 'viem/accounts'
-import chunk from '@pancakeswap/utils/chunk'
+import chunk from '@CryptoSwap/utils/chunk'
 import { FarmInfo, normalizeAddress, safeGetAddress } from './farm.util'
 
 const DEFAULT_PROTOCOLS: Protocol[] = Object.values(Protocol)

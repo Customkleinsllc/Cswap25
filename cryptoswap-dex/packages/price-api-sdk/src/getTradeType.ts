@@ -1,4 +1,4 @@
-import { TradeType } from '@pancakeswap/swap-sdk-core'
+import { TradeType } from '@CryptoSwap/swap-sdk-core'
 
 import type { TradeTypeKey } from './types'
 

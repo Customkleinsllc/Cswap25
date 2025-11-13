@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Text } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 const StyledNotFound = styled.div`

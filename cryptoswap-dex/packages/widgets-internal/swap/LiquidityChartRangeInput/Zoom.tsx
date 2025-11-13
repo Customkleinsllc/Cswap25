@@ -1,7 +1,7 @@
 import { ScaleLinear, select, zoom, ZoomBehavior, zoomIdentity, ZoomTransform } from "d3";
 import { useEffect, useMemo, useRef } from "react";
 import { styled } from "styled-components";
-import { ZoomInIcon, ZoomOutIcon, AutoRenewIcon, Box } from "@pancakeswap/uikit";
+import { ZoomInIcon, ZoomOutIcon, AutoRenewIcon, Box } from "@CryptoSwap/uikit";
 
 import { ZoomLevels } from "./types";
 

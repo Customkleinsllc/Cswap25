@@ -1,4 +1,4 @@
-import { Button, Text } from '@pancakeswap/uikit'
+import { Button, Text } from '@CryptoSwap/uikit'
 import styled, { css } from 'styled-components'
 import { SortDirection } from './type'
 

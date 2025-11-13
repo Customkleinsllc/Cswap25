@@ -1,10 +1,10 @@
-import { Card, Flex, SyncAltIcon, Tag, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/v3-sdk'
+import { Card, Flex, SyncAltIcon, Tag, Text } from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/v3-sdk'
 import NextLink from 'next/link'
 import { useMemo } from 'react'
 import { styled } from 'styled-components'
 
-import { Currency, Percent } from '@pancakeswap/sdk'
+import { Currency, Percent } from '@CryptoSwap/sdk'
 import DoubleCurrencyLogo from 'components/Logo/DoubleLogo'
 import { MerklRewardsTag } from 'components/Merkl/MerklTag'
 

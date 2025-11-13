@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, UnifiedCurrency, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, UnifiedCurrency, UnifiedCurrencyAmount } from '@CryptoSwap/sdk'
 import { BIG_INT_ZERO, MIN_BNB, MIN_SOL_RESERVER } from 'config/constants/exchange'
 
 type NullableCurrencyAmount = CurrencyAmount<Currency> | undefined

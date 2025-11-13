@@ -1,5 +1,5 @@
-import { AtomBox, Flex, useTooltip } from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { AtomBox, Flex, useTooltip } from '@CryptoSwap/uikit'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 
 import { RouterPoolBox, RouterTypeText } from 'views/Swap/components/RouterViewer'
 import { Pair } from './RouteDisplay/types'

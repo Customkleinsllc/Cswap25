@@ -1,5 +1,5 @@
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
-import { ERC20Token } from '@pancakeswap/sdk'
+import { ChainId, NonEVMChainId } from '@CryptoSwap/chains'
+import { ERC20Token } from '@CryptoSwap/sdk'
 import { solanaTokens } from './solana'
 
 export const CAKE_MAINNET = new ERC20Token(

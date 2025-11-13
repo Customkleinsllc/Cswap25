@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoColumn,
   Box,
@@ -14,8 +14,8 @@ import {
   ScanLink,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 
 import Page from 'components/Layout/Page'
 import { TabToggle, TabToggleGroup } from 'components/TabToggle'
@@ -29,9 +29,9 @@ import React, { useEffect, useMemo, useState } from 'react'
 import { getBlockExploreLink } from 'utils'
 import { formatAmount } from 'utils/formatInfoNumbers'
 
-import { chainNames } from '@pancakeswap/chains'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
-import truncateHash from '@pancakeswap/utils/truncateHash'
+import { chainNames } from '@CryptoSwap/chains'
+import isUndefinedOrNull from '@CryptoSwap/utils/isUndefinedOrNull'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
 import { tokenInfoV3PageDataAtom } from 'edge/tokenInfoPageDataAtom'
 import { useAtomValue } from 'jotai'
 import { ChainLinkSupportChains, multiChainId, multiChainScan } from 'state/info/constant'

@@ -1,4 +1,4 @@
-import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@pancakeswap/chains'
+import { ChainId, AVERAGE_CHAIN_BLOCK_TIMES } from '@CryptoSwap/chains'
 import { useCallback, useMemo } from 'react'
 import { RetryableError, retry } from 'state/multicall/retry'
 import { Hash } from 'viem'

@@ -12,8 +12,8 @@ import type {
   PoolConfigBaseProps,
   SerializedPoolConfig,
   SerializedVaultFees,
-} from "@pancakeswap/pools";
-import { VaultKey } from "@pancakeswap/pools";
+} from "@CryptoSwap/pools";
+import { VaultKey } from "@CryptoSwap/pools";
 import BigNumber from "bignumber.js";
 
 export {

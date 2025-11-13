@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, Pair, Token, WNATIVE, pancakePairV2ABI } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { Currency, CurrencyAmount, Pair, Token, WNATIVE, pancakePairV2ABI } from '@CryptoSwap/sdk'
 import { useMemo } from 'react'
 import { useMultipleContractSingleData } from 'state/multicall/hooks'
 import { useActiveChainId } from './useActiveChainId'

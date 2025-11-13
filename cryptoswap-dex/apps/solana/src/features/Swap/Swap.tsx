@@ -1,10 +1,10 @@
-import { AtomBox, FlexGap } from '@pancakeswap/uikit'
+import { AtomBox, FlexGap } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 import { VStack, useClipboard } from '@chakra-ui/react'
-import { RAYMint, SOLMint } from '@pancakeswap/solana-core-sdk'
+import { RAYMint, SOLMint } from '@CryptoSwap/solana-core-sdk'
 import { PublicKey } from '@solana/web3.js'
 import { useEffect, useMemo, useRef, useState } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 import { SlippageAdjuster } from '@/components/SlippageAdjuster'
 import { TimeType } from '@/hooks/pool/useFetchPoolKLine'

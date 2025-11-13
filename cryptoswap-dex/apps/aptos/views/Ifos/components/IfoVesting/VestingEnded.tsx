@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Text } from '@CryptoSwap/uikit'
 
 const VestingEnded: React.FC<React.PropsWithChildren> = () => {
   const { t } = useTranslation()

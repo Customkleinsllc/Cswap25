@@ -1,4 +1,4 @@
-import { NonEVMChainId, UnifiedChainId } from '@pancakeswap/chains'
+import { NonEVMChainId, UnifiedChainId } from '@CryptoSwap/chains'
 import { initializeApp } from 'firebase/app'
 
 const firebaseConfig = {

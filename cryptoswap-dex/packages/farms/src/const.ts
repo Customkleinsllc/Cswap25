@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 
 // @todo remove all other v2/v3 and type definitions
 export const supportedChainIdV4 = [

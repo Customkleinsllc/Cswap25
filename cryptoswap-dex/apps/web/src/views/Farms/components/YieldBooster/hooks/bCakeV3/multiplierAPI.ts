@@ -1,4 +1,4 @@
-import { bCakeFarmBoosterVeCakeABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
+import { bCakeFarmBoosterVeCakeABI } from '@CryptoSwap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
 import BN from 'bignumber.js'
 import _toNumber from 'lodash/toNumber'
 import { publicClient } from 'utils/wagmi'

@@ -1,4 +1,4 @@
-import { BigintIsh } from '@pancakeswap/swap-sdk-core'
+import { BigintIsh } from '@CryptoSwap/swap-sdk-core'
 import { Address } from 'viem'
 
 // Collections -> Nfts -> Transactions

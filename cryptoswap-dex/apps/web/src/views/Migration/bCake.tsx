@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowForwardIcon,
   AtomBox,
@@ -10,7 +10,7 @@ import {
   PageHeader,
   RowBetween,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { MobileCard } from 'components/AdPanel/MobileCard'
 import { commonLayoutWhitelistedPages } from 'components/AdPanel/constants'
 import { shouldRenderOnPages } from 'components/AdPanel/renderConditions'

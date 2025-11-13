@@ -1,5 +1,5 @@
-import { Pair } from '@pancakeswap/sdk'
-import { RemoteLogger } from '@pancakeswap/utils/RemoteLogger'
+import { Pair } from '@CryptoSwap/sdk'
+import { RemoteLogger } from '@CryptoSwap/utils/RemoteLogger'
 import { BaseRoute, Pool, PoolType, RouteType, RouteWithQuote } from '../types'
 
 export const logPools = (quoteId: string | undefined, pools: Pool[], indent = 1) => {

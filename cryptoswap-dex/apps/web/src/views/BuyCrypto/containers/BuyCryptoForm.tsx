@@ -1,5 +1,5 @@
-import { useDebounce } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useDebounce } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoColumn,
   AutoRow,
@@ -11,8 +11,8 @@ import {
   Row,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { Swap as SwapUI } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { Swap as SwapUI } from '@CryptoSwap/widgets-internal'
 import { FiatOnRampModalButton } from 'components/FiatOnRampModal/FiatOnRampModal'
 import {
   Suspense,

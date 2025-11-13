@@ -1,5 +1,5 @@
 import { Box, Flex } from '@chakra-ui/react'
-import { TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { TokenInfo } from '@CryptoSwap/solana-core-sdk'
 
 import TokenAvatarPair from '@/components/TokenAvatarPair'
 import { colors } from '@/theme/cssVariables'

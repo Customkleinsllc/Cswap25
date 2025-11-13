@@ -1,9 +1,9 @@
 import { useMemo } from 'react'
 import { RowBetween, RowFixed } from 'components/Layout/Row'
-import { PriceOrder } from '@pancakeswap/price-api-sdk'
-import { QuestionHelperV2, Text } from '@pancakeswap/uikit'
+import { PriceOrder } from '@CryptoSwap/price-api-sdk'
+import { QuestionHelperV2, Text } from '@CryptoSwap/uikit'
 import { SlippageButton } from 'views/Swap/components/SlippageButton'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 import { usePriceBreakdown } from '../hooks/usePriceBreakdown'
 import { DetailsTitle } from './AdvancedSwapDetails'

@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Checkbox, Flex, Message, Text, usePrompt } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, Checkbox, Flex, Message, Text, usePrompt } from '@CryptoSwap/uikit'
 import { memo, useCallback, useState } from 'react'
-import { useUserExpertModeAcknowledgement } from '@pancakeswap/utils/user'
+import { useUserExpertModeAcknowledgement } from '@CryptoSwap/utils/user'
 import { TabContent } from './TabContent'
 
 interface ExpertModeTabProps {

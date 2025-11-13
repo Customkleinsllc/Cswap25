@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Link, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Link, Text } from '@CryptoSwap/uikit'
 
 export function TotalFeeToolTip() {
   const { t } = useTranslation()

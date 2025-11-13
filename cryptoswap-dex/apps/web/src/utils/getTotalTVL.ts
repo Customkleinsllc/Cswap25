@@ -1,4 +1,4 @@
-import { ChainId, testnetChainIds } from '@pancakeswap/chains'
+import { ChainId, testnetChainIds } from '@CryptoSwap/chains'
 import addresses from 'config/constants/contracts'
 import dayjs from 'dayjs'
 import { gql } from 'graphql-request'

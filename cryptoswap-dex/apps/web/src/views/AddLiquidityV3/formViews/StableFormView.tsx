@@ -12,7 +12,7 @@ import {
   QuestionHelper,
   RowBetween,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 
 import { CommitButton } from 'components/CommitButton'
 
@@ -20,12 +20,12 @@ import { ApprovalState } from 'hooks/useApproveCallback'
 import { logGTMClickAddLiquidityEvent } from 'utils/customGTMEventTracking'
 import { CurrencyField as Field } from 'utils/types'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { useIsExpertMode } from '@pancakeswap/utils/user'
+import { useTranslation } from '@CryptoSwap/localization'
+import { useIsExpertMode } from '@CryptoSwap/utils/user'
 
 import ConnectWalletButton from 'components/ConnectWalletButton'
 
-import { Percent } from '@pancakeswap/sdk'
+import { Percent } from '@CryptoSwap/sdk'
 
 import { useIsTransactionUnsupported, useIsTransactionWarning } from 'hooks/Trades'
 import { AddStableChildrenProps } from 'views/AddLiquidity/AddStableLiquidity'

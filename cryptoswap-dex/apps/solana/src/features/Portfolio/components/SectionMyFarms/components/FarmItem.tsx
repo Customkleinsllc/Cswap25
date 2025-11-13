@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { Badge, Box, Flex, HStack, Text, useClipboard, useDisclosure, Tag } from '@chakra-ui/react'
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 
 import Button from '@/components/Button'
 import { Desktop, Mobile } from '@/components/MobileDesktop'

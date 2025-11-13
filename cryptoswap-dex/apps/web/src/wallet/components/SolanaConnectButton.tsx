@@ -1,4 +1,4 @@
-import { Button, ButtonProps, FlexGap, WalletFilledV2Icon } from '@pancakeswap/uikit'
+import { Button, ButtonProps, FlexGap, WalletFilledV2Icon } from '@CryptoSwap/uikit'
 import { useSetAtom, useAtomValue } from 'jotai'
 import { useCallback } from 'react'
 import Trans from 'components/Trans'

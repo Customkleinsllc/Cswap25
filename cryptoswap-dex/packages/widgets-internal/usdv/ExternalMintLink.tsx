@@ -1,6 +1,6 @@
-import { Tag } from "@pancakeswap/uikit";
+import { Tag } from "@CryptoSwap/uikit";
 import styled from "styled-components";
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { SpaceProps } from "styled-system";
 
 import {

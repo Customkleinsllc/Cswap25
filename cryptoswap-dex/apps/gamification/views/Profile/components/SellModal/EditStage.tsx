@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { BinanceIcon, Button, Flex, Grid, LinkExternal, ScanLink, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { BinanceIcon, Button, Flex, Grid, LinkExternal, ScanLink, Text } from '@CryptoSwap/uikit'
 import DELIST_COLLECTIONS from 'config/constants/nftsCollections/delist'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { getBscScanLinkForNft, safeGetAddress } from 'utils'

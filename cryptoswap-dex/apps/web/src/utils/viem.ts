@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import first from 'lodash/first'
 import { PublicClient, createPublicClient, http } from 'viem'
 import { mainnet } from 'viem/chains'

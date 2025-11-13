@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, BoxProps, BscScanIcon, LinkExternal, TooltipOptions, useTooltip } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, BoxProps, BscScanIcon, LinkExternal, TooltipOptions, useTooltip } from '@CryptoSwap/uikit'
 import { useBlockExploreLink } from '../../utils'
 
 interface ViewOnExplorerButtonProps extends BoxProps {

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, Flex, Skeleton, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Card, Flex, Skeleton, Text } from '@CryptoSwap/uikit'
 import { TabToggle, TabToggleGroup } from 'components/TabToggle'
 import dayjs from 'dayjs'
 import dynamic from 'next/dynamic'

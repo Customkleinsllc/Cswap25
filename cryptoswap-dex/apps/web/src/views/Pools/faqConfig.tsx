@@ -1,4 +1,4 @@
-import { Link } from '@pancakeswap/uikit'
+import { Link } from '@CryptoSwap/uikit'
 import { FaqConfig } from 'components/PinnedFAQButton'
 import Trans from 'components/Trans'
 import { styled } from 'styled-components'

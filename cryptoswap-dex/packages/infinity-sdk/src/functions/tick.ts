@@ -1,5 +1,5 @@
-import { Currency, Price } from '@pancakeswap/swap-sdk-core'
-import { encodeSqrtRatioX96, nearestUsableTick, priceToClosestTick, TickMath } from '@pancakeswap/v3-sdk'
+import { Currency, Price } from '@CryptoSwap/swap-sdk-core'
+import { encodeSqrtRatioX96, nearestUsableTick, priceToClosestTick, TickMath } from '@CryptoSwap/v3-sdk'
 
 export function tryParseTick(price: Price<Currency, Currency>, tickSpacing: number): number | undefined {
   if (!price || !tickSpacing) {

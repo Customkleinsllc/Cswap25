@@ -5,12 +5,12 @@ import {
   useInitialBlockTimestamp as useInitBlockTimestamp,
   useInitialBlockNumber,
   useWatchBlock,
-} from '@pancakeswap/wagmi'
+} from '@CryptoSwap/wagmi'
 import { useQuery, useQueryClient } from '@tanstack/react-query'
 import { FAST_INTERVAL, SLOW_INTERVAL } from 'config/constants'
 import { useBlock as useWagmiBlock, useBlockNumber as useWagmiBlockNumber } from 'wagmi'
 
-import { isEvm } from '@pancakeswap/chains'
+import { isEvm } from '@CryptoSwap/chains'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCallback } from 'react'
 

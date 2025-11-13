@@ -1,12 +1,12 @@
-import { SPLToken } from '@pancakeswap/swap-sdk-core'
-import { AutoColumn, Button, Checkbox, ErrorIcon, Flex, FlexGap, ScanLink, Tag, Text } from '@pancakeswap/uikit'
+import { SPLToken } from '@CryptoSwap/swap-sdk-core'
+import { AutoColumn, Button, Checkbox, ErrorIcon, Flex, FlexGap, ScanLink, Tag, Text } from '@CryptoSwap/uikit'
 import { useState } from 'react'
 
-import { useTranslation } from '@pancakeswap/localization'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { solanaExplorerAtom } from '@pancakeswap/utils/user'
+import { useTranslation } from '@CryptoSwap/localization'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
+import { solanaExplorerAtom } from '@CryptoSwap/utils/user'
 import { useAtom } from 'jotai'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@CryptoSwap/chains'
 import { useSolanaTokenList } from 'hooks/solana/useSolanaTokenList'
 import { convertSPLTokenIntoRawTokenInfoUserAdded } from 'config/solana-list'
 

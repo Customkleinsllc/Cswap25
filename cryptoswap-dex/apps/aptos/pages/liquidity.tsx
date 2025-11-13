@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Liquidity as LiquidityUI } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Liquidity as LiquidityUI } from '@CryptoSwap/widgets-internal'
 import HasAccount from 'components/HasAccount'
 import { ExchangeLayout } from 'components/Layout/ExchangeLayout'
 import { PageMeta } from 'components/Layout/Page'

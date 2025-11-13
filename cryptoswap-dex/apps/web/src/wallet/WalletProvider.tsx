@@ -6,7 +6,7 @@ import { usePrivy } from '@privy-io/react-auth'
 import { atomWithStorage } from 'jotai/utils'
 import { useCallback, useEffect, useRef } from 'react'
 import { WagmiProvider as PrivyWagmiProvider } from '@privy-io/wagmi'
-import { rpcUrlAtom } from '@pancakeswap/utils/user'
+import { rpcUrlAtom } from '@CryptoSwap/utils/user'
 import { W3WConfigProvider } from './W3WConfigContext'
 import { useSyncWagmiState } from './hook/useSyncWagmiState'
 import { useWagmiConfig } from './hook/useWagmiConfig'
@@ -31,7 +31,7 @@ export const eip6963Providers: EIP6963Detail[] = []
 
 const walletRecoveryRecordsAtom = atomWithStorage<Record<string, number>>('pcs:socialLogin:walletRecoveryRecords', {})
 
-const SolanaProviders = dynamic(() => import('@pancakeswap/ui-wallets').then((m) => m.SolanaProvider), { ssr: false })
+const SolanaProviders = dynamic(() => import('@CryptoSwap/ui-wallets').then((m) => m.SolanaProvider), { ssr: false })
 
 const usePrivyProvider = () => {
   const { authenticated, ready, user, createWallet, setWalletRecovery, logout: privyLogout, login } = usePrivy()

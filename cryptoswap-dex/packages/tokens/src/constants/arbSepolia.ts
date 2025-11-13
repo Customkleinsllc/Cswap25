@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { WETH9 } from '@CryptoSwap/sdk'
 import { USDC } from './common'
 
 export const arbSepoliaTokens = {

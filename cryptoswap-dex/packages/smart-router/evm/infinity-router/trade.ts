@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { formatFraction } from '@pancakeswap/utils/formatFractions'
+import { Currency, CurrencyAmount, TradeType } from '@CryptoSwap/sdk'
+import { formatFraction } from '@CryptoSwap/utils/formatFractions'
 
 import { getPriceImpact } from '../v3-router/utils/getPriceImpact'
 import { findBestTrade } from './graph'

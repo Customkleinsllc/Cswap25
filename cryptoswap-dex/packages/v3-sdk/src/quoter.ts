@@ -1,5 +1,5 @@
 import { Address, encodeFunctionData, Hex } from 'viem'
-import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pancakeswap/swap-sdk-core'
+import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@CryptoSwap/swap-sdk-core'
 import invariant from 'tiny-invariant'
 import { quoterABI } from './abi/Quoter'
 import { quoterV2ABI } from './abi/QuoterV2'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button } from '@CryptoSwap/uikit'
 import { ErrorMessage } from './ErrorMessage'
 
 export const ErrorContent = ({ onRetry, message }: { onRetry: () => void; message: string }) => {

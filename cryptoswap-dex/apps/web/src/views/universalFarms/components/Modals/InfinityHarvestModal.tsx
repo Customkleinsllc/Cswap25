@@ -1,10 +1,10 @@
-import { chainNames } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
-import { useTheme } from '@pancakeswap/hooks'
-import { getPoolId } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
-import { type Currency } from '@pancakeswap/swap-sdk-core'
-import { bscTokens } from '@pancakeswap/tokens'
+import { chainNames } from '@CryptoSwap/chains'
+import { Protocol } from '@CryptoSwap/farms'
+import { useTheme } from '@CryptoSwap/hooks'
+import { getPoolId } from '@CryptoSwap/infinity-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { type Currency } from '@CryptoSwap/swap-sdk-core'
+import { bscTokens } from '@CryptoSwap/tokens'
 import {
   AutoColumn,
   AutoRow,
@@ -16,9 +16,9 @@ import {
   ModalV2Props,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { formatFiatNumber } from '@pancakeswap/utils/formatFiatNumber'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
+} from '@CryptoSwap/uikit'
+import { formatFiatNumber } from '@CryptoSwap/utils/formatFiatNumber'
+import { formatNumber } from '@CryptoSwap/utils/formatNumber'
 import {
   CurrencyLogo,
   DoubleCurrencyLogo,
@@ -26,7 +26,7 @@ import {
   GreyCard,
   Tips,
   TokenOverview,
-} from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { InfinityFeeTierBreakdown } from 'components/FeeTierBreakdown'
 import { TokenPairLogo } from 'components/TokenImage'

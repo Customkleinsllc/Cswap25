@@ -1,5 +1,5 @@
-import { isSolana } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { isSolana } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
 import { getFullChainNameById } from 'utils/getFullChainNameById'
 import { useUnifiedCurrency } from 'hooks/Tokens'
 

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { arbitrumTokens, opBnbTokens } from '@pancakeswap/tokens'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { ChainId } from '@CryptoSwap/chains'
+import { arbitrumTokens, opBnbTokens } from '@CryptoSwap/tokens'
+import { getBalanceAmount } from '@CryptoSwap/utils/formatBalance'
 import BigNumber from 'bignumber.js'
 import { getViemClients } from 'utils/viem'
 

@@ -1,4 +1,4 @@
-import { BottomDrawer, Button, ChevronRightIcon, Column, MoreIcon } from '@pancakeswap/uikit'
+import { BottomDrawer, Button, ChevronRightIcon, Column, MoreIcon } from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { memo, ReactNode, useCallback, useState } from 'react'
 import { getFarmAprInfo } from 'state/farmsV4/search/farm.util'

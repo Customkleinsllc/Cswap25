@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { pancakeProfileABI } from 'config/abi/pancakeProfile'
 import fromPairs from 'lodash/fromPairs'
 import merge from 'lodash/merge'

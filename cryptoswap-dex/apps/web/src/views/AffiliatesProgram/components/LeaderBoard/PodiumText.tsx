@@ -1,5 +1,5 @@
-import { Box, Text, Skeleton, BoxProps } from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { Box, Text, Skeleton, BoxProps } from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatBalance'
 import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
 
 interface PodiumTextProps extends BoxProps {

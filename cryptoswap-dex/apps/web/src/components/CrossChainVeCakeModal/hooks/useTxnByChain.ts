@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { IfoChainId } from '@pancakeswap/widgets-internal/ifo/constants'
+import { ChainId } from '@CryptoSwap/chains'
+import { IfoChainId } from '@CryptoSwap/widgets-internal/ifo/constants'
 import { atom, useAtom } from 'jotai'
 
 const txnByChainAtom = atom<Record<Exclude<IfoChainId, ChainId.BSC>, string>>({

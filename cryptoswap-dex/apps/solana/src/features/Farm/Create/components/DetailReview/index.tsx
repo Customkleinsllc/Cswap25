@@ -1,8 +1,8 @@
 import { Box, Flex, HStack, Spacer, Text, VStack } from '@chakra-ui/react'
-import { ApiV3PoolInfoItem, solToWSol } from '@pancakeswap/solana-core-sdk'
+import { ApiV3PoolInfoItem, solToWSol } from '@CryptoSwap/solana-core-sdk'
 
 import Decimal from 'decimal.js'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import Button from '@/components/Button'
 import EditIcon from '@/icons/misc/EditIcon'
 import { colors } from '@/theme/cssVariables'

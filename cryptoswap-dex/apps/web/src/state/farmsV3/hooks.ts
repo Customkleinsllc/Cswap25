@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   FarmV3DataWithPrice,
   FarmV3DataWithPriceAndUserInfo,
@@ -14,12 +14,12 @@ import {
   defineFarmV3ConfigsFromUniversalFarm,
   fetchUniversalFarms,
   supportedChainIdV3,
-} from '@pancakeswap/farms'
-import { priceHelperTokens } from '@pancakeswap/farms/constants/common'
-import { bCakeFarmBoosterVeCakeABI } from '@pancakeswap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
-import { TvlMap, fetchCommonTokenUSDValue } from '@pancakeswap/farms/src/fetchFarmsV3'
-import { deserializeToken } from '@pancakeswap/token-lists'
-import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/farms'
+import { priceHelperTokens } from '@CryptoSwap/farms/constants/common'
+import { bCakeFarmBoosterVeCakeABI } from '@CryptoSwap/farms/constants/v3/abi/bCakeFarmBoosterVeCake'
+import { TvlMap, fetchCommonTokenUSDValue } from '@CryptoSwap/farms/src/fetchFarmsV3'
+import { deserializeToken } from '@CryptoSwap/token-lists'
+import { masterChefV3ABI } from '@CryptoSwap/v3-sdk'
 import { keepPreviousData, useQuery } from '@tanstack/react-query'
 import BN from 'bignumber.js'
 import { FAST_INTERVAL } from 'config/constants'

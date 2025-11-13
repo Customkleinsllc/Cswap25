@@ -1,6 +1,6 @@
-import { Categories } from '@pancakeswap/blog'
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Flex } from '@pancakeswap/uikit'
+import { Categories } from '@CryptoSwap/blog'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, Flex } from '@CryptoSwap/uikit'
 import { useMemo } from 'react'
 
 interface CategoriesSelectorProps {

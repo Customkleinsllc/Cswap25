@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { WNATIVE } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { WNATIVE } from '@CryptoSwap/sdk'
 import { Address, PublicClient, getContract } from 'viem'
 import { feeOnTransferDetectorAbi } from './abis/FeeOnTransferDetector'
 

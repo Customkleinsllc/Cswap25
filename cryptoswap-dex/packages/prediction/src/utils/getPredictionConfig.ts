@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
+import { ChainId, getChainName } from '@CryptoSwap/chains'
 import { PredictionConfig } from '../type'
 
 export const getPredictionConfig = async (chainId?: ChainId): Promise<Record<string, PredictionConfig>> => {

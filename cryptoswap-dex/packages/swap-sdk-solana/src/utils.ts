@@ -1,6 +1,6 @@
 import { PublicKey } from '@solana/web3.js'
-import { UnifiedCurrency } from '@pancakeswap/swap-sdk-core'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { UnifiedCurrency } from '@CryptoSwap/swap-sdk-core'
+import { NonEVMChainId } from '@CryptoSwap/chains'
 import { PublicKeyish } from './types'
 import { SOL_INFO, SOLMint, TOKEN_WSOL, WSOLMint } from './constants'
 

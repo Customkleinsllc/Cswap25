@@ -12,19 +12,19 @@ import {
   useMatchBreakpoints,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import BigNumber from 'bignumber.js'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { PoolCategory } from 'config/constants/types'
 import { useERC20 } from 'hooks/useContract'
 import { useAccount } from 'wagmi'
 
-import { Token } from '@pancakeswap/sdk'
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceNumber } from '@pancakeswap/utils/formatBalance'
+import { Token } from '@CryptoSwap/sdk'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
+import { getBalanceNumber } from '@CryptoSwap/utils/formatBalance'
 import { styled } from 'styled-components'
 import { useProfileRequirement } from 'views/Pools/hooks/useProfileRequirement'
 

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { FlexGap, Text, Toggle } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { FlexGap, Text, Toggle } from '@CryptoSwap/uikit'
 import { SecondaryCard } from 'components/SecondaryCard'
 import { useEffect } from 'react'
 import { logGTMToggleSendGiftEvent } from 'utils/customGTMEventTracking'

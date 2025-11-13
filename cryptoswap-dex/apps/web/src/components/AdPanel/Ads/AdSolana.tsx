@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { AdPlayerProps } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Link, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
+import { AdPlayerProps } from '@CryptoSwap/widgets-internal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 
 import { BodyText } from '../BodyText'

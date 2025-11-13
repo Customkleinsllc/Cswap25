@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { QuestRewardType } from 'views/DashboardQuestEdit/context/types'
 import { CompletionStatus } from 'views/DashboardQuestEdit/type'
 

@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Token } from '@CryptoSwap/sdk'
 import {
   AtomBox,
   AutoRow,
@@ -13,7 +13,7 @@ import {
   Tag,
   Text,
   useModalV2,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { AppBody, AppHeader } from 'components/App'
 import { LightGreyCard } from 'components/Card'
 import { CommitButton } from 'components/CommitButton'

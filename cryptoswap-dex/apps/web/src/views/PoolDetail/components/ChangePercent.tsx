@@ -1,4 +1,4 @@
-import { Flex, Text } from '@pancakeswap/uikit'
+import { Flex, Text } from '@CryptoSwap/uikit'
 import { useMemo } from 'react'
 import styled from 'styled-components'
 

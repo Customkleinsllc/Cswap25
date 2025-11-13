@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -9,14 +9,14 @@ import {
   Tag,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { styled } from 'styled-components'
 import { CompletionStatus } from 'views/DashboardQuestEdit/type'
 import { Description } from 'views/Quest/components/Description'
 // import { ExploreMore } from 'views/Quest/components/ExploreMore'
 // import { RelatedQuest } from 'views/Quest/components/RelatedQuest'
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { useEffect, useMemo } from 'react'
 import { convertTimestampToDate } from 'views/DashboardQuestEdit/utils/combineDateAndTime'

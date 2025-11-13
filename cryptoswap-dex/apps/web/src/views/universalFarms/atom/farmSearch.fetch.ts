@@ -1,7 +1,7 @@
 import { atomFamily } from 'jotai/utils'
 import isEqual from 'lodash/isEqual'
 import { atomWithLoadable } from 'quoter/atom/atomWithLoadable'
-import { FarmV4SupportedChainId, Protocol } from '@pancakeswap/farms'
+import { FarmV4SupportedChainId, Protocol } from '@CryptoSwap/farms'
 import edgeFarmQueries from 'state/farmsV4/search/edgeFarmQueries'
 
 import { FarmInfo } from 'state/farmsV4/search/farm.util'

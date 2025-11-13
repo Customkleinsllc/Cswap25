@@ -1,4 +1,4 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
+import { ChainId, getChainName } from '@CryptoSwap/chains'
 import { BaseIfoConfig, Ifo } from '../types'
 import { getDestChains } from './getDestChains'
 import { isCrossChainIfoSupportedOnly, isIfoSupported } from './isIfoSupported'

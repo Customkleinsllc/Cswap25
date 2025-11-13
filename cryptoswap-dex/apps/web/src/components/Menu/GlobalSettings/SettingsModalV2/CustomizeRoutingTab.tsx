@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AtomBox,
   AutoColumn,
@@ -10,8 +10,8 @@ import {
   QuestionHelper,
   Text,
   Toggle,
-} from '@pancakeswap/uikit'
-import { useUserSingleHopOnly } from '@pancakeswap/utils/user'
+} from '@CryptoSwap/uikit'
+import { useUserSingleHopOnly } from '@CryptoSwap/utils/user'
 import { PancakeSwapXTag } from 'components/PancakeSwapXTag'
 import { usePCSX, usePCSXFeatureEnabled } from 'hooks/usePCSX'
 import { useSpeedQuote } from 'hooks/useSpeedQuote'

@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { Currency } from '@CryptoSwap/swap-sdk-core'
 import { DEFAULT_PAYMASTER_TOKEN } from 'config/paymaster'
 import { atom, useAtom } from 'jotai'
 

@@ -1,5 +1,5 @@
-import { useIsMounted, usePreviousValue } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { useIsMounted, usePreviousValue } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   BalanceInput,
   Box,
@@ -12,9 +12,9 @@ import {
   Text,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { escapeRegExp } from '@pancakeswap/utils/escapeRegExp'
-import { formatPrice } from '@pancakeswap/utils/formatFractions'
+} from '@CryptoSwap/uikit'
+import { escapeRegExp } from '@CryptoSwap/utils/escapeRegExp'
+import { formatPrice } from '@CryptoSwap/utils/formatFractions'
 import BigNumber from 'bignumber.js'
 import { usePoolMarketPrice } from 'hooks/usePoolMarketPriceSlippage'
 import { tryParsePrice } from 'hooks/v3/utils'
@@ -22,9 +22,9 @@ import React, { useCallback, useEffect, useMemo, useState } from 'react'
 import { useSelectIdRouteParams } from 'hooks/dynamicRoute/useSelectIdRoute'
 import { useInverted } from 'state/infinity/shared'
 import styled from 'styled-components'
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@CryptoSwap/sdk'
 import { truncateText } from 'utils'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { useCurrencies } from '../../hooks/useCurrencies'
 
 export type FieldStartingPriceProps = {

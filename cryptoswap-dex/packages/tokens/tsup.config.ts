@@ -7,7 +7,7 @@ export default defineConfig((options) => {
       index: './src/index.ts',
     },
     format: ['esm', 'cjs'],
-    noExternal: ['@pancakeswap/utils', '@pancakeswap/solana-core-sdk'],
+    noExternal: ['@CryptoSwap/utils', '@CryptoSwap/solana-core-sdk'],
     dts: false,
     clean: !options.watch,
     treeshake: true,

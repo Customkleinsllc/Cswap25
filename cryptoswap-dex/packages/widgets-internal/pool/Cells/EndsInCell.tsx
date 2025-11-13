@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Flex, Text, TimerIcon, useTooltip } from "@pancakeswap/uikit";
-import getTimePeriods from "@pancakeswap/utils/getTimePeriods";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Flex, Text, TimerIcon, useTooltip } from "@CryptoSwap/uikit";
+import getTimePeriods from "@CryptoSwap/utils/getTimePeriods";
 import { useMemo } from "react";
 
 import { DeserializedPool } from "../types";

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Flex, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { HomePagePoolInfo } from 'pages/api/home/types'
 import styled from 'styled-components'

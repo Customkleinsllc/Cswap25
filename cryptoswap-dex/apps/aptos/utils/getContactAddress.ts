@@ -1,5 +1,5 @@
 import { parseTypeTag } from '@aptos-labs/ts-sdk'
-import { HexString } from '@pancakeswap/awgmi'
+import { HexString } from '@CryptoSwap/awgmi'
 import _get from 'lodash/get'
 
 export default function getContactAddress(resourceType: any) {

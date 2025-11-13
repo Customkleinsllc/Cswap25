@@ -1,4 +1,4 @@
-import { AutoColumn } from '@pancakeswap/uikit'
+import { AutoColumn } from '@CryptoSwap/uikit'
 import Page from 'components/Layout/Page'
 import styled from 'styled-components'
 import { BreadcrumbNav } from './components/BreadcrumbNav'

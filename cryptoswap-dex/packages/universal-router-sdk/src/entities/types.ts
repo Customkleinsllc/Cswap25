@@ -1,7 +1,7 @@
-import { ActionsPlanner } from '@pancakeswap/infinity-sdk'
-import { PermitSingle } from '@pancakeswap/permit2-sdk'
-import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { BaseRoute, Pool, RouteType, SmartRouterTrade, SwapOptions } from '@pancakeswap/smart-router'
+import { ActionsPlanner } from '@CryptoSwap/infinity-sdk'
+import { PermitSingle } from '@CryptoSwap/permit2-sdk'
+import { BigintIsh, Currency, CurrencyAmount, TradeType } from '@CryptoSwap/sdk'
+import { BaseRoute, Pool, RouteType, SmartRouterTrade, SwapOptions } from '@CryptoSwap/smart-router'
 import { Address } from 'viem'
 
 export interface Permit2Signature extends PermitSingle {

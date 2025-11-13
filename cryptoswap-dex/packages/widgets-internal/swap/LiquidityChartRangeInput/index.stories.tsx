@@ -1,8 +1,8 @@
 import React from "react";
 /* eslint-disable import/no-unresolved */
 import { Meta } from "@storybook/react/types-6-0";
-import { FeeAmount } from "@pancakeswap/v3-sdk";
-import { CurrencyAmount, Price } from "@pancakeswap/sdk";
+import { FeeAmount } from "@CryptoSwap/v3-sdk";
+import { CurrencyAmount, Price } from "@CryptoSwap/sdk";
 
 import mockData from "./mockData.json";
 import { LiquidityChartRangeInput } from "./LiquidityChartRangeInput";

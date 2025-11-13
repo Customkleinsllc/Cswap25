@@ -1,5 +1,5 @@
-import { useIntersectionObserver } from '@pancakeswap/hooks'
-import { Box, BoxProps, Image } from '@pancakeswap/uikit'
+import { useIntersectionObserver } from '@CryptoSwap/hooks'
+import { Box, BoxProps, Image } from '@CryptoSwap/uikit'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { atom, useAtom } from 'jotai'
 import { useEffect, useRef } from 'react'

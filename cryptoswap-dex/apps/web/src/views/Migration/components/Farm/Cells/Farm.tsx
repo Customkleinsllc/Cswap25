@@ -1,11 +1,11 @@
 import React from 'react'
 import { styled } from 'styled-components'
-import { Flex, Text } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Flex, Text } from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/widgets-internal'
 
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@CryptoSwap/sdk'
 import { TokenPairImage } from 'components/TokenImage'
-import { FarmWithStakedValue } from '@pancakeswap/farms'
+import { FarmWithStakedValue } from '@CryptoSwap/farms'
 
 const StyledCell = styled(Pool.BaseCell)`
   flex: 0;

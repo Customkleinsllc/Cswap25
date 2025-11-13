@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Price, Token } from '@pancakeswap/swap-sdk-core'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount, Price, Token } from '@CryptoSwap/swap-sdk-core'
 import {
   FeeAmount,
   Pool,
@@ -9,7 +9,7 @@ import {
   encodeSqrtRatioX96,
   nearestUsableTick,
   priceToClosestTick,
-} from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/v3-sdk'
 import { BIG_INT_ZERO } from 'config/constants/exchange'
 import { Bound } from 'config/constants/types'
 import { ReactNode, useMemo } from 'react'

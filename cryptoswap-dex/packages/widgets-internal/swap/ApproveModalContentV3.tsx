@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/swap-sdk-core";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Currency } from "@CryptoSwap/swap-sdk-core";
 import {
   Box,
   BoxProps,
@@ -12,7 +12,7 @@ import {
   Row,
   SwapLoading,
   Text,
-} from "@pancakeswap/uikit";
+} from "@CryptoSwap/uikit";
 import { FC, ReactNode, Ref, useMemo } from "react";
 import styled, { css } from "styled-components";
 import { CurrencyLogo } from "../components/CurrencyLogo";

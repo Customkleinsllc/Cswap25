@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Text, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Text, useToast } from '@CryptoSwap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { FAST_INTERVAL } from 'config/constants'
 import forEach from 'lodash/forEach'
@@ -16,9 +16,9 @@ import {
 import { usePublicClient } from 'wagmi'
 import { retry, RetryableError } from 'state/multicall/retry'
 import { useQuery } from '@tanstack/react-query'
-import { AVERAGE_CHAIN_BLOCK_TIMES } from '@pancakeswap/chains'
+import { AVERAGE_CHAIN_BLOCK_TIMES } from '@CryptoSwap/chains'
 import { BSC_BLOCK_TIME } from 'config'
-import { useFetchBlockData } from '@pancakeswap/wagmi'
+import { useFetchBlockData } from '@CryptoSwap/wagmi'
 import {
   FarmTransactionStatus,
   MsgStatus,

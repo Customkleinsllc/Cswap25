@@ -1,4 +1,4 @@
-import { SUPPORTED_CHAIN_IDS } from '@pancakeswap/prediction'
+import { SUPPORTED_CHAIN_IDS } from '@CryptoSwap/prediction'
 import dynamic from 'next/dynamic'
 import { NextPageWithLayout } from 'utils/page.types'
 import Predictions from '../../views/Predictions'

@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { ReactNode } from 'react'
 import { styled } from 'styled-components'
 

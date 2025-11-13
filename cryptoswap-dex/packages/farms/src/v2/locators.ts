@@ -1,7 +1,7 @@
-import { WBNB } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
-import { BUSD } from '@pancakeswap/tokens'
-import { equalsIgnoreCase } from '@pancakeswap/utils/equalsIgnoreCase'
+import { WBNB } from '@CryptoSwap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { BUSD } from '@CryptoSwap/tokens'
+import { equalsIgnoreCase } from '@CryptoSwap/utils/equalsIgnoreCase'
 import { FarmData } from '../types'
 
 /**

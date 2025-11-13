@@ -1,4 +1,4 @@
-import { arbitrumTokens } from '@pancakeswap/tokens'
+import { arbitrumTokens } from '@CryptoSwap/tokens'
 import { BaseIfoConfig } from '../../types'
 
 export const ifos: BaseIfoConfig[] = [

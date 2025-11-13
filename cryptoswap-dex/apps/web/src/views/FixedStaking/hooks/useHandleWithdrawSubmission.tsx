@@ -1,13 +1,13 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import { Link, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
+import { Link, useToast } from '@CryptoSwap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { useCallWithGasPrice } from 'hooks/useCallWithGasPrice'
 import useCatchTxError from 'hooks/useCatchTxError'
 import { useFixedStakingContract } from 'hooks/useContract'
 import { createElement, useCallback, useMemo } from 'react'
-import { useReadContract } from '@pancakeswap/wagmi'
+import { useReadContract } from '@CryptoSwap/wagmi'
 
 import { getBep20Contract } from 'utils/contractHelpers'
 

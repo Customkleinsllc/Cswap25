@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { TradeType } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { TradeType } from '@CryptoSwap/sdk'
 import { Address } from 'viem'
 import { z } from 'zod'
 import { PoolType } from './types'

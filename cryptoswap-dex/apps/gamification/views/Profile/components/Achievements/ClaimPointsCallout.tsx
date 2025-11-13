@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Card, CardBody, CardHeader, Flex, Heading, PrizeIcon } from '@CryptoSwap/uikit'
 import { Achievement } from 'config/constants/types'
 import { useProfile } from 'hooks/useProfile'
 import sumBy from 'lodash/sumBy'

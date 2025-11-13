@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, Flex, Text, Toggle } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Card, Flex, Text, Toggle } from '@CryptoSwap/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { styled } from 'styled-components'
 import { chains } from 'utils/wagmi'

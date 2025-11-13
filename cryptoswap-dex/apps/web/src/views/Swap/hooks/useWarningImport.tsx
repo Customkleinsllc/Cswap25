@@ -1,5 +1,5 @@
-import { Currency, Token, UnifiedCurrency } from '@pancakeswap/sdk'
-import { useModal } from '@pancakeswap/uikit'
+import { Currency, Token, UnifiedCurrency } from '@CryptoSwap/sdk'
+import { useModal } from '@CryptoSwap/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 
 import { useQuery } from '@tanstack/react-query'

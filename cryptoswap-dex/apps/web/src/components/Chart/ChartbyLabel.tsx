@@ -1,5 +1,5 @@
-import { Flex, FlexProps, Link, Text, LinkProps } from '@pancakeswap/uikit'
-import { Trans } from '@pancakeswap/localization'
+import { Flex, FlexProps, Link, Text, LinkProps } from '@CryptoSwap/uikit'
+import { Trans } from '@CryptoSwap/localization'
 
 export const ChartByLabel = ({
   symbol,

@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Button,
@@ -13,7 +13,7 @@ import {
   TelegramIcon,
   Text,
   TwitterIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import useAuth from 'hooks/useAuth'
 import { useConnectDiscord } from 'views/Profile/hooks/settingsModal/useConnectDiscord'

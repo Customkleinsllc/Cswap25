@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Image, Text, Button, AutoRow, Card, CardBody, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Image, Text, Button, AutoRow, Card, CardBody, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import styled from 'styled-components'
 import { ASSET_CDN } from '../../config/url'
 

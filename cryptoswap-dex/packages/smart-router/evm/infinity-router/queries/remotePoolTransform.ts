@@ -1,13 +1,13 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   encodeHooksRegistration,
   HookData,
   hooksList,
   INFI_BIN_POOL_MANAGER_ADDRESSES,
   INFI_CL_POOL_MANAGER_ADDRESSES,
-} from '@pancakeswap/infinity-sdk'
+} from '@CryptoSwap/infinity-sdk'
 
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount, Percent } from '@CryptoSwap/swap-sdk-core'
 import { checksumAddress } from 'viem'
 import { Address } from 'viem/accounts'
 import {

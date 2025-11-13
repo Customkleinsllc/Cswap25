@@ -1,5 +1,5 @@
 /* eslint-disable camelcase */
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { ACCESS_RISK_API } from 'config/constants/endpoints'
 
 export interface RiskTokenInfo {

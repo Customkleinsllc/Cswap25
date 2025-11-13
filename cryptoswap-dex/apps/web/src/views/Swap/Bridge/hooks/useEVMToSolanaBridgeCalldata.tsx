@@ -1,9 +1,9 @@
 import { useQuery } from '@tanstack/react-query'
-import { useUserSlippage } from '@pancakeswap/utils/user'
+import { useUserSlippage } from '@CryptoSwap/utils/user'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 import { BridgeOrderWithCommands, isBridgeOrder } from 'views/Swap/utils'
 import { Calldata } from 'hooks/usePermit2'
-import { isEvm, isSolana } from '@pancakeswap/chains'
+import { isEvm, isSolana } from '@CryptoSwap/chains'
 import { getSolanaBridgeCalldata } from '../api'
 import { RELAY_STEP_ID } from '../types'
 

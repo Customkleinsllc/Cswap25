@@ -1,5 +1,5 @@
-import { Flex, FlexGap, Text } from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatNumber'
+import { Flex, FlexGap, Text } from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatNumber'
 import styled from 'styled-components'
 
 const PriceRangeContainer = styled.div`

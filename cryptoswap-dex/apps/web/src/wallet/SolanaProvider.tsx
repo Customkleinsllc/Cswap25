@@ -20,7 +20,7 @@ import {
 import { initialize, SolflareWalletAdapter } from '@solflare-wallet/wallet-adapter'
 
 import { useAtomValue, useSetAtom } from 'jotai'
-import { rpcUrlAtom } from '@pancakeswap/utils/user'
+import { rpcUrlAtom } from '@CryptoSwap/utils/user'
 import { defaultNetWork } from './solana.config'
 import { BackpackWalletAdapter } from './walletAdapter/BackpackWalletAdapter'
 import { OKXWalletAdapter } from './walletAdapter/OKXWalletAdapter'

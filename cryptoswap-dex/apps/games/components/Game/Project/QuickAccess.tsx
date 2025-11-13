@@ -1,8 +1,8 @@
 import { styled } from 'styled-components'
 import { useState } from 'react'
-import { Flex, Box, Text, Link, TelegramIcon, DiscordIcon, ChevronUpIcon } from '@pancakeswap/uikit'
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { GameType } from '@pancakeswap/games'
+import { Flex, Box, Text, Link, TelegramIcon, DiscordIcon, ChevronUpIcon } from '@CryptoSwap/uikit'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
+import { GameType } from '@CryptoSwap/games'
 
 const StyledQuickAccess = styled(Box)<{ isOpen?: boolean }>`
   position: ${({ isOpen }) => (isOpen ? 'static' : 'absolute')};

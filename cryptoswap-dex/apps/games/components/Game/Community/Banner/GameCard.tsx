@@ -1,7 +1,7 @@
-import { Box, BoxProps, Card, Text, Flex, Link, DiscordIcon, TelegramIcon } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Box, BoxProps, Card, Text, Flex, Link, DiscordIcon, TelegramIcon } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { styled, useTheme } from 'styled-components'
-import { GameType } from '@pancakeswap/games'
+import { GameType } from '@CryptoSwap/games'
 
 const StyledBackgroundImage = styled(Box)<{ imgUrl: string }>`
   height: 100%;

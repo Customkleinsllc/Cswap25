@@ -1,6 +1,6 @@
 // bsc testnet
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 
 export const GIFT_PANCAKE_V1_ADDRESS = '0x68E5f51980e2AcbB9817E34f3A2db71F5Ce2ecE3'
 

@@ -1,4 +1,4 @@
-import { Pair } from '@pancakeswap/sdk'
+import { Pair } from '@CryptoSwap/sdk'
 import { useMemo } from 'react'
 import { toV2LiquidityToken, useTrackedTokenPairs } from 'state/user/hooks'
 import { useTokenBalancesWithLoadingIndicator } from 'state/wallet/hooks'

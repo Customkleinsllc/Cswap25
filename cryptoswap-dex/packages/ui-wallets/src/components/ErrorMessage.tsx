@@ -1,4 +1,4 @@
-import { Text, WarningIcon } from '@pancakeswap/uikit'
+import { Text, WarningIcon } from '@CryptoSwap/uikit'
 
 export const ErrorMessage = ({ message }: { message: string }) => (
   <Text bold color="failure">

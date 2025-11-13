@@ -1,5 +1,5 @@
 import { useCallback, useMemo } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 export const useChartCallbacks = (setHoverValue, setHoverDate) => {
   const {

@@ -1,6 +1,6 @@
-import { FlexGap, Modal, ModalV2, ModalV2Props } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
-import { Liquidity, Tips } from '@pancakeswap/widgets-internal'
+import { FlexGap, Modal, ModalV2, ModalV2Props } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Liquidity, Tips } from '@CryptoSwap/widgets-internal'
 import { useMemo } from 'react'
 import { type APRBreakdownProps, useAPRBreakdown } from 'views/universalFarms/hooks/useAPRBreakdown'
 

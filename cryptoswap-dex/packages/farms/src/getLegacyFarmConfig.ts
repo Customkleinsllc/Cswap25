@@ -1,5 +1,5 @@
-import { ChainId, getChainName } from '@pancakeswap/chains'
-import { getStableSwapPools } from '@pancakeswap/stable-swap-sdk'
+import { ChainId, getChainName } from '@CryptoSwap/chains'
+import { getStableSwapPools } from '@CryptoSwap/stable-swap-sdk'
 import { supportedChainIdV4 } from './const'
 import { fetchUniversalFarms } from './fetchUniversalFarms'
 import { SerializedFarmConfig, SerializedFarmPublicData, UniversalFarmConfig } from './types'

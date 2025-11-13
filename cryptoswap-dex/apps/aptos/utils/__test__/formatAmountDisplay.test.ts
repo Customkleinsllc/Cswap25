@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { Fraction } from '@pancakeswap/aptos-swap-sdk'
+import { Fraction } from '@CryptoSwap/aptos-swap-sdk'
 
 import formatAmountDisplay from '../formatAmountDisplay'
 

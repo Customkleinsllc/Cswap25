@@ -1,4 +1,4 @@
-import { ModalV2Props } from '@pancakeswap/uikit'
+import { ModalV2Props } from '@CryptoSwap/uikit'
 import { EvmConnectorNames } from '../../config/connectorNames'
 import { ConnectData, WalletConfigV3 } from '../../types'
 

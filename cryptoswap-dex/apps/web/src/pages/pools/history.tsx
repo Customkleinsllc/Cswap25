@@ -1,4 +1,4 @@
-import { SUPPORTED_CHAIN_IDS } from '@pancakeswap/pools'
+import { SUPPORTED_CHAIN_IDS } from '@CryptoSwap/pools'
 
 import Pools from 'views/Pools'
 

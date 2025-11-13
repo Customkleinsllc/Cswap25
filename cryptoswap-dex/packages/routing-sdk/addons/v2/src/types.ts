@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from '@pancakeswap/swap-sdk-core'
-import type { SerializableCurrencyAmount, Pool } from '@pancakeswap/routing-sdk'
+import { Currency, CurrencyAmount } from '@CryptoSwap/swap-sdk-core'
+import type { SerializableCurrencyAmount, Pool } from '@CryptoSwap/routing-sdk'
 
 import { V2_POOL_TYPE } from './constants/poolType'
 

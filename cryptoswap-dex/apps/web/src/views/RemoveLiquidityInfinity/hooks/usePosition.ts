@@ -1,5 +1,5 @@
-import type { ChainId } from '@pancakeswap/chains'
-import { type PoolKey, type PoolType, decodeCLPoolParameters } from '@pancakeswap/infinity-sdk'
+import type { ChainId } from '@CryptoSwap/chains'
+import { type PoolKey, type PoolType, decodeCLPoolParameters } from '@CryptoSwap/infinity-sdk'
 import { useQuery } from '@tanstack/react-query'
 import { getInfinityCLPositionManagerContract } from '../../../utils/contractHelpers'
 

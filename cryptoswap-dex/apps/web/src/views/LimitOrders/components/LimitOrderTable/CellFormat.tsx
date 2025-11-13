@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { ReactElement } from 'react'
 
 interface CellFormatProps {

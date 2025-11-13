@@ -1,6 +1,6 @@
 import { Box, Button, Flex, VStack } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
-import { Checkbox, ModalV2, MotionModal, Text, useMatchBreakpoints, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Checkbox, ModalV2, MotionModal, Text, useMatchBreakpoints, useModalV2 } from '@CryptoSwap/uikit'
 import { useEffect, useState } from 'react'
 import { setStorageItem } from '@/utils/localStorage'
 import { colors } from '@/theme/cssVariables'

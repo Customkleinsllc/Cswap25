@@ -1,4 +1,4 @@
-import { getPoolContractBySousId } from '@pancakeswap/pools'
+import { getPoolContractBySousId } from '@CryptoSwap/pools'
 
 import { Abi, Address, erc20Abi } from 'viem'
 import { usePublicClient, useWalletClient } from 'wagmi'
@@ -58,11 +58,11 @@ import {
   getZksyncAirDropContract,
 } from 'utils/contractHelpers'
 
-import { ChainId } from '@pancakeswap/chains'
-import { ifoV7ABI, ifoV8ABI } from '@pancakeswap/ifos'
-import { WNATIVE, pancakePairV2ABI } from '@pancakeswap/sdk'
-import { CAKE } from '@pancakeswap/tokens'
-import { nonfungiblePositionManagerABI } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { ifoV7ABI, ifoV8ABI } from '@CryptoSwap/ifos'
+import { WNATIVE, pancakePairV2ABI } from '@CryptoSwap/sdk'
+import { CAKE } from '@CryptoSwap/tokens'
+import { nonfungiblePositionManagerABI } from '@CryptoSwap/v3-sdk'
 import { multicallABI } from 'config/abi/Multicall'
 import { erc20Bytes32ABI } from 'config/abi/erc20_bytes32'
 import { ifoV1ABI } from 'config/abi/ifoV1'
@@ -76,7 +76,7 @@ import { VaultKey } from 'state/types'
 import { erc721CollectionABI } from 'config/abi/erc721collection'
 import { infoStableSwapABI } from 'config/abi/infoStableSwap'
 import { wethABI } from 'config/abi/weth'
-import { PredictionContractVersion } from '@pancakeswap/prediction'
+import { PredictionContractVersion } from '@CryptoSwap/prediction'
 /**
  * Helper hooks to get specific contracts (by ABI)
  */

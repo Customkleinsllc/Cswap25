@@ -1,4 +1,4 @@
-import { Svg, SvgProps, vars } from '@pancakeswap/uikit'
+import { Svg, SvgProps, vars } from '@CryptoSwap/uikit'
 import React from 'react'
 
 export const LogoText: React.FC<React.PropsWithChildren<SvgProps>> = (props) => {

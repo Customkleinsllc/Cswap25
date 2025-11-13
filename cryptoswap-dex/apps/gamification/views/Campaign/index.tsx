@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowBackIcon,
   Box,
@@ -9,7 +9,7 @@ import {
   Tag,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 import { Description } from 'views/Campaign/components/Description'
 import { QuestList } from 'views/Campaign/components/QuestList'

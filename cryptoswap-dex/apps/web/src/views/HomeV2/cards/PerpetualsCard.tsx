@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, Text, TriangleDownIcon, TriangleUpIcon, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { HomePageToken } from 'pages/api/home/types'
 import React from 'react'
 import styled from 'styled-components'

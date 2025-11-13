@@ -1,6 +1,6 @@
-import { AbortControl, AbortError, abortInvariant } from '@pancakeswap/utils/abortControl'
-import { toBigInt } from '@pancakeswap/utils/toBigInt'
-import { isViemAbortError } from '@pancakeswap/utils/viem/isAbortError'
+import { AbortControl, AbortError, abortInvariant } from '@CryptoSwap/utils/abortControl'
+import { toBigInt } from '@CryptoSwap/utils/toBigInt'
+import { isViemAbortError } from '@CryptoSwap/utils/viem/isAbortError'
 
 import { getBlockConflictTolerance } from './getBlockConflictTolerance'
 import { GetGasLimitParams, getDefaultGasBuffer, getGasLimit } from './getGasLimit'

@@ -1,5 +1,5 @@
-import { Currency, UnifiedCurrency } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { Currency, UnifiedCurrency } from '@CryptoSwap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
 import SwapWarningTokens from 'config/constants/swapWarningTokens'
 
 const shouldShowSwapWarning = (chainId: ChainId | undefined, swapCurrency?: UnifiedCurrency): boolean => {

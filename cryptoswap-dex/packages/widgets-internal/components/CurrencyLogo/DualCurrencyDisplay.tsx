@@ -1,5 +1,5 @@
-import { UnifiedCurrency } from "@pancakeswap/sdk";
-import { ArrowForwardIcon, AtomBoxProps, AutoColumn, Grid, RowFixed, Text } from "@pancakeswap/uikit";
+import { UnifiedCurrency } from "@CryptoSwap/sdk";
+import { ArrowForwardIcon, AtomBoxProps, AutoColumn, Grid, RowFixed, Text } from "@CryptoSwap/uikit";
 import styled from "styled-components";
 import { CurrencyLogo } from "./CurrencyLogo";
 

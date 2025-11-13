@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Collapse, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Collapse, Text } from '@CryptoSwap/uikit'
 import { memo, useMemo, useState } from 'react'
 import { styled } from 'styled-components'
 import { faqConfig } from './config'

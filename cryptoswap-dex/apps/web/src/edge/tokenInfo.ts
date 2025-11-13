@@ -1,4 +1,4 @@
-import { ChainId, getChainIdByChainName } from '@pancakeswap/chains'
+import { ChainId, getChainIdByChainName } from '@CryptoSwap/chains'
 import {
   V2TokenDataQuery,
   fetchV2ChartsTvlData,

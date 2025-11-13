@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react'
 import { styled } from 'styled-components'
-import { PostersItemDataType, PostersItemData } from '@pancakeswap/games'
-import { Flex, Box, ChevronLeftIcon, ChevronRightIcon } from '@pancakeswap/uikit'
+import { PostersItemDataType, PostersItemData } from '@CryptoSwap/games'
+import { Flex, Box, ChevronLeftIcon, ChevronRightIcon } from '@CryptoSwap/uikit'
 
 import 'swiper/css'
 import 'swiper/css/navigation'

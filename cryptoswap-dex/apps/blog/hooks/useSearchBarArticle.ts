@@ -1,4 +1,4 @@
-import { ArticleDataType } from '@pancakeswap/blog'
+import { ArticleDataType } from '@CryptoSwap/blog'
 import { useQuery } from '@tanstack/react-query'
 import { getArticle } from 'hooks/getArticle'
 

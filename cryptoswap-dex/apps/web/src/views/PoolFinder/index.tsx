@@ -1,8 +1,8 @@
-import { Currency, UnifiedCurrency } from '@pancakeswap/sdk'
-import { AddIcon, AutoColumn, Button, ChevronDownIcon, ColumnCenter, Text, useModal } from '@pancakeswap/uikit'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { Currency, UnifiedCurrency } from '@CryptoSwap/sdk'
+import { AddIcon, AutoColumn, Button, ChevronDownIcon, ColumnCenter, Text, useModal } from '@CryptoSwap/uikit'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { LightCard } from 'components/Card'
 import { MinimalPositionCard } from 'components/PositionCard'
 import { CommonBasesType } from 'components/SearchModal/types'

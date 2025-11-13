@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoRenewIcon,
   Box,
@@ -10,9 +10,9 @@ import {
   Spinner,
   Text,
   Toggle,
-} from '@pancakeswap/uikit'
-import { formatTimestamp, Precision } from '@pancakeswap/utils/formatTimestamp'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { formatTimestamp, Precision } from '@CryptoSwap/utils/formatTimestamp'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { SecondaryCard } from 'components/SecondaryCard'
 import { ActionButton } from 'components/WalletModalV2/ActionButton'
 import { SEND_ENTRY, ViewState } from 'components/WalletModalV2/type'

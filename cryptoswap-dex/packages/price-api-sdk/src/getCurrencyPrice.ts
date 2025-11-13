@@ -1,4 +1,4 @@
-import { ChainId, isTestnetChainId } from '@pancakeswap/chains'
+import { ChainId, isTestnetChainId } from '@CryptoSwap/chains'
 
 import { Address } from './types/common'
 

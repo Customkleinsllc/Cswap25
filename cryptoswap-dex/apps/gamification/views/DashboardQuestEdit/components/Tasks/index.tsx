@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AddIcon, Box, Button, Card, DragIcon, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AddIcon, Box, Button, Card, DragIcon, Flex, Text } from '@CryptoSwap/uikit'
 import { MouseEvent, useMemo, useRef, useState } from 'react'
 import DraggableList from 'react-draggable-list'
 import { AddBlogPost } from 'views/DashboardQuestEdit/components/Tasks/AddBlogPost'

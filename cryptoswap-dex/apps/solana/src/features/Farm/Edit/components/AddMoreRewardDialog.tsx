@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Flex,
@@ -15,7 +15,7 @@ import {
   VStack,
   useDisclosure
 } from '@chakra-ui/react'
-import { TokenInfo, ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { TokenInfo, ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 import Decimal from 'decimal.js'
 
 import dayjs from 'dayjs'

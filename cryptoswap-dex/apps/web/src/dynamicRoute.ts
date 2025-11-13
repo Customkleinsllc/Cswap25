@@ -1,5 +1,5 @@
-import { ChainId, chainNames } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
+import { ChainId, chainNames } from '@CryptoSwap/chains'
+import { Protocol } from '@CryptoSwap/farms'
 import { getChainId } from 'config/chains'
 import { DynamicRoute } from 'next-typesafe-url'
 import { Address, Hex } from 'viem'

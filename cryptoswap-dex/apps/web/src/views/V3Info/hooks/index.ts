@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Protocol } from '@pancakeswap/farms'
+import { ChainId } from '@CryptoSwap/chains'
+import { Protocol } from '@CryptoSwap/farms'
 import { GraphQLClient } from 'graphql-request'
 import { useMemo } from 'react'
 import { usePoolInfo } from 'state/farmsV4/hooks'

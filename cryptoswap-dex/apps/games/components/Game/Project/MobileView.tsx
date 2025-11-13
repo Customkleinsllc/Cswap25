@@ -1,9 +1,9 @@
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useState, useMemo } from 'react'
-import { Flex, Button, useModal } from '@pancakeswap/uikit'
+import { Flex, Button, useModal } from '@CryptoSwap/uikit'
 import { TabToggle } from 'components/TabToggle'
-import { GameType } from '@pancakeswap/games'
+import { GameType } from '@CryptoSwap/games'
 import { YoutubeList } from 'components/Game/Project/YoutubeList'
 import { QuickAccessModal } from 'components/Game/Project/QuickAccessModal'
 

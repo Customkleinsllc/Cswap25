@@ -1,5 +1,5 @@
 import { Box, Flex, Grid, GridItem, HStack, Heading, Link, Skeleton, Text, VStack, useDisclosure } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ApiV3PoolInfoConcentratedItem,
   FARM_PROGRAM_ID_V6,
@@ -8,7 +8,7 @@ import {
   TokenInfo,
   solToWSol,
   solToWSolToken
-} from '@pancakeswap/solana-core-sdk'
+} from '@CryptoSwap/solana-core-sdk'
 import { PublicKey } from '@solana/web3.js'
 import { useRouter } from 'next/router'
 import { useEffect, useMemo, useRef, useState } from 'react'

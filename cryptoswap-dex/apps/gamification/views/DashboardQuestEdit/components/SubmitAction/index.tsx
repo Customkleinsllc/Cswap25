@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency } from '@CryptoSwap/sdk'
 import {
   Box,
   Button,
@@ -12,7 +12,7 @@ import {
   PencilIcon,
   useModal,
   useToast,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useQueryClient } from '@tanstack/react-query'
 import { ADDRESS_ZERO } from 'config/constants'
 import { GAMIFICATION_PUBLIC_DASHBOARD_API } from 'config/constants/endpoints'

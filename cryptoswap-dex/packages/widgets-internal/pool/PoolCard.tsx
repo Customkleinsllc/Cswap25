@@ -1,5 +1,5 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { CardBody, CardRibbon, Flex, Skeleton } from "@pancakeswap/uikit";
+import { useTranslation } from "@CryptoSwap/localization";
+import { CardBody, CardRibbon, Flex, Skeleton } from "@CryptoSwap/uikit";
 import { ReactElement, useMemo } from "react";
 import { PoolCardHeader, PoolCardHeaderTitle } from "./PoolCardHeader";
 import { StyledCard } from "./StyledCard";

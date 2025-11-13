@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, LogoIcon, Modal, ModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Flex, LogoIcon, Modal, ModalV2 } from '@CryptoSwap/uikit'
 
 import { QRCodeSVG } from 'qrcode.react'
 import { styled } from 'styled-components'

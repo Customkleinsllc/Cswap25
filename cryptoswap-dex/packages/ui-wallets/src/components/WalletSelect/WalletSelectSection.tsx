@@ -12,11 +12,11 @@ import {
   ShieldCheckIcon,
   useTooltip,
   Link,
-} from '@pancakeswap/uikit'
-import { StyledCardInner } from '@pancakeswap/uikit/components/Card/StyledCard'
+} from '@CryptoSwap/uikit'
+import { StyledCardInner } from '@CryptoSwap/uikit/components/Card/StyledCard'
 import React from 'react'
 import styled, { useTheme } from 'styled-components'
-import { Trans } from '@pancakeswap/localization'
+import { Trans } from '@CryptoSwap/localization'
 import { WalletAdaptedNetwork, WalletConfigV3 } from '../../types'
 import { walletIconClass } from '../WalletModal.css'
 import { ASSET_CDN } from '../../config/url'

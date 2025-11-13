@@ -1,5 +1,5 @@
 import { useState, useImperativeHandle, useCallback, RefObject } from 'react'
-import { TokenInfo } from '@pancakeswap/solana-core-sdk'
+import { TokenInfo } from '@CryptoSwap/solana-core-sdk'
 import ExistFarmingRewardItem from './FarmingRewardItem'
 import { EditReward } from '../util'
 

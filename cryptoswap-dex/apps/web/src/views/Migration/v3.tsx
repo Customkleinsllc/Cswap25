@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   ArrowForwardIcon,
   AtomBox,
@@ -10,7 +10,7 @@ import {
   PageHeader,
   RowBetween,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import Page from 'components/Layout/Page'
 import Image from 'next/image'
 import { useRouter } from 'next/router'

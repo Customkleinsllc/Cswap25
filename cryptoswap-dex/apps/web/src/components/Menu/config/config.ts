@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ContextApi } from '@pancakeswap/localization'
-import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@pancakeswap/pools'
-import { SUPPORTED_CHAIN_IDS as PREDICTION_SUPPORTED_CHAINS } from '@pancakeswap/prediction'
+import { ChainId } from '@CryptoSwap/chains'
+import { ContextApi } from '@CryptoSwap/localization'
+import { SUPPORTED_CHAIN_IDS as POOL_SUPPORTED_CHAINS } from '@CryptoSwap/pools'
+import { SUPPORTED_CHAIN_IDS as PREDICTION_SUPPORTED_CHAINS } from '@CryptoSwap/prediction'
 import {
   BridgeIcon,
   DropdownMenuItems,
@@ -15,7 +15,7 @@ import {
   SwapIcon,
   TradeFilledIcon,
   TradeIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { SUPPORT_FARMS, SUPPORT_ONLY_BSC } from 'config/constants/supportChains'
 import { getPerpetualUrl } from 'utils/getPerpetualUrl'

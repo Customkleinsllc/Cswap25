@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Button, Grid, Message, MessageText, Modal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Button, Grid, Message, MessageText, Modal, Text } from '@CryptoSwap/uikit'
 import { useLocalNetworkChain } from 'hooks/useActiveChainId'
 import { useSwitchNetwork, useSwitchNetworkLocal } from 'hooks/useSwitchNetwork'
 // eslint-disable-next-line no-restricted-imports
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useMenuItems } from 'components/Menu/hooks/useMenuItems'
 import { getActiveMenuItem, getActiveSubMenuItem } from 'components/Menu/utils'
 import useAuth from 'hooks/useAuth'

@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CardProps, FlexGap, InfoIcon, QuestionHelperV2, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { CardProps, FlexGap, InfoIcon, QuestionHelperV2, Text } from '@CryptoSwap/uikit'
 import { useCakePrice } from 'hooks/useCakePrice'
 import { useMemo } from 'react'
 import { formatAmount } from 'utils/formatInfoNumbers'

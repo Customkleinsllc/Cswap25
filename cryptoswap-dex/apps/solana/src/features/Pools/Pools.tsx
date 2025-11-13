@@ -16,9 +16,9 @@ import {
   useOutsideClick,
   useUpdateEffect
 } from '@chakra-ui/react'
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { ApiV3Token, FetchPoolParams, PoolFetchType } from '@pancakeswap/solana-core-sdk'
-import { ButtonMenu, ButtonMenuItem } from '@pancakeswap/uikit'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
+import { ApiV3Token, FetchPoolParams, PoolFetchType } from '@CryptoSwap/solana-core-sdk'
+import { ButtonMenu, ButtonMenuItem } from '@CryptoSwap/uikit'
 import { AllCommunityModule, ColDef, ModuleRegistry, themeQuartz } from 'ag-grid-community'
 import { AgGridReact } from 'ag-grid-react'
 import { ChangeEvent, useCallback, useEffect, useMemo, useRef, useState } from 'react'

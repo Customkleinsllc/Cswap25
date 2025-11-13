@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   HOOK_CATEGORY,
   type HookData,
@@ -6,7 +6,7 @@ import {
   type PoolType,
   dynamicHooksList,
   hooksList,
-} from '@pancakeswap/infinity-sdk'
+} from '@CryptoSwap/infinity-sdk'
 import keyBy from 'lodash/keyBy'
 import { useMemo } from 'react'
 import { safeGetAddress } from 'utils'

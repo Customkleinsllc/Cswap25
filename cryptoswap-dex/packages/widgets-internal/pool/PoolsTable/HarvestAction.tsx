@@ -1,7 +1,7 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { createElement } from "react";
 
-import { Balance, Button, Flex, Heading, Text } from "@pancakeswap/uikit";
+import { Balance, Button, Flex, Heading, Text } from "@CryptoSwap/uikit";
 
 import { ActionContainer, ActionContent, ActionTitles } from "./styles";
 

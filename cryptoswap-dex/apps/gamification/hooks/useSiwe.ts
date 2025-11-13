@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { GAMIFICATION_PUBLIC_API } from 'config/constants/endpoints'
 import { useAtom } from 'jotai'
 import { atomWithStorage, createJSONStorage, RESET } from 'jotai/utils'

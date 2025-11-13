@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import {
   BIN_DYNAMIC_FEE_HOOK_REGISTRATION_BITMAP,
   BIN_DYNAMIC_FEE_HOOKS_BY_CHAIN,
@@ -13,7 +13,7 @@ import {
   type InfinitySupportedChains,
   type PoolKey,
   type PoolType,
-} from '@pancakeswap/infinity-sdk'
+} from '@CryptoSwap/infinity-sdk'
 import { zeroAddress, type Address, type Hex } from 'viem'
 
 export type HookPreset<P extends PoolType> = {

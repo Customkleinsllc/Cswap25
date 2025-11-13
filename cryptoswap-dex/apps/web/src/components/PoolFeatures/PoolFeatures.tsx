@@ -1,5 +1,5 @@
-import { HookData } from '@pancakeswap/infinity-sdk'
-import { useTranslation } from '@pancakeswap/localization'
+import { HookData } from '@CryptoSwap/infinity-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AutoColumn,
   AutoRow,
@@ -14,9 +14,9 @@ import {
   PreTitle,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import truncateHash from '@pancakeswap/utils/truncateHash'
-import { Liquidity } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import truncateHash from '@CryptoSwap/utils/truncateHash'
+import { Liquidity } from '@CryptoSwap/widgets-internal'
 import Link from 'next/link'
 import { useMemo } from 'react'
 

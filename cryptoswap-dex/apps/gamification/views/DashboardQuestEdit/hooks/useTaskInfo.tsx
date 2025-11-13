@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   BunnyFillIcon,
   DiscordIcon,
@@ -7,7 +7,7 @@ import {
   TelegramIcon,
   TwitterIcon,
   YoutubeIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useCallback } from 'react'
 import { TaskType } from 'views/DashboardQuestEdit/type'
 

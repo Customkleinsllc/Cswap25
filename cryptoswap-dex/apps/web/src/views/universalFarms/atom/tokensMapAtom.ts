@@ -1,6 +1,6 @@
-import { supportedChainIdV4 } from '@pancakeswap/farms'
-import { Native, ZERO_ADDRESS } from '@pancakeswap/sdk'
-import { TokenInfo } from '@pancakeswap/token-lists'
+import { supportedChainIdV4 } from '@CryptoSwap/farms'
+import { Native, ZERO_ADDRESS } from '@CryptoSwap/sdk'
+import { TokenInfo } from '@CryptoSwap/token-lists'
 import { atom } from 'jotai'
 import { listsAtom } from 'state/lists/lists'
 

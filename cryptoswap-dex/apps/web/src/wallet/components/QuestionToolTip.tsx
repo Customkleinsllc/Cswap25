@@ -1,4 +1,4 @@
-import { QuestionHelper, Text } from '@pancakeswap/uikit'
+import { QuestionHelper, Text } from '@CryptoSwap/uikit'
 import React from 'react'
 
 interface Props {

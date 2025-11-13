@@ -1,4 +1,4 @@
-import { Protocol, fetchAllUniversalFarms, fetchAllUniversalFarmsMap, getFarmConfigKey } from '@pancakeswap/farms'
+import { Protocol, fetchAllUniversalFarms, fetchAllUniversalFarmsMap, getFarmConfigKey } from '@CryptoSwap/farms'
 import {
   BinPoolManagerAbi,
   CLPoolManagerAbi,
@@ -6,9 +6,9 @@ import {
   PoolKey,
   decodeBinPoolParameters,
   decodeCLPoolParameters,
-} from '@pancakeswap/infinity-sdk'
-import { Native } from '@pancakeswap/sdk'
-import { Token } from '@pancakeswap/swap-sdk-core'
+} from '@CryptoSwap/infinity-sdk'
+import { Native } from '@CryptoSwap/sdk'
+import { Token } from '@CryptoSwap/swap-sdk-core'
 import set from 'lodash/set'
 import { chainIdToExplorerInfoChainName, explorerApiClient } from 'state/info/api/client'
 import { getPoolManagerAddress } from 'utils/addressHelpers'

@@ -1,7 +1,7 @@
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { formatDollarAmount } from 'views/V3Info/utils/numbers'
-import { CurrencyAmount, NativeCurrency, Token } from '@pancakeswap/sdk'
-import { Flex, FlexProps, Text } from '@pancakeswap/uikit'
+import { CurrencyAmount, NativeCurrency, Token } from '@CryptoSwap/sdk'
+import { Flex, FlexProps, Text } from '@CryptoSwap/uikit'
 import { useStablecoinPrice } from 'hooks/useStablecoinPrice'
 import { multiplyPriceByAmount } from 'utils/prices'
 

@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Percent, Token } from '@pancakeswap/sdk'
+import { Currency, CurrencyAmount, Percent, Token } from '@CryptoSwap/sdk'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useQuery } from '@tanstack/react-query'
 import { useInfoStableSwapContract } from 'hooks/useContract'
 import { useContext, useMemo } from 'react'

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { ERC20Token, WETH9 } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { ERC20Token, WETH9 } from '@CryptoSwap/sdk'
 import { BUSD, USDC, USDT } from './common'
 
 export const monadTestnetTokens = {

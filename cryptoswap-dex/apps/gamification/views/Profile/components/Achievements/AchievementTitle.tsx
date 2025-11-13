@@ -1,5 +1,5 @@
-import { Text, TextProps } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Text, TextProps } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { TranslatableText as AchievementTitleType } from 'config/constants/types'
 
 interface AchievementTitleProps extends TextProps {

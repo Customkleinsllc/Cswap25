@@ -1,9 +1,9 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Percent, ZERO_PERCENT } from "@pancakeswap/sdk";
-import { Box, ExpandableLabel, Flex, Grid, Text } from "@pancakeswap/uikit";
-import { BulletList, Footer } from "@pancakeswap/uikit/components/RoiCalculatorModal/RoiCalculatorFooter";
-import { formatPercent } from "@pancakeswap/utils/formatFractions";
-import { formatAmount } from "@pancakeswap/utils/formatInfoNumbers";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Percent, ZERO_PERCENT } from "@CryptoSwap/sdk";
+import { Box, ExpandableLabel, Flex, Grid, Text } from "@CryptoSwap/uikit";
+import { BulletList, Footer } from "@CryptoSwap/uikit/components/RoiCalculatorModal/RoiCalculatorFooter";
+import { formatPercent } from "@CryptoSwap/utils/formatFractions";
+import { formatAmount } from "@CryptoSwap/utils/formatInfoNumbers";
 import { ReactNode, memo, useState } from "react";
 import { styled } from "styled-components";
 

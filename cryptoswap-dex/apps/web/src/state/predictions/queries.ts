@@ -1,4 +1,4 @@
-import { PredictionSupportedSymbol } from '@pancakeswap/prediction'
+import { PredictionSupportedSymbol } from '@CryptoSwap/prediction'
 import { betBaseFields as betBaseFieldsBNB, userBaseFields as userBaseFieldsBNB } from './bnbQueries'
 import { betBaseFields as betBaseFieldsCAKE, userBaseFields as userBaseFieldsCAKE } from './cakeQueries'
 import {

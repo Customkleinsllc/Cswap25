@@ -1,6 +1,6 @@
-import { SerializedFarmsState } from '@pancakeswap/farms'
-import { SerializedPoolWithInfo } from '@pancakeswap/pools'
-import { BetPosition, PredictionStatus, PredictionsChartView } from '@pancakeswap/prediction'
+import { SerializedFarmsState } from '@CryptoSwap/farms'
+import { SerializedPoolWithInfo } from '@CryptoSwap/pools'
+import { BetPosition, PredictionStatus, PredictionsChartView } from '@CryptoSwap/prediction'
 import BigNumber from 'bignumber.js'
 import {
   CampaignType,

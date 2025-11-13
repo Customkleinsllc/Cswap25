@@ -1,4 +1,4 @@
-import { ChainId, chainNames } from '@pancakeswap/chains'
+import { ChainId, chainNames } from '@CryptoSwap/chains'
 import memoize from 'lodash/memoize'
 import {
   Chain,

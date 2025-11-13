@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, LinkExternal, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, LinkExternal, Text } from '@CryptoSwap/uikit'
 
 const NFPWarning = () => {
   const { t } = useTranslation()

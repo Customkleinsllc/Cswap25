@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { LegacyRouter } from '@pancakeswap/smart-router/legacy-router'
+import { Protocol } from '@CryptoSwap/farms'
+import { LegacyRouter } from '@CryptoSwap/smart-router/legacy-router'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { PERSIST_CHAIN_KEY } from 'config/constants'
 import { getAddInfinityLiquidityURL } from 'config/constants/liquidity'

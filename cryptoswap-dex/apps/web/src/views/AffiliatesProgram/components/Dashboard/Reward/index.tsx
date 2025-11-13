@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Card, Flex, Message, MessageText } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Card, Flex, Message, MessageText } from '@CryptoSwap/uikit'
 import BigNumber from 'bignumber.js'
 import { LightGreyCard } from 'components/Card'
 import { useMemo, useState } from 'react'

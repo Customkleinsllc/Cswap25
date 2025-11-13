@@ -1,4 +1,4 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
+import { Token } from '@CryptoSwap/swap-sdk-core'
 import { TokenInfo } from './types'
 
 export function createFilterToken<T extends TokenInfo | Token>(

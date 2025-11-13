@@ -1,4 +1,4 @@
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { Banner } from 'components/Game/Developers/Banner'
 import { Infrastructure } from 'components/Game/Developers/Infrastructure'
 import { Footer } from 'components/Game/Developers/Footer'

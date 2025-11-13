@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Grid, Text, useModal } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, Grid, Text, useModal } from '@CryptoSwap/uikit'
 import { NftLocation, NftToken } from 'hooks/useProfile/nft/types'
 import { useEffect, useState } from 'react'
 import { CollectibleActionCard } from './CollectibleCard/CollectibleActionCard'

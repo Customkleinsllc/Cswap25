@@ -1,4 +1,4 @@
-import { Svg, SvgProps } from '@pancakeswap/uikit'
+import { Svg, SvgProps } from '@CryptoSwap/uikit'
 
 export function ExternalLinkIcon(props: SvgProps) {
   return (

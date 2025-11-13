@@ -1,8 +1,8 @@
-import { ChainId, getChainName as defaultGetChainName } from "@pancakeswap/chains";
-import { useTheme } from "@pancakeswap/hooks";
-import { Currency, ERC20Token, UnifiedCurrency } from "@pancakeswap/sdk";
-import { getTokenByAddress } from "@pancakeswap/tokens";
-import { Column, IMultiSelectChangeEvent, IMultiSelectProps, ISelectItem, MultiSelect } from "@pancakeswap/uikit";
+import { ChainId, getChainName as defaultGetChainName } from "@CryptoSwap/chains";
+import { useTheme } from "@CryptoSwap/hooks";
+import { Currency, ERC20Token, UnifiedCurrency } from "@CryptoSwap/sdk";
+import { getTokenByAddress } from "@CryptoSwap/tokens";
+import { Column, IMultiSelectChangeEvent, IMultiSelectProps, ISelectItem, MultiSelect } from "@CryptoSwap/uikit";
 import { useCallback, useMemo } from "react";
 import styled from "styled-components";
 import { Address, zeroAddress } from "viem";

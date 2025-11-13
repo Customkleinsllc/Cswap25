@@ -16,12 +16,12 @@ import { getTokenAddressFromSymbolAlias } from 'utils/getTokenAlias'
 import { isAddress } from 'viem'
 import { useAccount } from 'wagmi'
 
-import { NonEVMChainId, UnifiedChainId } from '@pancakeswap/chains'
-import { useDebounce, useSortedTokensByQuery } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { NonEVMChainId, UnifiedChainId } from '@CryptoSwap/chains'
+import { useDebounce, useSortedTokensByQuery } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
 /* eslint-disable no-restricted-syntax */
-import { getTokenComparator, isSolWSol, Token, UnifiedCurrency } from '@pancakeswap/sdk'
-import { createFilterToken, WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { getTokenComparator, isSolWSol, Token, UnifiedCurrency } from '@CryptoSwap/sdk'
+import { createFilterToken, WrappedTokenInfo } from '@CryptoSwap/token-lists'
 import {
   AutoColumn,
   Box,
@@ -34,11 +34,11 @@ import {
   Spinner,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
-import { useAudioPlay } from '@pancakeswap/utils/user'
-import { SPLToken, UnifiedToken } from '@pancakeswap/swap-sdk-core'
+} from '@CryptoSwap/uikit'
+import { useAudioPlay } from '@CryptoSwap/utils/user'
+import { SPLToken, UnifiedToken } from '@CryptoSwap/swap-sdk-core'
 
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import { useAllTokens, useIsUserAddedToken, useToken } from '../../hooks/Tokens'
 import Row from '../Layout/Row'
 import CommonBases, { BaseWrapper } from './CommonBases'

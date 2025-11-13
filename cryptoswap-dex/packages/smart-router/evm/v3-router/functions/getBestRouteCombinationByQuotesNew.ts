@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-non-null-assertion */
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, CurrencyAmount, Fraction, TradeType } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { Currency, CurrencyAmount, Fraction, TradeType } from '@CryptoSwap/sdk'
 
-import { RemoteLogger } from '@pancakeswap/utils/RemoteLogger'
+import { RemoteLogger } from '@CryptoSwap/utils/RemoteLogger'
 import { keccak256 } from 'viem'
 import { usdGasTokensByChain } from '../../constants'
 import { BestRoutes, L1ToL2GasCosts, RouteWithQuote } from '../types'

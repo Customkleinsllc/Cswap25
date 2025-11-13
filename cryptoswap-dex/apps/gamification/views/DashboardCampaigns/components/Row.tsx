@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   BarChartIcon,
   Box,
@@ -9,7 +9,7 @@ import {
   PencilIcon,
   Text,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { MouseEvent, useRef, useState } from 'react'
 import { styled } from 'styled-components'

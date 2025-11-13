@@ -1,5 +1,5 @@
-import { WETH9, ERC20Token } from '@pancakeswap/sdk'
-import { ChainId } from '@pancakeswap/chains'
+import { WETH9, ERC20Token } from '@CryptoSwap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
 import { USDC, CAKE } from './common'
 
 export const lineaTestnetTokens = {

@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Card, CardBody, CardHeader, Heading, Link, Text } from '@pancakeswap/uikit'
+import { Trans } from '@CryptoSwap/localization'
+import { Card, CardBody, CardHeader, Heading, Link, Text } from '@CryptoSwap/uikit'
 import Divider from 'components/Divider'
 import FoldableText from 'components/FoldableSection/FoldableText'
 import styled from 'styled-components'

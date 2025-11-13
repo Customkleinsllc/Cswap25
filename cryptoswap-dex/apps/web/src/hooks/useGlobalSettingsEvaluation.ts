@@ -4,7 +4,7 @@ import {
   useSpeedQuote,
   useUserSingleHopOnly,
   useUserSlippage,
-} from '@pancakeswap/utils/user'
+} from '@CryptoSwap/utils/user'
 
 import { useFeatureFlagEvaluation } from 'hooks/useDataDogRUM'
 import useTheme from 'hooks/useTheme'

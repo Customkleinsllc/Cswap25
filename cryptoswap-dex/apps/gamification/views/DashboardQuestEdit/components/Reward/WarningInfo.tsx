@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, ChevronDownIcon, ChevronUpIcon, ErrorIcon, Flex, Message, MessageText, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, ChevronDownIcon, ChevronUpIcon, ErrorIcon, Flex, Message, MessageText, Text } from '@CryptoSwap/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 

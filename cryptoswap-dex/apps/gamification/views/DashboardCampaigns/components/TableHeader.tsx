@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, SortArrowIcon, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, SortArrowIcon, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { useState } from 'react'
 import { styled } from 'styled-components'
 import { StyledCell } from 'views/DashboardCampaigns/components/TableStyle'

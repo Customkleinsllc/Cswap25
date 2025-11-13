@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { STABLE_SUPPORTED_CHAIN_IDS } from '@pancakeswap/stable-swap-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { STABLE_SUPPORTED_CHAIN_IDS } from '@CryptoSwap/stable-swap-sdk'
 import { BIT_QUERY, STABLESWAP_SUBGRAPHS_URLS, V3_BSC_INFO_CLIENT, V3_SUBGRAPH_URLS } from 'config/constants/endpoints'
 import { GraphQLClient } from 'graphql-request'
 import { V2_SUBGRAPH_URLS } from '../config/constants/endpoints'

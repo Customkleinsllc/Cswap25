@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, FlexGap, Tag, Text, useModal, useToast } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, Flex, FlexGap, Tag, Text, useModal, useToast } from '@CryptoSwap/uikit'
 import ConnectWalletButton from 'components/ConnectWalletButton'
 import { GAMIFICATION_PUBLIC_API } from 'config/constants/endpoints'
 import { useProfile } from 'hooks/useProfile'

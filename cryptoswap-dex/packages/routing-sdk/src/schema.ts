@@ -1,5 +1,5 @@
-import { TradeType } from '@pancakeswap/swap-sdk-core'
-import { ChainId } from '@pancakeswap/chains'
+import { TradeType } from '@CryptoSwap/swap-sdk-core'
+import { ChainId } from '@CryptoSwap/chains'
 import { z, ZodObject } from 'zod'
 
 import { Address } from './types'

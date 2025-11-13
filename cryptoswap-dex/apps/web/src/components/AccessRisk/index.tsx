@@ -1,5 +1,5 @@
-import { Trans, useTranslation } from '@pancakeswap/localization'
-import { ERC20Token, Token } from '@pancakeswap/sdk'
+import { Trans, useTranslation } from '@CryptoSwap/localization'
+import { ERC20Token, Token } from '@CryptoSwap/sdk'
 import {
   AutoRenewIcon,
   Button,
@@ -12,8 +12,8 @@ import {
   Text,
   promotedGradient,
   useTooltip,
-} from '@pancakeswap/uikit'
-import isUndefinedOrNull from '@pancakeswap/utils/isUndefinedOrNull'
+} from '@CryptoSwap/uikit'
+import isUndefinedOrNull from '@CryptoSwap/utils/isUndefinedOrNull'
 import { useQuery } from '@tanstack/react-query'
 import AccessRiskTooltips from 'components/AccessRisk/AccessRiskTooltips'
 import { ACCESS_TOKEN_SUPPORT_CHAIN_IDS } from 'components/AccessRisk/config/supportedChains'

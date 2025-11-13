@@ -1,5 +1,5 @@
-import { isTestnetChainId } from '@pancakeswap/chains'
-import { UniversalFarmConfig } from '@pancakeswap/farms'
+import { isTestnetChainId } from '@CryptoSwap/chains'
+import { UniversalFarmConfig } from '@CryptoSwap/farms'
 import { useQuery } from '@tanstack/react-query'
 import dayjs from 'dayjs'
 import groupBy from 'lodash/groupBy'

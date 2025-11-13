@@ -1,5 +1,5 @@
-import { unwrappedToken } from '@pancakeswap/tokens'
-import { Position } from '@pancakeswap/v3-sdk'
+import { unwrappedToken } from '@CryptoSwap/tokens'
+import { Position } from '@CryptoSwap/v3-sdk'
 import { useTokenByChainId } from 'hooks/Tokens'
 import useIsTickAtLimit from 'hooks/v3/useIsTickAtLimit'
 import { usePoolByChainId } from 'hooks/v3/usePools'

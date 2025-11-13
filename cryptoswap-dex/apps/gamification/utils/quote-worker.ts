@@ -1,6 +1,6 @@
 import 'utils/workerPolyfill'
 
-import { InfinityRouter, SmartRouter } from '@pancakeswap/smart-router'
+import { InfinityRouter, SmartRouter } from '@CryptoSwap/smart-router'
 import { Call } from 'state/multicall/actions'
 import { fetchChunk } from 'state/multicall/fetchChunk'
 import { getLogger } from 'utils/datadog'

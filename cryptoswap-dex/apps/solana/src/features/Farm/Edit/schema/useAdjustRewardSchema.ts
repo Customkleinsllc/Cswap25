@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import * as yup from 'yup'
 import Decimal from 'decimal.js'
-import { useTranslation, type TranslateFunction } from '@pancakeswap/localization'
+import { useTranslation, type TranslateFunction } from '@CryptoSwap/localization'
 import { EditReward } from '../util'
 
 interface Props {

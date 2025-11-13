@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@CryptoSwap/sdk'
 import { logger } from '../utils/logger'
 
 import { BaseRoute, Pool } from '../types'

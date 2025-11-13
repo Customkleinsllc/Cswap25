@@ -1,4 +1,4 @@
-import { Flex, PrizeIcon, Text } from '@pancakeswap/uikit'
+import { Flex, PrizeIcon, Text } from '@CryptoSwap/uikit'
 import { Achievement } from 'config/constants/types'
 import { styled } from 'styled-components'
 import AchievementAvatar from './AchievementAvatar'

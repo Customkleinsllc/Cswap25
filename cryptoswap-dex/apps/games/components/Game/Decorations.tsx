@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { floatingStarsLeft, floatingStarsRight } from 'components/Game/DecorationsAnimation'
 import { ASSET_CDN } from 'config/constants/endpoints'
 

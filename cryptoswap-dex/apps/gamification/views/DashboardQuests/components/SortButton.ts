@@ -1,4 +1,4 @@
-import { Button, Flex } from '@pancakeswap/uikit'
+import { Button, Flex } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 export enum SortBy {

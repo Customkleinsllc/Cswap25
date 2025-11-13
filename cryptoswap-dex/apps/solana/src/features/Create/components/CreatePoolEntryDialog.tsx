@@ -1,4 +1,4 @@
-import { Button } from '@pancakeswap/uikit'
+import { Button } from '@CryptoSwap/uikit'
 import {
   Badge,
   Box,
@@ -24,7 +24,7 @@ import {
 } from '@chakra-ui/react'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useRef, useState } from 'react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { colors } from '@/theme/cssVariables'
 import CircleCheck from '@/icons/misc/CircleCheck'
 import { Desktop, Mobile } from '@/components/MobileDesktop'

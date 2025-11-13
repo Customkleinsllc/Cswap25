@@ -1,5 +1,5 @@
-import { TradeType } from '@pancakeswap/sdk'
-import { SmartRouterTrade, RouteType, SMART_ROUTER_ADDRESSES } from '@pancakeswap/smart-router'
+import { TradeType } from '@CryptoSwap/sdk'
+import { SmartRouterTrade, RouteType, SMART_ROUTER_ADDRESSES } from '@CryptoSwap/smart-router'
 
 import { V2_ROUTER_ADDRESS } from 'config/constants/exchange'
 

@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { StablePool, isStablePool } from '@pancakeswap/routing-sdk-addon-stable-swap'
-import { V2Pool, isV2Pool } from '@pancakeswap/routing-sdk-addon-v2'
-import { V3Pool, isV3Pool } from '@pancakeswap/routing-sdk-addon-v3'
+import { ChainId } from '@CryptoSwap/chains'
+import { StablePool, isStablePool } from '@CryptoSwap/routing-sdk-addon-stable-swap'
+import { V2Pool, isV2Pool } from '@CryptoSwap/routing-sdk-addon-v2'
+import { V3Pool, isV3Pool } from '@CryptoSwap/routing-sdk-addon-v3'
 import invariant from 'tiny-invariant'
 
 import { mixedRouteQuoterV1ABI } from './abis/IMixedRouteQuoterV1'

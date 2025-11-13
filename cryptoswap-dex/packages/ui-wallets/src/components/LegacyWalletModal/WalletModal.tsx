@@ -1,5 +1,5 @@
-import { usePreloadImages, useTheme } from '@pancakeswap/hooks'
-import { useTranslation } from '@pancakeswap/localization'
+import { usePreloadImages, useTheme } from '@CryptoSwap/hooks'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   AtomBox,
   Button,
@@ -21,7 +21,7 @@ import {
   Text,
   useMatchBreakpoints,
   WarningIcon,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useAtom } from 'jotai'
 import { lazy, MouseEvent, PropsWithChildren, Suspense, useCallback, useMemo, useState } from 'react'
 import { isMobile as isMobileDevice } from 'react-device-detect'

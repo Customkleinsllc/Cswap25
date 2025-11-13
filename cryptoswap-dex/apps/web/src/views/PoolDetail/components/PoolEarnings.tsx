@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Skeleton, Text } from '@pancakeswap/uikit'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoColumn, Skeleton, Text } from '@CryptoSwap/uikit'
+import { formatNumber } from '@CryptoSwap/utils/formatBalance'
 import { PoolInfo } from 'state/farmsV4/state/type'
 import { useV2CakeEarning, useV3CakeEarningsByPool } from 'views/universalFarms/hooks/useCakeEarning'
 

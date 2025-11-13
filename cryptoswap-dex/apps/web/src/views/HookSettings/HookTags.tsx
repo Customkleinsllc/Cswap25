@@ -1,5 +1,5 @@
-import { HOOK_CATEGORY, HookData, POOL_TYPE } from '@pancakeswap/infinity-sdk'
-import { Text } from '@pancakeswap/uikit'
+import { HOOK_CATEGORY, HookData, POOL_TYPE } from '@CryptoSwap/infinity-sdk'
+import { Text } from '@CryptoSwap/uikit'
 import { GreyBadge, PoolTypeBadge } from 'components/Liquidity/Badges'
 import { useMemo } from 'react'
 

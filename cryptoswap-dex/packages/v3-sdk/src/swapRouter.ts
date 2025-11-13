@@ -1,5 +1,5 @@
 import { encodeFunctionData, Hex } from 'viem'
-import { BigintIsh, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@pancakeswap/sdk'
+import { BigintIsh, Currency, CurrencyAmount, Percent, TradeType, validateAndParseAddress } from '@CryptoSwap/sdk'
 
 import invariant from 'tiny-invariant'
 import { swapRouterABI } from './abi/SwapRouter'

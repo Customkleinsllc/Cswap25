@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
-import { Currency } from "@pancakeswap/sdk";
-import { Button, FlexGap, FlexGapProps, RefreshIcon, SyncAltIcon, Text } from "@pancakeswap/uikit";
+import { useTranslation } from "@CryptoSwap/localization";
+import { Currency } from "@CryptoSwap/sdk";
+import { Button, FlexGap, FlexGapProps, RefreshIcon, SyncAltIcon, Text } from "@CryptoSwap/uikit";
 import { styled } from "styled-components";
 
 const RateToggleButton = styled(Button)`

@@ -1,5 +1,5 @@
-import { Token } from '@pancakeswap/swap-sdk-core'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
+import { Token } from '@CryptoSwap/swap-sdk-core'
+import { FeeAmount, Pool } from '@CryptoSwap/v3-sdk'
 import { describe, expect, it } from 'vitest'
 import { PoolState } from '../types'
 import { getPoolStateAndPool } from '../usePools'

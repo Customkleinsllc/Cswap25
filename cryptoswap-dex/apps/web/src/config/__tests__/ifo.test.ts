@@ -1,7 +1,7 @@
-import { getIfoConfig } from '@pancakeswap/ifos'
-import { ChainId } from '@pancakeswap/sdk'
+import { getIfoConfig } from '@CryptoSwap/ifos'
+import { ChainId } from '@CryptoSwap/sdk'
 
-import { campaigns } from '@pancakeswap/achievements'
+import { campaigns } from '@CryptoSwap/achievements'
 
 // TODO: multichain support
 describe('Config IFOs', async () => {

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { pancakeProfileABI } from 'config/abi/pancakeProfile'
 import { API_NFT } from 'config/constants/endpoints'
 import { getTeam } from 'hooks/useProfile/team/helpers'

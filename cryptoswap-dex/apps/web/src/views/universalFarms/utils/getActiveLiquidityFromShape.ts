@@ -1,5 +1,5 @@
-import { BinLiquidityShape, getLiquidityShape, getPriceX128FromId, SCALE_OFFSET } from '@pancakeswap/infinity-sdk'
-import { BIG_TWO, BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BinLiquidityShape, getLiquidityShape, getPriceX128FromId, SCALE_OFFSET } from '@CryptoSwap/infinity-sdk'
+import { BIG_TWO, BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import BN from 'bignumber.js'
 
 export function getActiveLiquidityFromShape({

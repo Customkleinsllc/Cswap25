@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency } from '@pancakeswap/sdk'
-import { Text, Heading } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency } from '@CryptoSwap/sdk'
+import { Text, Heading } from '@CryptoSwap/uikit'
 import { LightGreyCard, LightCardProps } from 'components/Card'
 
 interface RangePriceSectionProps extends LightCardProps {

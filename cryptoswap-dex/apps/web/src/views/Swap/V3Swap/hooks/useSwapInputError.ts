@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { UnifiedCurrency, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import { useTranslation } from '@CryptoSwap/localization'
+import { UnifiedCurrency, UnifiedCurrencyAmount } from '@CryptoSwap/sdk'
+import tryParseAmount from '@CryptoSwap/utils/tryParseAmount'
 
 import { Field } from 'state/swap/actions'
 import { useSwapState } from 'state/swap/hooks'
 import { isAddressEqual, safeGetAddress, safeGetUnifiedAddress } from 'utils'
 
-import { ClassicOrder, PriceOrder } from '@pancakeswap/price-api-sdk'
+import { ClassicOrder, PriceOrder } from '@CryptoSwap/price-api-sdk'
 import { isClassicOrder } from 'views/Swap/utils'
 import useAccountActiveChain from 'hooks/useAccountActiveChain'
 

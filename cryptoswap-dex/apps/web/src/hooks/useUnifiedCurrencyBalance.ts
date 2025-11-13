@@ -5,7 +5,7 @@ import {
   SPLToken,
   UnifiedCurrency,
   UnifiedCurrencyAmount,
-} from '@pancakeswap/sdk'
+} from '@CryptoSwap/sdk'
 
 import { useMemo } from 'react'
 import { useSolanaTokenBalance, useSolanaTokenBalances } from 'state/token/solanaTokenBalances'

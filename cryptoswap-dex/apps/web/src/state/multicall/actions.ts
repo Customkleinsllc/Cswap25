@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { createAction } from '@reduxjs/toolkit'
 import { Address, Hex } from 'viem'
 

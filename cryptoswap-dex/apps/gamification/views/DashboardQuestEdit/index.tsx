@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { nanoid } from '@reduxjs/toolkit'
 import { useRouter } from 'next/router'
 import { useEffect, useState } from 'react'

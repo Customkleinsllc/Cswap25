@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, InfoIcon } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, InfoIcon } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 const StyledButton = styled(Button)`

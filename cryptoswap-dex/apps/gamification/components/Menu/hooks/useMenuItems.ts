@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { DropdownMenuItems } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { DropdownMenuItems } from '@CryptoSwap/uikit'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useMemo } from 'react'
 import { useIsValidDashboardUser } from 'views/Dashboard/hooks/useIsValidDashboardUser'

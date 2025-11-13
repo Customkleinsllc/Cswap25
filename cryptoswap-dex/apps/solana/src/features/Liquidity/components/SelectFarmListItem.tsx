@@ -1,8 +1,8 @@
 import { Badge, Box, Flex, HStack, SimpleGrid, Text } from '@chakra-ui/react'
 import { useEffect, useState } from 'react'
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import TokenAvatar from '@/components/TokenAvatar'
 import TokenAvatarPair from '@/components/TokenAvatarPair'
 import CircleCheckFill from '@/icons/misc/CircleCheckFill'

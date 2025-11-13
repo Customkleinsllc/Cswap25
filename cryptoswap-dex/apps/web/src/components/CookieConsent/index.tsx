@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import styled from 'styled-components'
-import { Button, Text, Flex, Link } from '@pancakeswap/uikit'
+import { Button, Text, Flex, Link } from '@CryptoSwap/uikit'
 
 const CookieConsentContainer = styled.div<{ $show: boolean }>`
   position: fixed;

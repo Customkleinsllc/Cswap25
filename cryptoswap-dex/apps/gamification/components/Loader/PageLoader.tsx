@@ -1,4 +1,4 @@
-import { Spinner } from '@pancakeswap/uikit'
+import { Spinner } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 import Page from '../Layout/Page'
 

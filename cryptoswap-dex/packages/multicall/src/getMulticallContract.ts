@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { Address, PublicClient, getContract } from 'viem'
 
 import { iMulticallABI } from './abis/IMulticall'

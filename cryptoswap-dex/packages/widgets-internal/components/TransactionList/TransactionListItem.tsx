@@ -1,6 +1,6 @@
 import { PropsWithChildren, ReactNode } from "react";
 import { styled } from "styled-components";
-import { FlexGap, Text, CheckmarkIcon, ErrorIcon, CircleLoader } from "@pancakeswap/uikit";
+import { FlexGap, Text, CheckmarkIcon, ErrorIcon, CircleLoader } from "@CryptoSwap/uikit";
 
 import { LightGreyCard } from "../Card";
 

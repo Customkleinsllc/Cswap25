@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ChainId } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ChainId } from '@CryptoSwap/sdk'
 import {
   Button,
   Flex,
@@ -10,7 +10,7 @@ import {
   ScanLink,
   Text,
   useModal,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import useActiveWeb3React from 'hooks/useActiveWeb3React'
 import { NftToken } from 'hooks/useProfile/nft/types'
 import { useSwitchNetwork } from 'hooks/useSwitchNetwork'

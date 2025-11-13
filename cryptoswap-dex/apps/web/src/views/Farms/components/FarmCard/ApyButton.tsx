@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, RoiCalculatorModal, Text, TooltipText, useModal, useTooltip } from '@pancakeswap/uikit'
-import { FarmWidget } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, RoiCalculatorModal, Text, TooltipText, useModal, useTooltip } from '@CryptoSwap/uikit'
+import { FarmWidget } from '@CryptoSwap/widgets-internal'
 import BigNumber from 'bignumber.js'
 import { MouseEvent, useCallback, useMemo } from 'react'
 
 import { useFarmFromPid, useFarmUser } from 'state/farms/hooks'
 
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import { V2FarmWithoutStakedValue, V3FarmWithoutStakedValue } from 'state/farms/types'
 import { useAccount } from 'wagmi'
 

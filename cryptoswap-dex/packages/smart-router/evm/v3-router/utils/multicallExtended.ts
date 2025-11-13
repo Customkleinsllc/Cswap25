@@ -1,6 +1,6 @@
 import { encodeFunctionData, Hex } from 'viem'
-import { BigintIsh } from '@pancakeswap/sdk'
-import { Multicall } from '@pancakeswap/v3-sdk'
+import { BigintIsh } from '@CryptoSwap/sdk'
+import { Multicall } from '@CryptoSwap/v3-sdk'
 
 import { multicallExtendedAbi } from '../../abis/IMulticallExtended'
 

@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { bigIntToSerializedBigNumber } from '@pancakeswap/utils/bigNumber'
+import { ChainId } from '@CryptoSwap/chains'
+import { bigIntToSerializedBigNumber } from '@CryptoSwap/utils/bigNumber'
 import { lotteryV2ABI } from 'config/abi/lotteryV2'
 import { NUM_ROUNDS_TO_FETCH_FROM_NODES } from 'config/constants/lottery'
 import { LotteryStatus, LotteryTicket } from 'config/constants/types'

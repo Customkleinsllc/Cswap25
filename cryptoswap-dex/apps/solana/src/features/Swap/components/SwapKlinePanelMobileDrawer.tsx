@@ -12,7 +12,7 @@ import {
   Text,
   Box
 } from '@chakra-ui/react'
-import { ApiV3Token } from '@pancakeswap/solana-core-sdk'
+import { ApiV3Token } from '@CryptoSwap/solana-core-sdk'
 
 import dayjs from 'dayjs'
 import Tabs from '@/components/Tabs'

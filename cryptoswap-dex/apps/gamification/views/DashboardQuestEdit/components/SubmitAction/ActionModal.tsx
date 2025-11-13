@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, Modal, ModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, Modal, ModalV2 } from '@CryptoSwap/uikit'
 import { useRouter } from 'next/router'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Fail } from 'views/DashboardQuestEdit/components/SubmitAction/Fail'

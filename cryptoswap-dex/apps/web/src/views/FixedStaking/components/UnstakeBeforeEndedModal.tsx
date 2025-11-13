@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent } from '@pancakeswap/swap-sdk-core'
-import { Box, Button, Flex, Message, MessageText, Modal, ModalV2, PreTitle, Text, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount, Percent } from '@CryptoSwap/swap-sdk-core'
+import { Box, Button, Flex, Message, MessageText, Modal, ModalV2, PreTitle, Text, useModalV2 } from '@CryptoSwap/uikit'
 import { LightCard } from 'components/Card'
 import { ReactNode, useMemo } from 'react'
 

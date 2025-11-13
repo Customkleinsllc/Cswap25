@@ -1,11 +1,11 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CheckmarkCircleIcon, ErrorIcon, ScanLink } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { CheckmarkCircleIcon, ErrorIcon, ScanLink } from '@CryptoSwap/uikit'
 import {
   TransactionListItem,
   TransactionListItemDesc,
   TransactionListItemTitle,
   TransactionStatus,
-} from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/widgets-internal'
 import { useMemo } from 'react'
 import { ChainLinkSupportChains } from 'state/info/constant'
 import { useReadableTransactionType } from 'state/transactions/hooks'

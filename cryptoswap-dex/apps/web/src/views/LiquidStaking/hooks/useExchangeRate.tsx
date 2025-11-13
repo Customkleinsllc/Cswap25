@@ -1,5 +1,5 @@
-import { BIG_ZERO } from '@pancakeswap/utils/bigNumber'
-import { getBalanceAmount } from '@pancakeswap/utils/formatBalance'
+import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
+import { getBalanceAmount } from '@CryptoSwap/utils/formatBalance'
 import { useQuery } from '@tanstack/react-query'
 import BigNumber from 'bignumber.js'
 import { useActiveChainId } from 'hooks/useActiveChainId'

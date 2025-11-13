@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
-import { bscTokens, ethereumTokens, zksyncTokens } from '@pancakeswap/tokens'
+import { ChainId } from '@CryptoSwap/chains'
+import { Token } from '@CryptoSwap/sdk'
+import { bscTokens, ethereumTokens, zksyncTokens } from '@CryptoSwap/tokens'
 import { baseWarningTokens } from 'config/constants/warningTokens/baseWarningTokens'
 import { bscWarningTokens } from 'config/constants/warningTokens/bscWarningTokens'
 

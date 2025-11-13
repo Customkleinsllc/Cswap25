@@ -1,5 +1,5 @@
-import { TranslateFunction, useTranslation } from '@pancakeswap/localization'
-import { useToast } from '@pancakeswap/uikit'
+import { TranslateFunction, useTranslation } from '@CryptoSwap/localization'
+import { useToast } from '@CryptoSwap/uikit'
 import { ToastDescriptionWithTx } from 'components/Toast'
 import { useCallback, useState } from 'react'
 import { getViemErrorMessage, parseViemError } from 'utils/errors'

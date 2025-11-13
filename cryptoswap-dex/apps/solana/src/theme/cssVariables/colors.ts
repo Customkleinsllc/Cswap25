@@ -1,4 +1,4 @@
-import { darkColors as pcsDarkColors, lightColors as pcsLightColors } from '@pancakeswap/uikit'
+import { darkColors as pcsDarkColors, lightColors as pcsLightColors } from '@CryptoSwap/uikit'
 
 export const darkColors: Record<keyof typeof colors, string> = {
   // app main bg color

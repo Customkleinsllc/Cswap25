@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Token } from '@pancakeswap/sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { Token } from '@CryptoSwap/sdk'
 import {
   arbSepoliaTokens,
   arbitrumGoerliTokens,
@@ -22,7 +22,7 @@ import {
   sepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
-} from '@pancakeswap/tokens'
+} from '@CryptoSwap/tokens'
 
 export const usdGasTokensByChain = {
   [ChainId.ETHEREUM]: [ethereumTokens.usdt],

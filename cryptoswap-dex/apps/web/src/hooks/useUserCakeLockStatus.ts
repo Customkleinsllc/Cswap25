@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useQuery } from '@tanstack/react-query'
 import { useCakeVaultContract } from 'hooks/useContract'
 import { useAccount } from 'wagmi'

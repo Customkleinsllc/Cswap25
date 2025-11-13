@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { HookData, hooksList } from '@pancakeswap/infinity-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { HookData, hooksList } from '@CryptoSwap/infinity-sdk'
 import keyBy from 'lodash/keyBy'
 import memoize from 'lodash/memoize'
 

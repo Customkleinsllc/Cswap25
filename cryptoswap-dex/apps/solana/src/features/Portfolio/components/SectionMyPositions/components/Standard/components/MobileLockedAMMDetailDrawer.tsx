@@ -12,7 +12,7 @@ import {
   HStack,
   Text
 } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { FormattedPoolInfoStandardItem } from '@/hooks/pool/type'
 import { colors } from '@/theme/cssVariables'
 import TokenAvatarPair from '@/components/TokenAvatarPair'

@@ -1,4 +1,4 @@
-import { ContextApi } from "@pancakeswap/localization";
+import { ContextApi } from "@CryptoSwap/localization";
 import { FooterLinkType } from "../../../components/Footer/types";
 
 export const footerLinks: (t: ContextApi["t"]) => FooterLinkType[] = (t) => [

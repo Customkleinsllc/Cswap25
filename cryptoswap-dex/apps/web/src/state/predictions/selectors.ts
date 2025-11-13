@@ -1,4 +1,4 @@
-import { MINUTE_IN_SECONDS } from '@pancakeswap/utils/getTimePeriods'
+import { MINUTE_IN_SECONDS } from '@CryptoSwap/utils/getTimePeriods'
 import { createSelector } from '@reduxjs/toolkit'
 import BigNumber from 'bignumber.js'
 import orderBy from 'lodash/orderBy'

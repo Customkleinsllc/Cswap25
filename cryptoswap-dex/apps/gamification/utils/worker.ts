@@ -1,4 +1,4 @@
-import { InfinityRouter } from '@pancakeswap/smart-router'
+import { InfinityRouter } from '@CryptoSwap/smart-router'
 
 import type { FetchChunkResult } from 'state/multicall/fetchChunk'
 

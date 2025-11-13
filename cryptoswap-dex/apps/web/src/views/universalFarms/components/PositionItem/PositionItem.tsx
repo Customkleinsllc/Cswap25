@@ -1,4 +1,4 @@
-import { Column, Flex, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Column, Flex, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { TokenPairLogo } from 'components/TokenImage'
 import { CHAIN_QUERY_NAME } from 'config/chains'
 import { PERSIST_CHAIN_KEY } from 'config/constants'

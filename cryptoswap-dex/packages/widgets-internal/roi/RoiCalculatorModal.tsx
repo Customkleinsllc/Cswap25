@@ -1,6 +1,6 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { styled } from "styled-components";
-import { Modal, ModalV2, ModalV2Props } from "@pancakeswap/uikit";
+import { Modal, ModalV2, ModalV2Props } from "@CryptoSwap/uikit";
 
 import { RoiCalculatorProps, RoiCalculator } from "./RoiCalculator";
 

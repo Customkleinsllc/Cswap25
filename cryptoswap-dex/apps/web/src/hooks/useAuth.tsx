@@ -1,12 +1,12 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   EvmConnectorNames,
   WalletAdaptedNetwork,
   WalletConfigV3,
   WalletConnectorNotFoundError,
   WalletSwitchChainError,
-} from '@pancakeswap/ui-wallets'
-import { ConnectData } from '@pancakeswap/ui-wallets/src/types'
+} from '@CryptoSwap/ui-wallets'
+import { ConnectData } from '@CryptoSwap/ui-wallets/src/types'
 import { usePrivy } from '@privy-io/react-auth'
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'

@@ -1,4 +1,4 @@
-import { getFullDecimalMultiplier } from '@pancakeswap/utils/getFullDecimalMultiplier'
+import { getFullDecimalMultiplier } from '@CryptoSwap/utils/getFullDecimalMultiplier'
 
 export const DOMAIN = 'https://aptos.cryptoswap.com'
 export const BASE_ADD_LIQUIDITY_URL = `${DOMAIN}/add`

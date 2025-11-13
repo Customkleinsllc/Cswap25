@@ -1,5 +1,5 @@
-import { Trans } from '@pancakeswap/localization'
-import { Box, Link } from '@pancakeswap/uikit'
+import { Trans } from '@CryptoSwap/localization'
+import { Box, Link } from '@CryptoSwap/uikit'
 
 export const BnbSnbnbFaq = () => [
   {

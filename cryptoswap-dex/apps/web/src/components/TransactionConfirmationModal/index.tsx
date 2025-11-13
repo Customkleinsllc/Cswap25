@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Token } from '@pancakeswap/sdk'
-import { WrappedTokenInfo } from '@pancakeswap/token-lists'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, Token } from '@CryptoSwap/sdk'
+import { WrappedTokenInfo } from '@CryptoSwap/token-lists'
 import {
   ArrowUpIcon,
   AutoColumn,
@@ -13,8 +13,8 @@ import {
   Modal,
   ModalProps,
   Text,
-} from '@pancakeswap/uikit'
-import { ConfirmationPendingContent, TransactionErrorContent } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { ConfirmationPendingContent, TransactionErrorContent } from '@CryptoSwap/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import { useCallback, useMemo } from 'react'
 import { styled } from 'styled-components'

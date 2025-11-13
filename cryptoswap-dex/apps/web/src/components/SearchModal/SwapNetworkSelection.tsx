@@ -1,5 +1,5 @@
-import { ChainId, Chains, NonEVMChainId, UnifiedChainId, isEvm, isSolana } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId, Chains, NonEVMChainId, UnifiedChainId, isEvm, isSolana } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   appearAnimation,
   ArrowDropDownIcon,
@@ -9,8 +9,8 @@ import {
   InlineMenu,
   SkeletonText,
   Text,
-} from '@pancakeswap/uikit'
-import { ChainLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { ChainLogo } from '@CryptoSwap/widgets-internal'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 import drop from 'lodash/drop'
 import take from 'lodash/take'

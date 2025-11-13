@@ -1,11 +1,11 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoColumn, Skeleton, Text } from '@pancakeswap/uikit'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoColumn, Skeleton, Text } from '@CryptoSwap/uikit'
+import { FeeAmount } from '@CryptoSwap/v3-sdk'
 import { PoolState } from 'hooks/v3/types'
 import { useFeeTierDistribution } from 'hooks/v3/useFeeTierDistribution'
 import { styled } from 'styled-components'
 
-import { LightSecondaryCard } from '@pancakeswap/widgets-internal'
+import { LightSecondaryCard } from '@CryptoSwap/widgets-internal'
 import { FEE_AMOUNT_DETAIL } from './shared'
 
 const FeeOptionContainer = styled.div<{ active: boolean }>`

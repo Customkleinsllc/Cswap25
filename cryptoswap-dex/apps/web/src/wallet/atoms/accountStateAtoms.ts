@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { atom } from 'jotai'
 import { getHashKey } from 'utils/hash'
 import { Connector } from 'wagmi'

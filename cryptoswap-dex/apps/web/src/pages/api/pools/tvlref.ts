@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { getCorsHeaders, handleCors } from 'edge/cors'
 import { NextRequest, NextResponse } from 'next/server'
 import { edgeQueries } from 'quoter/utils/edgePoolQueries'

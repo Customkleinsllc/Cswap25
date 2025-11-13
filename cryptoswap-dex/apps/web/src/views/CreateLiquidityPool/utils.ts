@@ -1,4 +1,4 @@
-import { Currency, Price } from '@pancakeswap/sdk'
+import { Currency, Price } from '@CryptoSwap/sdk'
 
 export const formatPreviewPrice = (price?: Price<Currency, Currency>) => {
   if (!price) return ''

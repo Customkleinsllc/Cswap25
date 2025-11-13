@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRenewIcon, Box, ChevronDownIcon, ChevronRightIcon, Flex, Button as UIKitButton } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoRenewIcon, Box, ChevronDownIcon, ChevronRightIcon, Flex, Button as UIKitButton } from '@CryptoSwap/uikit'
 import { styled } from 'styled-components'
 
 export enum ButtonArrangement {

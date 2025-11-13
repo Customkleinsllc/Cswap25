@@ -8,7 +8,7 @@ export default defineConfig((options) => ({
   sourcemap: true,
   skipNodeModulesBundle: true,
   format: ['esm', 'cjs'],
-  noExternal: ['@pancakeswap/utils'],
+  noExternal: ['@CryptoSwap/utils'],
   dts: false,
   clean: !options.watch,
   treeshake: true,

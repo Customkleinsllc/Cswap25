@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useWeb3React } from '@pancakeswap/wagmi'
+import { ChainId } from '@CryptoSwap/chains'
+import { useWeb3React } from '@CryptoSwap/wagmi'
 import { CHAIN_QUERY_NAME, getChainId } from 'config/chains'
 import { useRouter } from 'next/router'
 import { useEffect, useRef } from 'react'

@@ -1,6 +1,6 @@
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@CryptoSwap/hooks'
 import styled from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   BoxProps,
@@ -11,7 +11,7 @@ import {
   PreTitle,
   QuestionHelper,
   useMatchBreakpoints,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useFeeLevelQueryState } from 'state/infinity/create'
 

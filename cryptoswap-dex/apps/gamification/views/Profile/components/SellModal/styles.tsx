@@ -1,4 +1,4 @@
-import { BinanceIcon, Box, Flex, Input, Modal, Text } from '@pancakeswap/uikit'
+import { BinanceIcon, Box, Flex, Input, Modal, Text } from '@CryptoSwap/uikit'
 import { useBNBPrice } from 'hooks/useBNBPrice'
 import { styled } from 'styled-components'
 import { SellingStage } from './types'

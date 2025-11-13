@@ -1,4 +1,4 @@
-import { Box, ChevronDownIcon, ChevronRightIcon } from '@pancakeswap/uikit'
+import { Box, ChevronDownIcon, ChevronRightIcon } from '@CryptoSwap/uikit'
 
 interface ExpandButtonProps {
   isExpanded: boolean

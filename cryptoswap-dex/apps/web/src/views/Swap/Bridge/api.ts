@@ -1,11 +1,11 @@
-import { BridgeTrade, BridgeTransactionData, OrderType } from '@pancakeswap/price-api-sdk'
-import { Currency, CurrencyAmount, TradeType } from '@pancakeswap/sdk'
-import { InfinityTradeWithoutGraph } from '@pancakeswap/smart-router/dist/evm/infinity-router'
+import { BridgeTrade, BridgeTransactionData, OrderType } from '@CryptoSwap/price-api-sdk'
+import { Currency, CurrencyAmount, TradeType } from '@CryptoSwap/sdk'
+import { InfinityTradeWithoutGraph } from '@CryptoSwap/smart-router/dist/evm/infinity-router'
 import { BRIDGE_API_ENDPOINT } from 'config/constants/endpoints'
 import { chainIdToExplorerInfoChainName } from 'state/info/api/client'
 import { Address } from 'viem/accounts'
-import { isSolana } from '@pancakeswap/chains'
-import { ExclusiveDutchOrderTrade } from '@pancakeswap/pcsx-sdk'
+import { isSolana } from '@CryptoSwap/chains'
+import { ExclusiveDutchOrderTrade } from '@CryptoSwap/pcsx-sdk'
 import { SOLANA_NATIVE_TOKEN_ADDRESS } from 'quoter/consts'
 import {
   AddressLookupTableAccount,

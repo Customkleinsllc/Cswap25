@@ -1,5 +1,5 @@
 import { Flex, Text, VStack } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { formatCurrency } from '@/utils/numberish/formatter'
 
 import { colors } from '@/theme/cssVariables'

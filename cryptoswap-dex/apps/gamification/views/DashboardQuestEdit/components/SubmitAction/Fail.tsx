@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, CloseCircleIcon, CrossIcon, Flex, RefreshIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, CloseCircleIcon, CrossIcon, Flex, RefreshIcon, Text } from '@CryptoSwap/uikit'
 
 interface FailProps {
   closeModal: () => void

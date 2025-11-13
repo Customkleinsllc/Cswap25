@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Button, Flex, Link, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import SunburstSvg from 'components/Game/Developers/SunburstSvg'
 import ctaPancakeBig from 'components/Game/Developers/images/cta-pancake-big.png'
 import ctaPancake from 'components/Game/Developers/images/cta-pancake.png'

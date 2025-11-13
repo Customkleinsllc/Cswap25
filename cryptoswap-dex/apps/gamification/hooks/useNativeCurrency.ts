@@ -1,6 +1,6 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Native } from '@pancakeswap/sdk'
-import { NativeCurrency } from '@pancakeswap/swap-sdk-core'
+import { ChainId } from '@CryptoSwap/chains'
+import { Native } from '@CryptoSwap/sdk'
+import { NativeCurrency } from '@CryptoSwap/swap-sdk-core'
 import { useMemo } from 'react'
 import { useActiveChainId } from './useActiveChainId'
 

@@ -1,5 +1,5 @@
-import type { ChainId } from '@pancakeswap/chains'
-import type { SerializedToken, Token } from '@pancakeswap/sdk'
+import type { ChainId } from '@CryptoSwap/chains'
+import type { SerializedToken, Token } from '@CryptoSwap/sdk'
 
 import { allTokens } from '../allTokens'
 

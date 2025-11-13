@@ -1,7 +1,7 @@
 import { useMemo, useCallback, ReactNode, MouseEvent } from 'react'
-import { Currency, CurrencyAmount } from '@pancakeswap/sdk'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
-import { BalanceInput, Text, Flex, Button } from '@pancakeswap/uikit'
+import { Currency, CurrencyAmount } from '@CryptoSwap/sdk'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
+import { BalanceInput, Text, Flex, Button } from '@CryptoSwap/uikit'
 
 interface Props {
   value: string | number

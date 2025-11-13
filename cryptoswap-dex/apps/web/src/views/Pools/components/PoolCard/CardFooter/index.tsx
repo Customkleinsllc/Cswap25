@@ -1,11 +1,11 @@
 import { useState } from 'react'
 import BigNumber from 'bignumber.js'
 import { styled } from 'styled-components'
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, CardFooter, ExpandableLabel, HelpIcon } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, CardFooter, ExpandableLabel, HelpIcon } from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/widgets-internal'
 
-import { Token } from '@pancakeswap/sdk'
+import { Token } from '@CryptoSwap/sdk'
 import PoolStatsInfo from '../../PoolStatsInfo'
 import PoolTypeTag from '../../PoolTypeTag'
 

@@ -1,5 +1,5 @@
 /* eslint-disable no-param-reassign */
-import { ChainId, NonEVMChainId } from '@pancakeswap/chains'
+import { ChainId, NonEVMChainId } from '@CryptoSwap/chains'
 import {
   Currency,
   ERC20Token,
@@ -9,11 +9,11 @@ import {
   UnifiedCurrency,
   UnifiedNativeCurrency,
   UnifiedToken,
-} from '@pancakeswap/sdk'
+} from '@CryptoSwap/sdk'
 import { type Address, erc20Abi, zeroAddress } from 'viem'
 
-import { TokenAddressMap } from '@pancakeswap/token-lists'
-import { useReadContracts } from '@pancakeswap/wagmi'
+import { TokenAddressMap } from '@CryptoSwap/token-lists'
+import { useReadContracts } from '@CryptoSwap/wagmi'
 import { GELATO_NATIVE } from 'config/constants'
 import { UnsafeCurrency } from 'config/constants/types'
 import { useAtomValue } from 'jotai'

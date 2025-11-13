@@ -1,7 +1,7 @@
 import { type Hex, encodePacked } from 'viem'
-import { Token } from '@pancakeswap/swap-sdk-core'
-import type { Pool } from '@pancakeswap/routing-sdk'
-import { isV3Pool } from '@pancakeswap/routing-sdk-addon-v3'
+import { Token } from '@CryptoSwap/swap-sdk-core'
+import type { Pool } from '@CryptoSwap/routing-sdk'
+import { isV3Pool } from '@CryptoSwap/routing-sdk-addon-v3'
 
 import type { QuoteRoute } from '../types'
 import { EMPTY_FEE_PATH_PLACEHOLDER } from '../constants'

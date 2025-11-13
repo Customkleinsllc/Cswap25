@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount, Price, TradeType } from '@pancakeswap/swap-sdk-core'
+import { Currency, CurrencyAmount, Price, TradeType } from '@CryptoSwap/swap-sdk-core'
 import { ExclusiveDutchOrderInfo } from '../orders'
 import { areCurrenciesEqual } from './utils'
 

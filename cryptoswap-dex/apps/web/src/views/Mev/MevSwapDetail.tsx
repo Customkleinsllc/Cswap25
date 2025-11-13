@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { QuestionHelperV2, ShieldCheckIcon, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { QuestionHelperV2, ShieldCheckIcon, Text } from '@CryptoSwap/uikit'
 import { RowBetween, RowFixed } from 'components/Layout/Row'
 import useTheme from 'hooks/useTheme'
 import { styled } from 'styled-components'

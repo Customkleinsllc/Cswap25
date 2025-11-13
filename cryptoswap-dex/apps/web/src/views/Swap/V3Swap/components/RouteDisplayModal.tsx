@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Route, RouteType, SVMPool } from '@pancakeswap/smart-router'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Route, RouteType, SVMPool } from '@CryptoSwap/smart-router'
 import {
   AutoColumn,
   Flex,
@@ -10,19 +10,19 @@ import {
   Text,
   UseModalV2Props,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { CurrencyLogo } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { CurrencyLogo } from '@CryptoSwap/widgets-internal'
 import { memo, useMemo, useState } from 'react'
 
 import { RoutingSettingsButtonView, RoutingSettingsModalContent } from 'components/Menu/GlobalSettings/SettingsModalV2'
 import { CurrencyLogoWrapper, RouterBox, RouterTypeText } from 'views/Swap/components/RouterViewer'
 import { useHookDiscount } from 'views/SwapSimplify/hooks/useHookDiscount'
-import { Currency, SPLToken, UnifiedCurrency } from '@pancakeswap/sdk'
+import { Currency, SPLToken, UnifiedCurrency } from '@CryptoSwap/sdk'
 import { useUnifiedCurrency } from 'hooks/Tokens'
 import { TertiaryButton } from 'views/Swap/components/SlippageButton'
-import { useTheme } from '@pancakeswap/hooks'
+import { useTheme } from '@CryptoSwap/hooks'
 
-import { isSolana } from '@pancakeswap/chains'
+import { isSolana } from '@CryptoSwap/chains'
 import { BridgeRoutesDisplay } from './RouteDisplay/BridgeRoutesDisplay'
 import { EVMPairNodes } from './RouteDisplay/pairNode'
 import { JupPairNodes } from './RouteDisplay/JupPairNodes'

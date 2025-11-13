@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Flex, InjectedModalProps, Modal, PreTitle, Text, ThemeSwitcher, Toggle } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Flex, InjectedModalProps, Modal, PreTitle, Text, ThemeSwitcher, Toggle } from '@CryptoSwap/uikit'
 import useTheme from 'hooks/useTheme'
 import { useUserShowTestnet } from 'hooks/useUserShowTestnet'
 import { styled } from 'styled-components'

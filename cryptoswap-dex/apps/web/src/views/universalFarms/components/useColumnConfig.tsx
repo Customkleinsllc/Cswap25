@@ -1,5 +1,5 @@
-import { useTranslation, Trans } from '@pancakeswap/localization'
-import { getCurrencyAddress, Percent } from '@pancakeswap/swap-sdk-core'
+import { useTranslation, Trans } from '@CryptoSwap/localization'
+import { getCurrencyAddress, Percent } from '@CryptoSwap/swap-sdk-core'
 import {
   Box,
   Grid,
@@ -11,8 +11,8 @@ import {
   WarningIcon,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { FeeTierTooltip, FiatNumberDisplay, Liquidity, TokenOverview } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { FeeTierTooltip, FiatNumberDisplay, Liquidity, TokenOverview } from '@CryptoSwap/widgets-internal'
 import { InfinityFeeTierBreakdown } from 'components/FeeTierBreakdown'
 import { TokenPairLogo } from 'components/TokenImage'
 import { useMemo } from 'react'

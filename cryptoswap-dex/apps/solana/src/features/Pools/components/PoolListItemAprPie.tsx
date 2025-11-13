@@ -1,6 +1,6 @@
 import { Box } from '@chakra-ui/react'
 import { useMemo } from 'react'
-import { eq } from '@pancakeswap/solana-core-sdk'
+import { eq } from '@CryptoSwap/solana-core-sdk'
 import { AprData } from '@/features/Clmm/utils/calApr'
 import { aprColors, emptyAprColor } from './PoolListItemAprLine'
 

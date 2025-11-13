@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AutoRow, Button, ChevronDownIcon, Text, useIsomorphicEffect, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AutoRow, Button, ChevronDownIcon, Text, useIsomorphicEffect, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { LightGreyCard } from 'components/Card'
 import { Dispatch, ReactNode, SetStateAction, useRef } from 'react'
 import styled from 'styled-components'

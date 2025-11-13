@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { LegacyRouter } from '@pancakeswap/smart-router/legacy-router'
+import { ChainId } from '@CryptoSwap/chains'
+import { LegacyRouter } from '@CryptoSwap/smart-router/legacy-router'
 import { useAtomValue } from 'jotai'
 import { atomFamily, loadable } from 'jotai/utils'
 import { useMemo } from 'react'

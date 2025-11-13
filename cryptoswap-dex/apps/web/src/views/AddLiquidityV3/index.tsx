@@ -1,7 +1,7 @@
-import { Box, Breadcrumbs, Container, FlexGap, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Box, Breadcrumbs, Container, FlexGap, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 
-import { Pair } from '@pancakeswap/sdk'
-import { FeeAmount, Pool } from '@pancakeswap/v3-sdk'
+import { Pair } from '@CryptoSwap/sdk'
+import { FeeAmount, Pool } from '@CryptoSwap/v3-sdk'
 import React, { useEffect, useMemo } from 'react'
 
 import { useV3FarmAPI } from 'hooks/useV3FarmAPI'
@@ -10,13 +10,13 @@ import { useRouter } from 'next/router'
 import { atom, useAtom } from 'jotai'
 import { styled } from 'styled-components'
 
-import { useTranslation } from '@pancakeswap/localization'
-import { NextLinkFromReactRouter } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { NextLinkFromReactRouter } from '@CryptoSwap/widgets-internal'
 import { useQuery } from '@tanstack/react-query'
 import { useFeeTierDistribution } from 'hooks/v3/useFeeTierDistribution'
 import { getPoolDetailPageLink } from 'utils/getPoolLink'
 
-import { usePreviousValue } from '@pancakeswap/hooks'
+import { usePreviousValue } from '@CryptoSwap/hooks'
 import { useCurrency } from 'hooks/Tokens'
 import AddLiquidity from 'views/AddLiquidity'
 import AddStableLiquidity from 'views/AddLiquidity/AddStableLiquidity'

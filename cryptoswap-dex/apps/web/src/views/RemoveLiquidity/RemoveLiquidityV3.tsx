@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { CurrencyAmount, WNATIVE } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { CurrencyAmount, WNATIVE } from '@CryptoSwap/sdk'
 import {
   ArrowDownIcon,
   AutoColumn,
@@ -18,12 +18,12 @@ import {
   Text,
   Toggle,
   useModal,
-} from '@pancakeswap/uikit'
-import { ConfirmationModalContent } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { ConfirmationModalContent } from '@CryptoSwap/widgets-internal'
 
-import { useDebouncedChangeHandler } from '@pancakeswap/hooks'
-import { useUserSlippage } from '@pancakeswap/utils/user'
-import { MasterChefV3, NonfungiblePositionManager } from '@pancakeswap/v3-sdk'
+import { useDebouncedChangeHandler } from '@CryptoSwap/hooks'
+import { useUserSlippage } from '@CryptoSwap/utils/user'
+import { MasterChefV3, NonfungiblePositionManager } from '@CryptoSwap/v3-sdk'
 import { AppBody, AppHeader } from 'components/App'
 import { LightGreyCard } from 'components/Card'
 import FormattedCurrencyAmount from 'components/FormattedCurrencyAmount/FormattedCurrencyAmount'

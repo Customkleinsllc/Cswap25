@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useTranslation } from '@pancakeswap/localization'
+import { ChainId } from '@CryptoSwap/chains'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   Button,
@@ -12,7 +12,7 @@ import {
   Text,
   useModal,
   useTooltip,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { NetworkSelectorModal } from 'components/NetworkSelectorModal'
 import { ASSET_CDN } from 'config/constants/endpoints'
 import { predictionTaskSupportChains } from 'config/supportedChain'

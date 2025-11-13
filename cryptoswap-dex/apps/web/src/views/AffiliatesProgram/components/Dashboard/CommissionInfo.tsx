@@ -1,10 +1,10 @@
 import React, { ReactNode, useMemo } from 'react'
-import { useTranslation, Trans } from '@pancakeswap/localization'
+import { useTranslation, Trans } from '@CryptoSwap/localization'
 import { styled } from 'styled-components'
-import { Box, Card, Flex, Text } from '@pancakeswap/uikit'
+import { Box, Card, Flex, Text } from '@CryptoSwap/uikit'
 import BigNumber from 'bignumber.js'
 import { useCakePrice } from 'hooks/useCakePrice'
-import { formatNumber } from '@pancakeswap/utils/formatBalance'
+import { formatNumber } from '@CryptoSwap/utils/formatBalance'
 import { InfoDetail } from 'views/AffiliatesProgram/hooks/useAuthAffiliate'
 import PieChartContainer from './PieChartContainer'
 

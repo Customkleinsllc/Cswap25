@@ -1,5 +1,5 @@
-import { getIdFromCurrencyPrice } from '@pancakeswap/infinity-sdk'
-import { Currency } from '@pancakeswap/swap-sdk-core'
+import { getIdFromCurrencyPrice } from '@CryptoSwap/infinity-sdk'
+import { Currency } from '@CryptoSwap/swap-sdk-core'
 import BigNumber from 'bignumber.js'
 import { tryParsePrice } from 'hooks/v3/utils'
 import { useCallback } from 'react'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { createContext, useCallback, useMemo, useState } from 'react'
 import { CampaignRewardType, CampaignStateType } from 'views/DashboardCampaignEdit/context/type'
 import { CompletionStatus } from 'views/DashboardQuestEdit/type'

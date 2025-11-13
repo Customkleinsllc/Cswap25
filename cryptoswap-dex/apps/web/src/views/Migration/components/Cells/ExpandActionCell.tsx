@@ -1,9 +1,9 @@
 import React from 'react'
 import { styled } from 'styled-components'
-import { Text, ChevronDownIcon } from '@pancakeswap/uikit'
-import { Pool } from '@pancakeswap/widgets-internal'
+import { Text, ChevronDownIcon } from '@CryptoSwap/uikit'
+import { Pool } from '@CryptoSwap/widgets-internal'
 
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 interface ExpandActionCellProps {
   expanded: boolean

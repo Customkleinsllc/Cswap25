@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { HomepageChain, HomePageCurrency } from 'pages/api/home/types'
 import React from 'react'
 import { CardRowLayout } from './component/CardRowLayout'

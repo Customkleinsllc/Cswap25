@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useQuery } from '@tanstack/react-query'
 import { GAMIFICATION_PUBLIC_DASHBOARD_API } from 'config/constants/endpoints'
 import { useDashboardSiwe } from 'hooks/useDashboardSiwe'

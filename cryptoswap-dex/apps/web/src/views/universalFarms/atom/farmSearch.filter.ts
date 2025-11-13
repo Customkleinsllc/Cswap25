@@ -1,6 +1,6 @@
-import { Currency, getCurrencyAddress } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router'
-import { TokenInfo } from '@pancakeswap/token-lists'
+import { Currency, getCurrencyAddress } from '@CryptoSwap/sdk'
+import { SmartRouter } from '@CryptoSwap/smart-router'
+import { TokenInfo } from '@CryptoSwap/token-lists'
 
 import { FarmInfo } from 'state/farmsV4/search/farm.util'
 

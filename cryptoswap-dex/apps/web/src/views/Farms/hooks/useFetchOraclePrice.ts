@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { useReadContract } from '@pancakeswap/wagmi'
+import { ChainId } from '@CryptoSwap/chains'
+import { useReadContract } from '@CryptoSwap/wagmi'
 import { getChainlinkOracleContract } from 'utils/contractHelpers'
 import { Address } from 'viem'
 

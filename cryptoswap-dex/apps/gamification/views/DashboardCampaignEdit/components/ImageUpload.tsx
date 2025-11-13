@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { ArrowFirstIcon, Box, Button, Flex, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { ArrowFirstIcon, Box, Button, Flex, Text } from '@CryptoSwap/uikit'
 // import { GAMIFICATION_API } from 'config/constants/endpoints'
 import { useMemo, useState } from 'react'
 import ImageUploading, { ImageListType, ImageType } from 'react-images-uploading'

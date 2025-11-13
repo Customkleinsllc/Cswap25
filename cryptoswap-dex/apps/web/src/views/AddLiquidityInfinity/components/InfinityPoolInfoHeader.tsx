@@ -1,5 +1,5 @@
-import { Protocol } from '@pancakeswap/farms'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { Protocol } from '@CryptoSwap/farms'
+import { useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { PoolInfoHeader } from 'components/PoolInfoHeader'
 import { useInfinityPoolIdRouteParams } from 'hooks/dynamicRoute/usePoolIdRoute'
 import { useCurrencyByPoolId } from 'hooks/infinity/useCurrencyByPoolId'

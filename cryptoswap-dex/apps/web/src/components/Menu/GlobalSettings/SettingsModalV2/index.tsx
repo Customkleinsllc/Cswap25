@@ -1,9 +1,9 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { AtomBox, Button, ButtonProps, ModalV2, MotionModal, NotificationDot, useModalV2 } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { AtomBox, Button, ButtonProps, ModalV2, MotionModal, NotificationDot, useModalV2 } from '@CryptoSwap/uikit'
 
 import { ReactNode, useCallback } from 'react'
 import { useRoutingSettingChanged } from 'state/user/smartRouter'
-import { NonEVMChainId } from '@pancakeswap/chains'
+import { NonEVMChainId } from '@CryptoSwap/chains'
 import { useActiveChainId } from 'hooks/useAccountActiveChain'
 import { CustomizeRoutingTab } from './CustomizeRoutingTab'
 

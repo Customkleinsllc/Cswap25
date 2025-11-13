@@ -1,7 +1,7 @@
-import { ChainId } from '@pancakeswap/chains'
-import { Currency, Token } from '@pancakeswap/sdk'
-import memoize from '@pancakeswap/utils/memoize'
-import uniqBy from '@pancakeswap/utils/uniqBy'
+import { ChainId } from '@CryptoSwap/chains'
+import { Currency, Token } from '@CryptoSwap/sdk'
+import memoize from '@CryptoSwap/utils/memoize'
+import uniqBy from '@CryptoSwap/utils/uniqBy'
 
 import { BASES_TO_CHECK_TRADES_AGAINST, CUSTOM_BASES } from '../../constants'
 import { wrappedCurrency } from '../../utils/currency'

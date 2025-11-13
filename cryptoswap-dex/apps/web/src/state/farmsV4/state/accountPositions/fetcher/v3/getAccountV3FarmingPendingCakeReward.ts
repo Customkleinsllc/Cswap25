@@ -1,5 +1,5 @@
-import { ChainId } from '@pancakeswap/chains'
-import { masterChefV3ABI } from '@pancakeswap/v3-sdk'
+import { ChainId } from '@CryptoSwap/chains'
+import { masterChefV3ABI } from '@CryptoSwap/v3-sdk'
 import { getMasterChefV3Contract } from 'utils/contractHelpers'
 import { Address, decodeFunctionResult, encodeFunctionData, Hex } from 'viem'
 

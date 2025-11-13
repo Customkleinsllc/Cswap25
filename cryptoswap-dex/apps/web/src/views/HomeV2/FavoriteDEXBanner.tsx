@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Box, Flex, MotionBox, Text, useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Box, Flex, MotionBox, Text, useMatchBreakpoints } from '@CryptoSwap/uikit'
 import { HomepageChain } from 'pages/api/home/types'
 import React from 'react'
 import styled from 'styled-components'

@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { BunnyPlaceholderIcon, Flex, Text } from "../../components";
 import { IfoMessageTextLink } from "./styleds";
 

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { getChainId } from 'config/chains'
 import { atom, useAtomValue } from 'jotai'
 import { useRouter } from 'next/router'

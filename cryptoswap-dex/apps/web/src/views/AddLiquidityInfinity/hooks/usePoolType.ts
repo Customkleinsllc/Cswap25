@@ -1,4 +1,4 @@
-import { PoolType } from '@pancakeswap/infinity-sdk'
+import { PoolType } from '@CryptoSwap/infinity-sdk'
 import { usePoolById } from 'hooks/infinity/usePool'
 import { Hex } from 'viem'
 

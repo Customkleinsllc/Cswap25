@@ -1,4 +1,4 @@
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useMatchBreakpoints } from '@CryptoSwap/uikit'
 import NextLink from 'next/link'
 import { LogoText } from './LogoText'
 

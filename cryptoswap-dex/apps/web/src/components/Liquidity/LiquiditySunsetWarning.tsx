@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Message, MessageText, Text } from '@pancakeswap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Message, MessageText, Text } from '@CryptoSwap/uikit'
 import { DISABLED_ADD_LIQUIDITY_CHAINS } from 'config/constants/liquidity'
 import dayjs from 'dayjs'
 import advancedFormat from 'dayjs/plugin/advancedFormat'

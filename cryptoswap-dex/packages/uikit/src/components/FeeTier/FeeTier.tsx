@@ -1,4 +1,4 @@
-import { smartRoundNumber } from "@pancakeswap/utils/formatFractions";
+import { smartRoundNumber } from "@CryptoSwap/utils/formatFractions";
 import BigNumber from "bignumber.js";
 import { forwardRef, useMemo } from "react";
 import styled from "styled-components";

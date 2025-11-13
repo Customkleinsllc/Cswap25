@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import type { Currency } from '@pancakeswap/swap-sdk-core'
+import { useTranslation } from '@CryptoSwap/localization'
+import type { Currency } from '@CryptoSwap/swap-sdk-core'
 import {
   ArrowDropDownIcon,
   ArrowDropUpIcon,
@@ -9,7 +9,7 @@ import {
   RowBetween,
   SkeletonText,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { ChainLogo } from 'components/Logo/ChainLogo'
 import { useCallback, useEffect, useRef, useState } from 'react'
 import { Field } from 'state/buyCrypto/actions'

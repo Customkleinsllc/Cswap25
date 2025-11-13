@@ -1,6 +1,6 @@
-import { Card } from '@pancakeswap/uikit'
+import { Card } from '@CryptoSwap/uikit'
 import { Box, HStack, Image, Text } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 
 import { colors } from '@/theme/cssVariables'
 import { appLayoutPaddingX } from '@/theme/detailConfig'

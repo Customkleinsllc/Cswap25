@@ -1,4 +1,4 @@
-import { useTranslation } from "@pancakeswap/localization";
+import { useTranslation } from "@CryptoSwap/localization";
 import { ElementType, useCallback, useEffect, useState } from "react";
 import { TooltipOptions, useTooltip } from "../../hooks";
 import { IconButton } from "../Button";

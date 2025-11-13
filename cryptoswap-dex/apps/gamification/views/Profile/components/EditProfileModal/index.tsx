@@ -1,5 +1,5 @@
-import { ContextApi, useTranslation } from '@pancakeswap/localization'
-import { InjectedModalProps, Modal } from '@pancakeswap/uikit'
+import { ContextApi, useTranslation } from '@CryptoSwap/localization'
+import { InjectedModalProps, Modal } from '@CryptoSwap/uikit'
 import ApproveCakeView from './ApproveCakeView'
 import ChangeProfilePicView from './ChangeProfilePicView'
 import PauseProfileView from './PauseProfileView'

@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { queryOptions, type QueryFunction } from '@tanstack/react-query'
 import createClient, { type MaybeOptionalInit, type Middleware } from 'openapi-fetch'
 import type { HasRequiredKeys, PathsWithMethod } from 'openapi-typescript-helpers'

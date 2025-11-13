@@ -1,5 +1,5 @@
 import { Box, Button, HStack } from '@chakra-ui/react'
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useRouter } from 'next/router'
 import { useCallback } from 'react'
 import Tooltip from '@/components/Tooltip'

@@ -1,7 +1,7 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, Price } from '@pancakeswap/swap-sdk-core'
-import { Flex, FlexGap, IconButton, SwapHorizIcon, useMatchBreakpoints } from '@pancakeswap/uikit'
-import { Bound } from '@pancakeswap/widgets-internal'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, Price } from '@CryptoSwap/swap-sdk-core'
+import { Flex, FlexGap, IconButton, SwapHorizIcon, useMatchBreakpoints } from '@CryptoSwap/uikit'
+import { Bound } from '@CryptoSwap/widgets-internal'
 import { formatTickPrice } from 'hooks/v3/utils/formatTickPrice'
 import { memo, useCallback, useMemo, useState } from 'react'
 

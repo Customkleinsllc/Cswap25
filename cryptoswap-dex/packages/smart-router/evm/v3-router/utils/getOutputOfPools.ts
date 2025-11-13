@@ -1,4 +1,4 @@
-import { Currency } from '@pancakeswap/sdk'
+import { Currency } from '@CryptoSwap/sdk'
 
 import { Pool } from '../types'
 import { involvesCurrency, getOutputCurrency } from './pool'

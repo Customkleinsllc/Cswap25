@@ -1,6 +1,6 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Currency, CurrencyAmount, Percent, TradeType, UnifiedCurrencyAmount } from '@pancakeswap/sdk'
-import { SmartRouter } from '@pancakeswap/smart-router'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Currency, CurrencyAmount, Percent, TradeType, UnifiedCurrencyAmount } from '@CryptoSwap/sdk'
+import { SmartRouter } from '@CryptoSwap/smart-router'
 import {
   AutoColumn,
   BackForwardIcon,
@@ -14,9 +14,9 @@ import {
   WarningIcon,
   useMatchBreakpoints,
   useTooltip,
-} from '@pancakeswap/uikit'
-import { formatAmount } from '@pancakeswap/utils/formatFractions'
-import { CurrencyLogo as CurrencyLogoWidget } from '@pancakeswap/widgets-internal'
+} from '@CryptoSwap/uikit'
+import { formatAmount } from '@CryptoSwap/utils/formatFractions'
+import { CurrencyLogo as CurrencyLogoWidget } from '@CryptoSwap/widgets-internal'
 import { AutoRow, RowBetween, RowFixed } from 'components/Layout/Row'
 import { useGasToken } from 'hooks/useGasToken'
 import { memo, useMemo, useState } from 'react'
@@ -33,7 +33,7 @@ import { isAddressEqual } from 'utils'
 import { SlippageButton } from 'views/Swap/components/SlippageButton'
 import { InterfaceOrder, isBridgeOrder, isSolanaBridge, isSVMOrder, isXOrder } from 'views/Swap/utils'
 import { useHasDynamicHook } from 'views/SwapSimplify/hooks/useHasDynamicHook'
-import { BridgeOrder } from '@pancakeswap/price-api-sdk'
+import { BridgeOrder } from '@CryptoSwap/price-api-sdk'
 import FormattedPriceImpact from '../../components/FormattedPriceImpact'
 import { StyledBalanceMaxMini, SwapCallbackError } from '../../components/styleds'
 import { SlippageAdjustedAmounts, formatExecutionPrice } from '../utils/exchange'

@@ -1,4 +1,4 @@
-import { Flex, Heading, Text, TextProps } from '@pancakeswap/uikit'
+import { Flex, Heading, Text, TextProps } from '@CryptoSwap/uikit'
 import { ElementType, ReactNode } from 'react'
 import { styled } from 'styled-components'
 

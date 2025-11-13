@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { pancakeProfileABI } from 'config/abi/pancakeProfile'
 import teamsList from 'hooks/useProfile/team/config'
 import { Team, TeamsById } from 'hooks/useProfile/team/types'

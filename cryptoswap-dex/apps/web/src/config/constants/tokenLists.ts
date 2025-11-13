@@ -3,7 +3,7 @@
  * Major tokens for each supported chain
  */
 
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 
 export interface Token {
   chainId: number

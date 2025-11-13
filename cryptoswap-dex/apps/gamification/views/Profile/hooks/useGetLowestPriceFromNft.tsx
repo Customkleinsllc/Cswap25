@@ -1,4 +1,4 @@
-import { formatBigInt } from '@pancakeswap/utils/formatBalance'
+import { formatBigInt } from '@CryptoSwap/utils/formatBalance'
 import { useQuery } from '@tanstack/react-query'
 import { LowestNftPrice, NftToken } from 'hooks/useProfile/nft/types'
 import { safeGetAddress } from 'utils'

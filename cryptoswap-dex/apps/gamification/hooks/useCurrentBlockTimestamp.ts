@@ -1,4 +1,4 @@
-import { useBlockNumber, useBlockTimestamp as useStateBlockTimestamp } from '@pancakeswap/wagmi'
+import { useBlockNumber, useBlockTimestamp as useStateBlockTimestamp } from '@CryptoSwap/wagmi'
 import { useActiveChainId } from 'hooks/useActiveChainId'
 
 export function useBlockTimestamp() {

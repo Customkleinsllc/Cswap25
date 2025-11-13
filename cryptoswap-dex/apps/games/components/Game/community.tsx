@@ -1,5 +1,5 @@
 import { styled } from 'styled-components'
-import { Box } from '@pancakeswap/uikit'
+import { Box } from '@CryptoSwap/uikit'
 import { Banner } from 'components/Game/Community/Banner'
 import { AllArticle } from 'components/Game/Community/AllArticle'
 import { LIGHT_BG, DARK_BG } from 'components/Game/pageSectionStyles'

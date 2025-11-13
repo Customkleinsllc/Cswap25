@@ -1,4 +1,4 @@
-import { Currency, Price, Token } from '@pancakeswap/swap-sdk-core'
+import { Currency, Price, Token } from '@CryptoSwap/swap-sdk-core'
 import {
   encodeSqrtRatioX96,
   FeeAmount,
@@ -6,7 +6,7 @@ import {
   priceToClosestTick,
   TICK_SPACINGS,
   TickMath,
-} from '@pancakeswap/v3-sdk'
+} from '@CryptoSwap/v3-sdk'
 
 export function tryParsePrice(baseToken?: Token | Currency, quoteToken?: Token | Currency, value?: string) {
   if (!baseToken || !quoteToken || !value) {

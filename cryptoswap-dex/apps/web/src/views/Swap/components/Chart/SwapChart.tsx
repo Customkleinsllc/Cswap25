@@ -1,4 +1,4 @@
-import { useTranslation } from '@pancakeswap/localization'
+import { useTranslation } from '@CryptoSwap/localization'
 import {
   Box,
   ButtonMenu,
@@ -8,7 +8,7 @@ import {
   PairPriceChart,
   PairPriceChartType,
   Text,
-} from '@pancakeswap/uikit'
+} from '@CryptoSwap/uikit'
 import { memo, useMemo, useState } from 'react'
 import { usePairRate } from 'state/swap/hooks'
 import PairPriceDisplay from '../../../../components/PairPriceDisplay'

@@ -1,6 +1,6 @@
-import { fetchQuotes, Quote } from '@pancakeswap/routing-sdk-addon-quoter'
-import { InfinityRouter, RouteType } from '@pancakeswap/smart-router'
-import { CurrencyAmount, Fraction, TradeType } from '@pancakeswap/swap-sdk-core'
+import { fetchQuotes, Quote } from '@CryptoSwap/routing-sdk-addon-quoter'
+import { InfinityRouter, RouteType } from '@CryptoSwap/smart-router'
+import { CurrencyAmount, Fraction, TradeType } from '@CryptoSwap/swap-sdk-core'
 
 import { toRoutingSDKTrade } from 'utils/convertTrade'
 import { getViemClients } from 'utils/viem'

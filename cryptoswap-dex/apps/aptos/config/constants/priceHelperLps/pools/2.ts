@@ -1,5 +1,5 @@
-// import { serializeTokens } from '@pancakeswap/tokens/src/helpers'
-import type { SerializedFarmConfig } from '@pancakeswap/farms'
+// import { serializeTokens } from '@CryptoSwap/tokens/src/helpers'
+import type { SerializedFarmConfig } from '@CryptoSwap/farms'
 // import { testnetTokens } from 'config/constants/tokens'
 
 // const serializedTokens = serializeTokens(testnetTokens)

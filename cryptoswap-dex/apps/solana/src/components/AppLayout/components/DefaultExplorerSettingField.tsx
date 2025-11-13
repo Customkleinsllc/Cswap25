@@ -1,6 +1,6 @@
 import { Flex, HStack, Image, Text } from '@chakra-ui/react'
-import { Button } from '@pancakeswap/uikit'
-import { useTranslation } from '@pancakeswap/localization'
+import { Button } from '@CryptoSwap/uikit'
+import { useTranslation } from '@CryptoSwap/localization'
 import { useEvent } from '@/hooks/useEvent'
 import { EXPLORER_KEY, supportedExplorers, useAppStore } from '@/store'
 import { setStorageItem } from '@/utils/localStorage'

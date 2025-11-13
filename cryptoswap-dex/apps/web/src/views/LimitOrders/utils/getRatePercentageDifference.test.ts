@@ -1,4 +1,4 @@
-import { ERC20Token, Percent, Price } from '@pancakeswap/sdk'
+import { ERC20Token, Percent, Price } from '@CryptoSwap/sdk'
 import getRatePercentageDifference from './getRatePercentageDifference'
 
 const CAKE = new ERC20Token(56, '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82', 18, 'CAKE', 'PancakeSwap Token')

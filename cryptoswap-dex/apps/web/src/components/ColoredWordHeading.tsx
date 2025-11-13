@@ -1,4 +1,4 @@
-import { Colors, Heading, TextProps } from '@pancakeswap/uikit'
+import { Colors, Heading, TextProps } from '@CryptoSwap/uikit'
 import useTheme from 'hooks/useTheme'
 import { useMemo } from 'react'
 

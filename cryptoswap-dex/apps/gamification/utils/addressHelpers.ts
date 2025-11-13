@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import addresses from 'config/constants/contracts'
 import { Address } from 'viem'
 

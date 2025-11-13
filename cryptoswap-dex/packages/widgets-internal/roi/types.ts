@@ -1,4 +1,4 @@
-import { BigintIsh } from "@pancakeswap/sdk";
+import { BigintIsh } from "@CryptoSwap/sdk";
 
 export interface PriceData {
   time: Date;

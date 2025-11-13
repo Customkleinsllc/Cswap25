@@ -1,4 +1,4 @@
-import { ChainId } from '@pancakeswap/chains'
+import { ChainId } from '@CryptoSwap/chains'
 import { useQuery } from '@tanstack/react-query'
 import debounce from 'lodash/debounce'
 import { useEffect, useMemo, useState } from 'react'

@@ -1,4 +1,4 @@
-import { CurrencyAmount, Token, NativeCurrency } from '@pancakeswap/swap-sdk-core'
+import { CurrencyAmount, Token, NativeCurrency } from '@CryptoSwap/swap-sdk-core'
 import { zeroAddress } from 'viem'
 
 interface CreateGiftParams {

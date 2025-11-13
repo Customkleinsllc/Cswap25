@@ -1,4 +1,4 @@
-import { AtomBox, AtomBoxProps, SwapCSS } from "@pancakeswap/uikit";
+import { AtomBox, AtomBoxProps, SwapCSS } from "@CryptoSwap/uikit";
 import { ReactNode } from "react";
 
 import { SwapFooter } from "./Footer";

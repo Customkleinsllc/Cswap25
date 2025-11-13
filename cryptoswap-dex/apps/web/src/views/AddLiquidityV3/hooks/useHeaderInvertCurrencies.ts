@@ -1,6 +1,6 @@
 import { useCallback } from 'react'
 import { useRouter } from 'next/router'
-import { FeeAmount } from '@pancakeswap/v3-sdk'
+import { FeeAmount } from '@CryptoSwap/v3-sdk'
 import { atom, useAtomValue, useSetAtom } from 'jotai'
 
 const currencyInversionEventAtom = atom<{

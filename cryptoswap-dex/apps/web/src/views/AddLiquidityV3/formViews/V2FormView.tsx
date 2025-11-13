@@ -1,5 +1,5 @@
-import { useTranslation } from '@pancakeswap/localization'
-import { Pair, Percent } from '@pancakeswap/sdk'
+import { useTranslation } from '@CryptoSwap/localization'
+import { Pair, Percent } from '@CryptoSwap/sdk'
 import {
   AutoColumn,
   Box,
@@ -16,8 +16,8 @@ import {
   ScanLink,
   Text,
   Toggle,
-} from '@pancakeswap/uikit'
-import { useIsExpertMode } from '@pancakeswap/utils/user'
+} from '@CryptoSwap/uikit'
+import { useIsExpertMode } from '@CryptoSwap/utils/user'
 import { ReactNode, useMemo } from 'react'
 import { ChainLinkSupportChains } from 'state/info/constant'
 import useNativeCurrency from 'hooks/useNativeCurrency'
@@ -34,7 +34,7 @@ import ApproveLiquidityTokens from 'views/AddLiquidityV3/components/ApproveLiqui
 import { MevProtectToggle } from 'views/Mev/MevProtectToggle'
 import CurrencyInputPanelSimplify from 'components/CurrencyInputPanelSimplify'
 import { LiquiditySlippageButton, SlippageButton } from 'views/Swap/components/SlippageButton'
-import tryParseAmount from '@pancakeswap/utils/tryParseAmount'
+import tryParseAmount from '@CryptoSwap/utils/tryParseAmount'
 import { formatDollarAmount } from 'views/V3Info/utils/numbers'
 import { useTotalUsdValue } from '../../AddLiquidity/hooks/useTotalUsdValue'
 import { useNativeCurrencyInstead } from '../hooks/useNativeCurrencyInstead'
