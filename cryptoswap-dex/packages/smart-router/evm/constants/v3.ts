@@ -29,6 +29,10 @@ export const MIXED_ROUTE_QUOTER_ADDRESSES = {
   [ChainId.ARBITRUM_SEPOLIA]: '0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B',
   [ChainId.BASE_SEPOLIA]: '0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B',
   [ChainId.MONAD_TESTNET]: '0x7f988126C2c5d4967Bb5E70bDeB7e26DB6BD5C28',
+  [ChainId.POLYGON]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Polygon
+  [ChainId.SEI]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for SEI
+  [ChainId.AVALANCHE]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Avalanche
+  [ChainId.AVALANCHE_FUJI]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Fuji
 } as const satisfies Record<ChainId, Address>
 
 export const V3_QUOTER_ADDRESSES = {
@@ -53,6 +57,10 @@ export const V3_QUOTER_ADDRESSES = {
   [ChainId.ARBITRUM_SEPOLIA]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997',
   [ChainId.BASE_SEPOLIA]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997',
   [ChainId.MONAD_TESTNET]: '0x74b06eFA24F39C60AA7F61BD516a3eaf39613D57',
+  [ChainId.POLYGON]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997', // Placeholder for Polygon
+  [ChainId.SEI]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997', // Placeholder for SEI
+  [ChainId.AVALANCHE]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997', // Placeholder for Avalanche
+  [ChainId.AVALANCHE_FUJI]: '0xB048Bbc1Ee6b733FFfCFb9e9CeF7375518e25997', // Placeholder for Fuji
 } as const satisfies Record<ChainId, Address>
 
 const TICK_LENS_MAINNET_ADDRESS = '0x9a489505a00cE272eAa5e07Dba6491314CaE3796'
@@ -79,4 +87,8 @@ export const V3_TICK_LENS_ADDRESSES = {
   [ChainId.ARBITRUM_SEPOLIA]: TICK_LENS_MAINNET_ADDRESS,
   [ChainId.BASE_SEPOLIA]: TICK_LENS_MAINNET_ADDRESS,
   [ChainId.MONAD_TESTNET]: '0xf9A142FDc30Fa9f76ff2bfEc25E07449A504AeC3',
+  [ChainId.POLYGON]: TICK_LENS_MAINNET_ADDRESS, // Placeholder for Polygon
+  [ChainId.SEI]: TICK_LENS_MAINNET_ADDRESS, // Placeholder for SEI
+  [ChainId.AVALANCHE]: TICK_LENS_MAINNET_ADDRESS, // Placeholder for Avalanche
+  [ChainId.AVALANCHE_FUJI]: TICK_LENS_TESTNET_ADDRESS, // Placeholder for Fuji
 } as const satisfies Record<ChainId, Address>
