@@ -26,4 +26,8 @@ export const MIXED_ROUTE_QUOTER_ADDRESSES = {
   [ChainId.ARBITRUM_SEPOLIA]: '0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B',
   [ChainId.BASE_SEPOLIA]: '0x4c650FB471fe4e0f476fD3437C3411B1122c4e3B',
   [ChainId.MONAD_TESTNET]: '0x7f988126C2c5d4967Bb5E70bDeB7e26DB6BD5C28',
+  [ChainId.POLYGON]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Polygon
+  [ChainId.SEI]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for SEI
+  [ChainId.AVALANCHE]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Avalanche
+  [ChainId.AVALANCHE_FUJI]: '0x678Aa4bF4E210cf2166753e054d5b7c31cc7fa86', // Placeholder for Fuji
 } as const satisfies Record<ChainId, Address>
