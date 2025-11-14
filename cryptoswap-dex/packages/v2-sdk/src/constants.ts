@@ -27,6 +27,10 @@ export const FACTORY_ADDRESS_MAP = {
   [ChainId.ARBITRUM_SEPOLIA]: '0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E',
   [ChainId.BASE_SEPOLIA]: '0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E',
   [ChainId.MONAD_TESTNET]: '0x82438CE666d9403e488bA720c7424434e8Aa47CD',
+  [ChainId.POLYGON]: '0x5757371414417b8C6CAad45bAeF941aBc7d3Ab32', // QuickSwap Factory on Polygon
+  [ChainId.AVALANCHE]: '0x9Ad6C38BE94206cA50bb0d90783181662f0Cfa10', // TraderJoe Factory on Avalanche
+  [ChainId.AVALANCHE_FUJI]: '0xF5c7d9733e5f53abCC1695820c4818C59B457C2C', // TraderJoe Factory on Fuji
+  [ChainId.SEI]: '0x02a84c1b3BBD7401a5f7fa98a384EBC70bB5749E', // Placeholder for SEI
 } as const satisfies Record<ChainId, Address>
 
 export const INIT_CODE_HASH = '0x00fb7f630766e6a796048ea87d01acd3068e8ff67d078148a3fa3f4a84f69bd5'
@@ -54,4 +58,8 @@ export const INIT_CODE_HASH_MAP = {
   [ChainId.ARBITRUM_SEPOLIA]: INIT_CODE_HASH_ETH,
   [ChainId.BASE_SEPOLIA]: INIT_CODE_HASH_ETH,
   [ChainId.MONAD_TESTNET]: '0xa5934690703a592a07e841ca29d5e5c79b5e22ed4749057bb216dc31100be1c0',
+  [ChainId.POLYGON]: '0x96e8ac4277198ff8b6f785478aa9a39f403cb768dd02cbee326c3e7da348845f', // QuickSwap init code
+  [ChainId.AVALANCHE]: '0x0bbca9af0511ad1a1da383135cf3a8d2ac620e549ef9f6ae3a4c33c2fed0af91', // TraderJoe init code
+  [ChainId.AVALANCHE_FUJI]: '0x0bbca9af0511ad1a1da383135cf3a8d2ac620e549ef9f6ae3a4c33c2fed0af91', // TraderJoe init code
+  [ChainId.SEI]: INIT_CODE_HASH_ETH, // Placeholder for SEI
 } as const satisfies Record<ChainId, Hash>
