@@ -72,4 +72,8 @@ export const BATCH_MULTICALL_CONFIGS: ChainMap<BatchMulticallConfigs> = {
   [ChainId.ARBITRUM_SEPOLIA]: DEFAULT,
   [ChainId.BASE_SEPOLIA]: DEFAULT,
   [ChainId.MONAD_TESTNET]: DEFAULT,
+  [ChainId.POLYGON]: DEFAULT,
+  [ChainId.AVALANCHE]: DEFAULT,
+  [ChainId.AVALANCHE_FUJI]: DEFAULT,
+  [ChainId.SEI]: DEFAULT,
 }

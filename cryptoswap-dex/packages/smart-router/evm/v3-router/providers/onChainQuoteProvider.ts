@@ -61,6 +61,10 @@ const SUCCESS_RATE_CONFIG = {
   [ChainId.ARBITRUM_SEPOLIA]: 0.1,
   [ChainId.BASE_SEPOLIA]: 0.1,
   [ChainId.MONAD_TESTNET]: 0.1,
+  [ChainId.POLYGON]: 0.1,
+  [ChainId.AVALANCHE]: 0.1,
+  [ChainId.AVALANCHE_FUJI]: 0.1,
+  [ChainId.SEI]: 0.1,
 } as const satisfies Record<ChainId, number>
 
 type InfinityClInputs = [

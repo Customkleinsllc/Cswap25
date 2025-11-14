@@ -4,6 +4,8 @@ import {
   arbSepoliaTokens,
   arbitrumGoerliTokens,
   arbitrumTokens,
+  avalancheFujiTokens,
+  avalancheTokens,
   baseSepoliaTokens,
   baseTestnetTokens,
   baseTokens,
@@ -16,9 +18,11 @@ import {
   monadTestnetTokens,
   opBnbTestnetTokens,
   opBnbTokens,
+  polygonTokens,
   polygonZkEvmTestnetTokens,
   polygonZkEvmTokens,
   scrollSepoliaTokens,
+  seiTokens,
   sepoliaTokens,
   zkSyncTestnetTokens,
   zksyncTokens,
@@ -46,6 +50,10 @@ export const usdGasTokensByChain = {
   [ChainId.ARBITRUM_SEPOLIA]: [arbSepoliaTokens.usdc],
   [ChainId.BASE_SEPOLIA]: [baseSepoliaTokens.usdc],
   [ChainId.MONAD_TESTNET]: [monadTestnetTokens.usdc],
+  [ChainId.POLYGON]: [polygonTokens.usdc],
+  [ChainId.AVALANCHE]: [avalancheTokens.usdc],
+  [ChainId.AVALANCHE_FUJI]: [avalancheFujiTokens.usdc],
+  [ChainId.SEI]: [seiTokens.usdc],
 } satisfies Record<ChainId, Token[]>
 
 export * from './stableSwap'
