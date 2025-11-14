@@ -384,6 +384,38 @@ export const USDC = {
     'USD Coin',
     'https://www.centre.io/usdc',
   ),
+  [ChainId.POLYGON]: new ERC20Token(
+    ChainId.POLYGON,
+    '0x2791Bca1f2de4661ED88A30C99A7a9449Aa84174',
+    6,
+    'USDC',
+    'USD Coin',
+    'https://www.centre.io/usdc',
+  ),
+  [ChainId.AVALANCHE]: new ERC20Token(
+    ChainId.AVALANCHE,
+    '0xB97EF9Ef8734C71904D8002F8b6Bc66Dd9c48a6E',
+    6,
+    'USDC',
+    'USD Coin',
+    'https://www.centre.io/usdc',
+  ),
+  [ChainId.AVALANCHE_FUJI]: new ERC20Token(
+    ChainId.AVALANCHE_FUJI,
+    '0x5425890298aed601595a70AB815c96711a31Bc65',
+    6,
+    'USDC',
+    'USD Coin',
+    'https://www.centre.io/usdc',
+  ),
+  [ChainId.SEI]: new ERC20Token(
+    ChainId.SEI,
+    '0x3894085Ef7Ff0f0aeDf52E2A2704928d1Ec074F1',
+    6,
+    'USDC',
+    'USD Coin',
+    'https://www.centre.io/usdc',
+  ),
   [NonEVMChainId.SOLANA]: solanaTokens.usdc,
 }
 
@@ -588,4 +620,8 @@ export const STABLE_COIN = {
   [ChainId.ARBITRUM_SEPOLIA]: USDC[ChainId.ARBITRUM_SEPOLIA],
   [ChainId.BASE_SEPOLIA]: USDC[ChainId.BASE_SEPOLIA],
   [ChainId.MONAD_TESTNET]: USDC[ChainId.MONAD_TESTNET],
+  [ChainId.POLYGON]: USDC[ChainId.POLYGON],
+  [ChainId.SEI]: USDC[ChainId.SEI],
+  [ChainId.AVALANCHE]: USDC[ChainId.AVALANCHE],
+  [ChainId.AVALANCHE_FUJI]: USDC[ChainId.AVALANCHE_FUJI],
 } satisfies Record<ChainId, ERC20Token>

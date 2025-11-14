@@ -3,6 +3,8 @@ import { ChainId } from '@CryptoSwap/chains'
 import { arbitrumTokens } from './constants/arb'
 import { arbitrumGoerliTokens } from './constants/arbGoerli'
 import { arbSepoliaTokens } from './constants/arbSepolia'
+import { avalancheTokens } from './constants/avalanche'
+import { avalancheFujiTokens } from './constants/avalancheFuji'
 import { baseTokens } from './constants/base'
 import { baseSepoliaTokens } from './constants/baseSepolia'
 import { baseTestnetTokens } from './constants/baseTestnet'
@@ -15,9 +17,11 @@ import { lineaTestnetTokens } from './constants/lineaTestnet'
 import { monadTestnetTokens } from './constants/monadTestnet'
 import { opBnbTokens } from './constants/opBNB'
 import { opBnbTestnetTokens } from './constants/opBnbTestnet'
+import { polygonTokens } from './constants/polygon'
 import { polygonZkEvmTokens } from './constants/polygonZkEVM'
 import { polygonZkEvmTestnetTokens } from './constants/polygonZkEVMTestnet'
 import { scrollSepoliaTokens } from './constants/scrollSepolia'
+import { seiTokens } from './constants/sei'
 import { sepoliaTokens } from './constants/sepolia'
 import { zksyncTokens } from './constants/zkSync'
 import { zkSyncTestnetTokens } from './constants/zkSyncTestnet'
@@ -44,4 +48,8 @@ export const allTokens = {
   [ChainId.ARBITRUM_SEPOLIA]: arbSepoliaTokens,
   [ChainId.BASE_SEPOLIA]: baseSepoliaTokens,
   [ChainId.MONAD_TESTNET]: monadTestnetTokens,
+  [ChainId.POLYGON]: polygonTokens,
+  [ChainId.AVALANCHE]: avalancheTokens,
+  [ChainId.AVALANCHE_FUJI]: avalancheFujiTokens,
+  [ChainId.SEI]: seiTokens,
 }
