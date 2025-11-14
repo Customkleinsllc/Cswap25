@@ -4,6 +4,8 @@ import {
   arbitrumGoerliTokens,
   arbitrumTokens,
   arbSepoliaTokens,
+  avalancheFujiTokens,
+  avalancheTokens,
   baseSepoliaTokens,
   baseTestnetTokens,
   baseTokens,
@@ -15,9 +17,11 @@ import {
   monadTestnetTokens,
   opBnbTestnetTokens,
   opBnbTokens,
+  polygonTokens,
   polygonZkEvmTestnetTokens,
   polygonZkEvmTokens,
   scrollSepoliaTokens,
+  seiTokens,
   sepoliaTokens,
   solanaTokens,
   USDC,
@@ -60,6 +64,10 @@ export const CHAIN_REFRESH_TIME = {
   [ChainId.BASE_SEPOLIA]: 6_000,
   [ChainId.ARBITRUM_SEPOLIA]: 6_000,
   [ChainId.MONAD_TESTNET]: 6_000,
+  [ChainId.POLYGON]: 10_000,
+  [ChainId.AVALANCHE]: 10_000,
+  [ChainId.AVALANCHE_FUJI]: 10_000,
+  [ChainId.SEI]: 6_000,
 } as const satisfies Record<ChainId, number>
 
 // used for display in the default list when adding liquidity
@@ -90,6 +98,10 @@ export const SUGGESTED_BASES: ChainTokenList = {
   [ChainId.ARBITRUM_SEPOLIA]: [arbSepoliaTokens.usdc, arbSepoliaTokens.weth],
   [ChainId.BASE_SEPOLIA]: [baseSepoliaTokens.usdc, baseSepoliaTokens.weth],
   [ChainId.MONAD_TESTNET]: [monadTestnetTokens.wmon, monadTestnetTokens.usdc, monadTestnetTokens.usdt],
+  [ChainId.POLYGON]: [polygonTokens.wmatic, polygonTokens.usdc],
+  [ChainId.AVALANCHE]: [avalancheTokens.wavax, avalancheTokens.usdc],
+  [ChainId.AVALANCHE_FUJI]: [avalancheFujiTokens.wavax, avalancheFujiTokens.usdc],
+  [ChainId.SEI]: [seiTokens.wsei, seiTokens.usdc],
   [NonEVMChainId.SOLANA]: [solanaTokens.usdc, solanaTokens.usdt],
   [NonEVMChainId.APTOS]: [],
 }
@@ -117,6 +129,10 @@ export const BASES_TO_TRACK_LIQUIDITY_FOR: ChainTokenList = {
   [ChainId.ARBITRUM_SEPOLIA]: [arbSepoliaTokens.usdc, arbSepoliaTokens.weth],
   [ChainId.BASE_SEPOLIA]: [baseSepoliaTokens.usdc, baseSepoliaTokens.weth],
   [ChainId.MONAD_TESTNET]: [monadTestnetTokens.usdc, monadTestnetTokens.busd],
+  [ChainId.POLYGON]: [polygonTokens.wmatic, polygonTokens.usdc],
+  [ChainId.AVALANCHE]: [avalancheTokens.wavax, avalancheTokens.usdc],
+  [ChainId.AVALANCHE_FUJI]: [avalancheFujiTokens.wavax, avalancheFujiTokens.usdc],
+  [ChainId.SEI]: [seiTokens.wsei, seiTokens.usdc],
   [NonEVMChainId.SOLANA]: [solanaTokens.usdc, solanaTokens.usdt],
   [NonEVMChainId.APTOS]: [],
 }

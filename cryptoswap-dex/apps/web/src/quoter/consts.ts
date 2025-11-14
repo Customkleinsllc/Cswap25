@@ -32,6 +32,10 @@ export const QUOTE_TIMEOUT = {
 
   // Misc
   [ChainId.MONAD_TESTNET]: 8_000,
+  [ChainId.POLYGON]: 12_000,
+  [ChainId.AVALANCHE]: 10_000,
+  [ChainId.AVALANCHE_FUJI]: 10_000,
+  [ChainId.SEI]: 8_000,
 
   [NonEVMChainId.SOLANA]: 5_000,
   [NonEVMChainId.APTOS]: 5_000,
@@ -75,6 +79,10 @@ export const QUOTE_SUCC_REVALIDATE = {
 
   // Misc
   [ChainId.MONAD_TESTNET]: 10,
+  [ChainId.POLYGON]: 12,
+  [ChainId.AVALANCHE]: 10,
+  [ChainId.AVALANCHE_FUJI]: 10,
+  [ChainId.SEI]: 10,
 
   // Solana
   [NonEVMChainId.SOLANA]: 5,
@@ -115,6 +123,10 @@ export const QUOTE_FAIL_REVALIDATE = {
 
   // Misc
   [ChainId.MONAD_TESTNET]: 5,
+  [ChainId.POLYGON]: 5,
+  [ChainId.AVALANCHE]: 5,
+  [ChainId.AVALANCHE_FUJI]: 5,
+  [ChainId.SEI]: 5,
   [NonEVMChainId.SOLANA]: 5,
   [NonEVMChainId.APTOS]: 5,
 } as const satisfies Record<ChainId | NonEVMChainId, number>
