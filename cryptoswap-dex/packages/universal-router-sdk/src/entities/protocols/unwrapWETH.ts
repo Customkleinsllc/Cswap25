@@ -18,7 +18,9 @@ export class UnwrapWETH implements Command {
   readonly amount: BigintIsh
 
   constructor(amount: BigintIsh, chainId: ChainId, permit2?: Permit2Signature) {
-    this.wethAddress = WETH9[chainId].address
+    const wethToken = WETH9[chainId as keyof typeof WETH9]
+    invariant(wethToken, `WETH9 not available on chain ${chainId}`)
+    this.wethAddress = wethToken.address
     this.amount = amount
 
     if (permit2) {
