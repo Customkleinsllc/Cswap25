@@ -145,7 +145,7 @@ export const POLYGON_TOKENS: Token[] = [
 
 export const ARBITRUM_TOKENS: Token[] = [
   {
-    chainId: ChainId.ARBITRUM,
+    chainId: ChainId.ARBITRUM_ONE,
     address: '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1',
     decimals: 18,
     symbol: 'WETH',
@@ -153,7 +153,7 @@ export const ARBITRUM_TOKENS: Token[] = [
     logoURI: 'https://tokens.1inch.io/0x82af49447d8a07e3bd95bd0d56f35241523fbab1.png',
   },
   {
-    chainId: ChainId.ARBITRUM,
+    chainId: ChainId.ARBITRUM_ONE,
     address: '0xaf88d065e77c8cC2239327C5EDb3A432268e5831',
     decimals: 6,
     symbol: 'USDC',
@@ -161,7 +161,7 @@ export const ARBITRUM_TOKENS: Token[] = [
     logoURI: 'https://tokens.1inch.io/0xaf88d065e77c8cc2239327c5edb3a432268e5831.png',
   },
   {
-    chainId: ChainId.ARBITRUM,
+    chainId: ChainId.ARBITRUM_ONE,
     address: '0xFd086bC7CD5C481DCC9C85ebE478A1C0b69FCbb9',
     decimals: 6,
     symbol: 'USDT',
@@ -169,7 +169,7 @@ export const ARBITRUM_TOKENS: Token[] = [
     logoURI: 'https://tokens.1inch.io/0xfd086bc7cd5c481dcc9c85ebe478a1c0b69fcbb9.png',
   },
   {
-    chainId: ChainId.ARBITRUM,
+    chainId: ChainId.ARBITRUM_ONE,
     address: '0xDA10009cBd5D07dd0CeCc66161FC93D7c9000da1',
     decimals: 18,
     symbol: 'DAI',
@@ -177,7 +177,7 @@ export const ARBITRUM_TOKENS: Token[] = [
     logoURI: 'https://tokens.1inch.io/0xda10009cbd5d07dd0cecc66161fc93d7c9000da1.png',
   },
   {
-    chainId: ChainId.ARBITRUM,
+    chainId: ChainId.ARBITRUM_ONE,
     address: '0x2f2a2543B76A4166549F7aaB2e75Bef0aefC5B0f',
     decimals: 8,
     symbol: 'WBTC',
@@ -253,7 +253,7 @@ export function getTokensByChain(chainId: number): Token[] {
       return BSC_TOKENS
     case ChainId.POLYGON:
       return POLYGON_TOKENS
-    case ChainId.ARBITRUM:
+    case ChainId.ARBITRUM_ONE:
       return ARBITRUM_TOKENS
     case ChainId.AVALANCHE:
       return AVALANCHE_TOKENS
@@ -297,7 +297,7 @@ export function getNativeWrapperAddress(chainId: number): string | undefined {
       return '0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c' // WBNB
     case ChainId.POLYGON:
       return '0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270' // WMATIC
-    case ChainId.ARBITRUM:
+    case ChainId.ARBITRUM_ONE:
       return '0x82aF49447D8a07e3bd95BD0d56f35241523fBab1' // WETH
     case ChainId.AVALANCHE:
       return '0xB31f66AA3C1e785363F0875A1B74E27b85FD66c7' // WAVAX

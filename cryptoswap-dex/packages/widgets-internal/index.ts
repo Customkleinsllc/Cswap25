@@ -1,7 +1,7 @@
 export * from "./components";
 export * from "./components/PriceRangeChartWithPeriodAndLiquidity";
 export * as FarmWidget from "./farm";
-export * as Ifo from "./ifo";
+// export * as Ifo from "./ifo"; // IFO module not available
 export * as Liquidity from "./liquidity";
 export * as Pool from "./pool";
 export * as RoiWidget from "./roi";

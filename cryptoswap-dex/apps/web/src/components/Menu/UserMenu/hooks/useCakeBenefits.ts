@@ -12,10 +12,16 @@ import { getActivePools } from 'utils/calls'
 import { cakeVaultV2ABI } from '@CryptoSwap/pools'
 import { BIG_ZERO } from '@CryptoSwap/utils/bigNumber'
 import { convertSharesToCake } from 'views/Pools/helpers'
-import { getScores } from 'views/Voting/getScores'
-import { PANCAKE_SPACE } from 'views/Voting/config'
-import { cakePoolBalanceStrategy, createTotalStrategy } from 'views/Voting/strategies'
+// import { getScores } from 'views/Voting/getScores'
+// import { PANCAKE_SPACE } from 'views/Voting/config'
+// import { cakePoolBalanceStrategy, createTotalStrategy } from 'views/Voting/strategies'
 import { publicClient } from 'utils/wagmi'
+
+// Voting feature disabled - using placeholder values
+const getScores = () => Promise.resolve([])
+const PANCAKE_SPACE = ''
+const cakePoolBalanceStrategy = null
+const createTotalStrategy = () => null
 
 const bscClient = publicClient({ chainId: ChainId.BSC })
 

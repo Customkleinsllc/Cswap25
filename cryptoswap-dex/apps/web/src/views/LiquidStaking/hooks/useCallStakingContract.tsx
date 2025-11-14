@@ -95,7 +95,7 @@ export const useCallClaimContract = (claimedAmount?: CurrencyAmount<Currency>, i
   return useMemo(
     () => ({
       onClaim,
-      isLoading: isConfirming || status === 'pending',
+      isLoading: isConfirming || status === 'loading',
     }),
     [isConfirming, onClaim, status],
   )

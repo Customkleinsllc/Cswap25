@@ -1,19 +1,28 @@
 import { useMemo } from 'react'
 import { useTranslation } from '@CryptoSwap/localization'
-import { Flex, Text } from '@CryptoSwap/uikit'
+import { Flex, Text, Box, styled } from '@CryptoSwap/uikit'
 import truncateHash from '@CryptoSwap/utils/truncateHash'
-import {
-  RightBox,
-  MiddleBox,
-  LeftBox,
-  Wrapper,
-  Inner,
-  StyledVolumeFlex,
-} from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
-import { PodiumBase } from 'views/TradingCompetition/svgs'
+// import {
+//   RightBox,
+//   MiddleBox,
+//   LeftBox,
+//   Wrapper,
+//   Inner,
+//   StyledVolumeFlex,
+// } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
+// import { PodiumBase } from 'views/TradingCompetition/svgs'
 import PodiumAvatar from 'views/AffiliatesProgram/components/LeaderBoard/PodiumAvatar'
 import { ListType } from 'views/AffiliatesProgram/hooks/useLeaderboard'
 import PodiumText from 'views/AffiliatesProgram/components/LeaderBoard/PodiumText'
+
+// Trading competition feature disabled - using placeholder styled components
+const RightBox = styled(Box)``
+const MiddleBox = styled(Box)``
+const LeftBox = styled(Box)``
+const Wrapper = styled(Box)``
+const Inner = styled(Box)``
+const StyledVolumeFlex = styled(Flex)``
+const PodiumBase = () => null
 
 interface PodiumProps {
   list: ListType[]

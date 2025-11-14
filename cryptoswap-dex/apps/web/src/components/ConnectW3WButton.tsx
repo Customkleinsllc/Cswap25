@@ -109,7 +109,7 @@ export const DisconnectW3WButton: React.FC<ButtonProps> = (props) => {
 
   return (
     <Button onClick={disconnect} {...props}>
-      {t('Disconnect')} {status === 'pending' ? <SwapLoading ml="3px" /> : null}
+      {t('Disconnect')} {status === 'loading' ? <SwapLoading ml="3px" /> : null}
     </Button>
   )
 }

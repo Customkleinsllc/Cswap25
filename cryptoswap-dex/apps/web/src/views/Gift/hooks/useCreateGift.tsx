@@ -31,7 +31,8 @@ export const useCreateGift = ({
 
   const { address: account } = useAccount()
 
-  const { writeContractAsync, data: txHash, isPending } = useWriteContract()
+  const { writeContractAsync, data: txHash, status } = useWriteContract()
+  const isPending = status === 'loading'
   const queryClient = useQueryClient()
 
   const totalUsd = useCalculateTotalCostCreateGift({ tokenAmount, nativeAmount })

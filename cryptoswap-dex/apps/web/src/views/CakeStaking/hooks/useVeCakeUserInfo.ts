@@ -53,7 +53,7 @@ export const useVeCakeUserInfo = (
   const veCakeContract = useVeCakeContract(targetChain)
   const { address: account } = useAccount()
 
-  const { data, refetch, isLoading, isPending } = useReadContract({
+  const { data, refetch, isLoading } = useReadContract({
     chainId: targetChain ?? veCakeContract?.chain?.id,
     abi: veCakeContract.abi,
     address: veCakeContract.address,

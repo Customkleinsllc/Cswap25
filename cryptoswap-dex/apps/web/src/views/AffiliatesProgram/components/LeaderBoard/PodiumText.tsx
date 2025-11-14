@@ -1,6 +1,9 @@
-import { Box, Text, Skeleton, BoxProps } from '@CryptoSwap/uikit'
+import { Box, Text, Skeleton, BoxProps, styled } from '@CryptoSwap/uikit'
 import { formatNumber } from '@CryptoSwap/utils/formatBalance'
-import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
+// import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
+
+// Trading competition feature disabled - using placeholder styled component
+const StyledVolumeText = styled(Text)``
 
 interface PodiumTextProps extends BoxProps {
   title: string

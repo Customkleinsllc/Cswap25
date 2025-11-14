@@ -1,10 +1,13 @@
 import { getChainName } from '@CryptoSwap/chains'
 import { Protocol } from '@CryptoSwap/farms'
 import { useTranslation } from '@CryptoSwap/localization'
-import { Message, MessageText, Text } from '@CryptoSwap/uikit'
+import { Message, MessageText, Text, Link } from '@CryptoSwap/uikit'
 import { PoolInfo } from 'state/farmsV4/state/type'
-import { TextLink } from 'views/Ifos/components/IfoCardStyles'
+// import { TextLink } from 'views/Ifos/components/IfoCardStyles'
 import { useRouterQuery } from '../hooks/useRouterQuery'
+
+// Using Link component instead of IFO TextLink
+const TextLink = Link
 
 const ONE_BILLION = 1_000_000_000
 export const PoolTvlWarning = ({ poolInfo }: { poolInfo: PoolInfo }) => {

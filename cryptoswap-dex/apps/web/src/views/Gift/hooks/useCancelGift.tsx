@@ -21,7 +21,8 @@ export const useCancelGift = () => {
   const [error, setError] = useState<Error | null>(null)
   const { toastSuccess } = useToast()
 
-  const { writeContractAsync, data: txHash, isPending } = useWriteContract()
+  const { writeContractAsync, data: txHash, status } = useWriteContract()
+  const isPending = status === 'loading'
 
   const cancelGift = useCallback(
     async ({ codeHash }: CancelGiftParams) => {

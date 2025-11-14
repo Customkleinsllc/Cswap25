@@ -1,6 +1,9 @@
 import { useTranslation } from '@CryptoSwap/localization'
-import { Flex, Text, Skeleton, AccountFilledIcon } from '@CryptoSwap/uikit'
-import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
+import { Flex, Text, Skeleton, AccountFilledIcon, styled } from '@CryptoSwap/uikit'
+// import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
+
+// Trading competition feature disabled - using placeholder styled component
+const StyledVolumeText = styled(Text)``
 
 interface NewUsersProps {
   totalUsers: number

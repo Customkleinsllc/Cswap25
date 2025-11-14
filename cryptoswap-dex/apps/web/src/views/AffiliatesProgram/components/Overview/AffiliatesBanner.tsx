@@ -1,10 +1,14 @@
-import { styled } from 'styled-components'
+import { styled, keyframes } from 'styled-components'
 import { Flex, Text, Button, Box, PageSection, Link } from '@CryptoSwap/uikit'
 import { SlideSvgDark, SlideSvgLight } from 'components/SlideSvg'
 import { useTranslation } from '@CryptoSwap/localization'
 import Image from 'next/image'
-import { floatingStarsLeft, floatingStarsRight } from 'views/Lottery/components/Hero'
+// import { floatingStarsLeft, floatingStarsRight } from 'views/Lottery/components/Hero'
 import bunnyImage from '../../../../../public/images/affiliates-program/banner.png'
+
+// Lottery feature disabled - using placeholder animations
+const floatingStarsLeft = keyframes``
+const floatingStarsRight = keyframes``
 
 const StyledBannerSection = styled(PageSection)`
   padding-top: 16px;

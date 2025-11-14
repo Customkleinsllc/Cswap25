@@ -2,8 +2,12 @@ import { useQuery } from '@tanstack/react-query'
 import { Proposal, ProposalState } from 'state/types'
 import { gql } from 'graphql-request'
 import { SNAPSHOT_API } from 'config/constants/endpoints'
-import { ADMINS, PANCAKE_SPACE } from 'views/Voting/config'
+// import { ADMINS, PANCAKE_SPACE } from 'views/Voting/config'
 import { multiQuery } from 'utils/infoQueryHelpers'
+
+// Voting feature disabled - using placeholder values
+const ADMINS: string[] = []
+const PANCAKE_SPACE = ''
 
 type Proposals = Partial<{
   [key in ProposalState]: Proposal[]

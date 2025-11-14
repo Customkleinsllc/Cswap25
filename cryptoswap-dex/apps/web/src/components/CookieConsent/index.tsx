@@ -262,7 +262,7 @@ const CookiePreferencesModal: React.FC<CookiePreferencesModalProps> = ({ onClose
           .
         </Text>
 
-        <Flex gap="12px" justifyContent="flex-end">
+        <Flex justifyContent="flex-end" style={{ gap: '12px' }}>
           <Button variant="secondary" onClick={onClose}>
             Cancel
           </Button>
