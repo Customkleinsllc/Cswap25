@@ -1,11 +1,17 @@
 import { ChainId } from '@CryptoSwap/chains'
 import { ERC20Token } from '@CryptoSwap/sdk'
-import { WAVAX } from '@CryptoSwap/swap-sdk-evm'
 
 import { USDC } from './common'
 
 export const avalancheFujiTokens = {
-  wavax: WAVAX[ChainId.AVALANCHE_FUJI],
+  wavax: new ERC20Token(
+    ChainId.AVALANCHE_FUJI,
+    '0xd00ae08403B9bbb9124bB305C09058E32C39A48c',
+    18,
+    'WAVAX',
+    'Wrapped AVAX',
+    'https://www.avax.network',
+  ),
   usdc: USDC[ChainId.AVALANCHE_FUJI],
 }
 
