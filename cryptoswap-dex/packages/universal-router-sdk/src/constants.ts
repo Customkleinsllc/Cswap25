@@ -33,6 +33,11 @@ const UNIVERSAL_ROUTER_ADDRESSES: Record<ChainId, Address> = {
   [ChainId.OPBNB_TESTNET]: '0xa8EEA7aa6620712524d18D742821848e55E773B5',
 
   [ChainId.MONAD_TESTNET]: '0x94D220C58A23AE0c2eE29344b00A30D1c2d9F1bc',
+  
+  [ChainId.POLYGON]: '0xd9C500DfF816a1Da21A48A732d3498Bf09dc9AEB', // Placeholder for Polygon
+  [ChainId.SEI]: '0xd9C500DfF816a1Da21A48A732d3498Bf09dc9AEB', // Placeholder for SEI
+  [ChainId.AVALANCHE]: '0xd9C500DfF816a1Da21A48A732d3498Bf09dc9AEB', // Placeholder for Avalanche
+  [ChainId.AVALANCHE_FUJI]: '0xd9C500DfF816a1Da21A48A732d3498Bf09dc9AEB', // Placeholder for Fuji
 }
 
 export const getUniversalRouterAddress = (chainId: ChainId): Address => {
