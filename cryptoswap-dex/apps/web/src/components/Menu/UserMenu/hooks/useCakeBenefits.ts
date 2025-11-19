@@ -18,10 +18,18 @@ import { convertSharesToCake } from 'views/Pools/helpers'
 import { publicClient } from 'utils/wagmi'
 
 // Voting feature disabled - using placeholder values
-const getScores = () => Promise.resolve([])
+const getScores = async (
+  _space: string,
+  _strategies: any[],
+  _chainId: string,
+  _addresses: string[],
+  _blockNumber: number,
+): Promise<[Record<string, any>, Record<string, any>]> => {
+  return [{}, {}]
+}
 const PANCAKE_SPACE = ''
-const cakePoolBalanceStrategy = null
-const createTotalStrategy = () => null
+const cakePoolBalanceStrategy = (_version: string) => null
+const createTotalStrategy = (_poolAddresses: string[], _version: string) => null
 
 const bscClient = publicClient({ chainId: ChainId.BSC })
 

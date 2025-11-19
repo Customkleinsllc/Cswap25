@@ -81,7 +81,7 @@ export const useVeCakeUserInfo = (
 
   return {
     data,
-    isLoading: isPending || isLoading,
+    isLoading,
     refetch,
   }
 }

@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { useTranslation } from '@CryptoSwap/localization'
-import { Flex, Text, Box, styled } from '@CryptoSwap/uikit'
+import { Flex, Text, Box } from '@CryptoSwap/uikit'
+import { styled } from 'styled-components'
 import truncateHash from '@CryptoSwap/utils/truncateHash'
 // import {
 //   RightBox,

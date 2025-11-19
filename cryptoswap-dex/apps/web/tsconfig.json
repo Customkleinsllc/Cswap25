@@ -15,6 +15,6 @@
     },
     "skipLibCheck": true
   },
-  "exclude": ["**/node_modules", "**/.*/", "**/config/abi/types/", "**/abis/types/*.ts"],
+  "exclude": ["**/node_modules", "**/.*/", "**/config/abi/types/", "**/abis/types/*.ts", "src/pages/_disabled/**"],
   "include": ["next-env.d.ts", "_next-typesafe-url_.d.ts", "./src/**/*.ts", "./src/**/*.tsx"]
 }

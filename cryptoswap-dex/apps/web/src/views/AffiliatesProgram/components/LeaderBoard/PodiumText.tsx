@@ -1,4 +1,5 @@
-import { Box, Text, Skeleton, BoxProps, styled } from '@CryptoSwap/uikit'
+import { Box, Text, Skeleton, BoxProps } from '@CryptoSwap/uikit'
+import { styled } from 'styled-components'
 import { formatNumber } from '@CryptoSwap/utils/formatBalance'
 // import { StyledVolumeText } from 'views/TradingCompetition/components/TeamRanks/Podium/styles'
 
